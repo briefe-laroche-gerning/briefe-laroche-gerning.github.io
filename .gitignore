@@ -1,1 +1,7 @@
 env/
+Semantische_Erschließung_Tests/data/output
+
+
+# Webseite
+Webseite/briefedition/node_modules
+Webseite/breifedition/public

@@ -1,0 +1,514 @@
+[
+    {
+        "name": "Brentano",
+        "firstname": "Sophie",
+        "gnd": "https://explore.gnd.network/gnd/11851508X",
+        "wikidata": "https://www.wikidata.org/wiki/Q1353573"
+    },
+    {
+        "name": "Homer",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/11855333X",
+        "wikidata": "https://www.wikidata.org/wiki/Q6691"
+    },
+    {
+        "name": "Hufnagel",
+        "firstname": "Wilhelm Friedrich",
+        "gnd": "https://explore.gnd.network/gnd/100294871",
+        "wikidata": "https://www.wikidata.org/wiki/Q2572733"
+    },
+    {
+        "name": "Balde",
+        "firstname": "Jakob",
+        "gnd": "https://explore.gnd.network/gnd/118506137",
+        "wikidata": "https://www.wikidata.org/wiki/Q65850"
+    },
+    {
+        "name": "von Herder",
+        "firstname": "Johann Gottfried",
+        "gnd": "https://explore.gnd.network/gnd/118549553",
+        "wikidata": "https://www.wikidata.org/wiki/Q155547"
+    },
+    {
+        "name": "Wieland",
+        "firstname": "Christoph Martin",
+        "gnd": "https://explore.gnd.network/gnd/118632477",
+        "wikidata": "https://www.wikidata.org/wiki/Q154010"
+    },
+    {
+        "name": "Geßner, geb. Wieland",
+        "firstname": "Charlotte",
+        "gnd": "https://explore.gnd.network/gnd/116599995",
+        "wikidata": "https://www.wikidata.org/wiki/Q94748936"
+    },
+    {
+        "name": "Gerning (geb. Moors)",
+        "firstname": "Maria Magdalena",
+        "gnd": "",
+        "wikidata": ""
+    },
+    {
+        "name": "Schwarzkopf (geb. Bethmann-Metzler)",
+        "firstname": "Sophie",
+        "gnd": "https://explore.gnd.network/gnd/1136579605",
+        "wikidata": "https://www.wikidata.org/wiki/Q126361799"
+    },
+    {
+        "name": "de La Mettrie",
+        "firstname": "Julien Offray",
+        "gnd": "https://explore.gnd.network/gnd/118726102",
+        "wikidata": "https://www.wikidata.org/wiki/Q7068"
+    },
+    {
+        "name": "Schütz",
+        "firstname": "Christian Gottfried",
+        "gnd": "https://explore.gnd.network/gnd/117140791",
+        "wikidata": "https://www.wikidata.org/wiki/Q99076"
+    },
+    {
+        "name": "von Bonstetten",
+        "firstname": "Karl Viktor",
+        "gnd": "https://explore.gnd.network/gnd/119303590",
+        "wikidata": "https://www.wikidata.org/wiki/Q116778"
+    },
+    {
+        "name": "von Schwarzkopf",
+        "firstname": "Joachim",
+        "gnd": "https://explore.gnd.network/gnd/119118807",
+        "wikidata": "https://www.wikidata.org/wiki/Q1690650"
+    },
+    {
+        "name": "Pfeffel",
+        "firstname": "Gottlieb Konrad",
+        "gnd": "https://explore.gnd.network/gnd/118740709",
+        "wikidata": "https://www.wikidata.org/wiki/Q77742"
+    },
+        {
+        "name": "von Voigts (geb. Möser)",
+        "firstname": "Jenny",
+        "gnd": "https://explore.gnd.network/gnd/117478598",
+        "wikidata": "https://www.wikidata.org/wiki/Q1681500"
+    },
+        {
+        "name": "von Dalberg",
+        "firstname": "Karl Theodor",
+        "gnd": "https://explore.gnd.network/gnd/118720961",
+        "wikidata": "https://www.wikidata.org/wiki/Q61353"
+    },
+    {
+        "name": "von La Roche",
+        "firstname": "Franz Wilhelm",
+        "gnd": "https://explore.gnd.network/gnd/1127648004",
+        "wikidata": ""
+    },
+    {
+        "name": "Tibull",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/11862251X",
+        "wikidata": "https://www.wikidata.org/wiki/Q109598"
+    },
+    {
+        "name": "Meyer",
+        "firstname": "Heinrich",
+        "gnd": "https://explore.gnd.network/gnd/118733389",
+        "wikidata": "https://www.wikidata.org/wiki/Q118064"
+    },
+    {
+        "name": "von Herder",
+        "firstname": "Caroline",
+        "gnd": "https://explore.gnd.network/gnd/118549561",
+        "wikidata": "https://www.wikidata.org/wiki/Q1896015"
+    },
+    {
+        "name": "Littleton",
+        "firstname": "Adam",
+        "gnd": "https://explore.gnd.network/gnd/17307104X",
+        "wikidata": "https://www.wikidata.org/wiki/Q15994585"
+    },
+    {
+        "name": "Merck",
+        "firstname": "Johann Heinrich",
+        "gnd": "https://explore.gnd.network/gnd/118581015",
+        "wikidata": "https://www.wikidata.org/wiki/Q70318"
+    },
+    {
+        "name": "von Splény",
+        "firstname": "Gabriel",
+        "gnd": "https://explore.gnd.network/gnd/121754561",
+        "wikidata": "https://www.wikidata.org/wiki/Q5515531"
+    },
+    {
+        "name": "von Bandemer",
+        "firstname": "Susanne",
+        "gnd": "https://explore.gnd.network/gnd/116048174",
+        "wikidata": "https://www.wikidata.org/wiki/Q2369590"
+    },
+    {
+        "name": "Gellius",  TODO: Brief 9 [Aulus Gellius? oder Johann Gottfried Gellius?]
+        "firstname": "",
+        "gnd": "",
+        "wikidata": ""
+    },
+    {
+        "name": "von Münchhausen",
+        "firstname": "Karl Friedrich Hieronymus",
+        "gnd": "https://explore.gnd.network/gnd/118585487",
+        "wikidata": "https://www.wikidata.org/wiki/Q77066"
+    },
+    {
+        "name": "Herrmann",
+        "firstname": "Johann Christian",
+        "gnd": "https://explore.gnd.network/gnd/116738936",
+        "wikidata": ""
+    },
+    {
+        "name": "de Marivaux",
+        "firstname": "Pierre Carlet",
+        "gnd": "https://explore.gnd.network/gnd/118577972",
+        "wikidata": "https://www.wikidata.org/wiki/Q49478"
+    },
+    {
+        "name": "Vaucher",
+        "firstname": "",
+        "gnd": "",
+        "wikidata": ""
+    },
+    {
+        "name": "Sappho",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/118605534",
+        "wikidata": "https://www.wikidata.org/wiki/Q17892"
+    },
+    {
+        "name": "Alcaeus",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/118501720",
+        "wikidata": "https://www.wikidata.org/wiki/Q212872"
+    },
+    {
+        "name": "Bonaparte",
+        "firstname": "Napoleon",
+        "gnd": "https://explore.gnd.network/gnd/118586408",
+        "wikidata": "https://www.wikidata.org/wiki/Q517"
+    },
+    {
+        "name": "Goethe",
+        "firstname": "Johann Wolfgang",
+        "gnd": "https://explore.gnd.network/gnd/118540238",
+        "wikidata": "https://www.wikidata.org/wiki/Q5879"
+    },
+    {
+        "name": "Bethmann-Metzler",
+        "firstname": "Katharina Elisabeth",
+        "gnd": "https://explore.gnd.network/gnd/1136579192",
+        "wikidata": "https://www.wikidata.org/wiki/Q95687654"
+    },
+    {
+        "name": "von Goethe",
+        "firstname": "Katharina Elisabeth",
+        "gnd": "https://explore.gnd.network/gnd/118540246",
+        "wikidata": "https://www.wikidata.org/wiki/Q103757"
+    },
+    {
+        "name": "de Klinglin",
+        "firstname": "François Joseph",
+        "gnd": "https://explore.gnd.network/gnd/124328555",
+        "wikidata": "https://www.wikidata.org/wiki/Q3083478"
+    },
+    {
+        "name": "de Polier",
+        "firstname": "Antoine-Louis-Henri",
+        "gnd": "https://explore.gnd.network/gnd/116262532",
+        "wikidata": "https://www.wikidata.org/wiki/Q136337849"
+    },
+    {
+        "name": "Fichte",
+        "firstname": "Johann Gottlieb",
+        "gnd": "https://explore.gnd.network/gnd/118532847",
+        "wikidata": "https://www.wikidata.org/wiki/Q102585"
+    },
+    {
+        "name": "Hamilton",
+        "firstname": "William Sir",
+        "gnd": "https://explore.gnd.network/gnd/118701231",
+        "wikidata": "https://www.wikidata.org/wiki/Q15462"
+    },
+    {
+        "name": "Hamilton (geb. Hart)",
+        "firstname": "Emma Lady",
+        "gnd": "https://explore.gnd.network/gnd/118545310",
+        "wikidata": "https://www.wikidata.org/wiki/Q234811"
+    },
+    {
+        "name": "Wucherer",
+        "firstname": "Friedrich Wilhelm",
+        "gnd": "https://explore.gnd.network/gnd/117429546",
+        "wikidata": "https://www.wikidata.org/wiki/Q19238741"
+    },
+    {
+        "name": "Denis",
+        "firstname": "Michael",
+        "gnd": "https://explore.gnd.network/gnd/116071532",
+        "wikidata": "https://www.wikidata.org/wiki/Q494586"
+    },
+    {
+        "name": "Lavater",
+        "firstname": "Johann Caspar",
+        "gnd": "https://explore.gnd.network/gnd/118570293",
+        "wikidata": "https://www.wikidata.org/wiki/Q123918"
+    },
+    {
+        "name": "Gibbon",
+        "firstname": "Edward",
+        "gnd": "https://explore.gnd.network/gnd/118717286",
+        "wikidata": "https://www.wikidata.org/wiki/Q161841"
+    },
+    {
+        "name": "Hüsgen",
+        "firstname": "Heinrich Sebastian",
+        "gnd": "https://explore.gnd.network/gnd/117051357",
+        "wikidata": "https://www.wikidata.org/wiki/Q1450443"
+    },
+    {
+        "name": "Gromer (Frau)",
+        "firstname": "",
+        "gnd": "",
+        "wikidata": ""
+    },
+    {
+        "name": "Schlosser",
+        "firstname": "Johann Georg",
+        "gnd": "https://explore.gnd.network/gnd/118795163",
+        "wikidata": "https://www.wikidata.org/wiki/Q1387102"
+    },
+    {
+        "name": "Schlosser (geb. Fahlmer)",
+        "firstname": "Johanna Katharina Sibylla",
+        "gnd": "https://explore.gnd.network/gnd/116381256",
+        "wikidata": "https://www.wikidata.org/wiki/Q135527642"
+    },
+    {
+        "name": "Horaz",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/118553569",
+        "wikidata": "https://www.wikidata.org/wiki/Q6197"
+    },
+    {
+        "name": "Deluc",
+        "firstname": "Jean André",
+        "gnd": "https://explore.gnd.network/gnd/1245176773",
+        "wikidata": "https://www.wikidata.org/wiki/Q123670"
+    },
+    {
+        "name": "Ossian",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/118747800",
+        "wikidata": "https://www.wikidata.org/wiki/Q15837802"
+    },
+    {
+        "name": "Suger",
+        "firstname": "Abt",
+        "gnd": "https://explore.gnd.network/gnd/118619942",
+        "wikidata": "https://www.wikidata.org/wiki/Q137934"
+    },
+    {
+        "name": "Bondeli",
+        "firstname": "Julie",
+        "gnd": "https://explore.gnd.network/gnd/118661388",
+        "wikidata": "https://www.wikidata.org/wiki/Q116773"
+    },
+    {
+        "name": "de Fontenelle",
+        "firstname": "Bernard Le Bovier",
+        "gnd": "https://explore.gnd.network/gnd/118639056",
+        "wikidata": "https://www.wikidata.org/wiki/Q310309"
+    },
+    {
+        "name": "Klopstock",
+        "firstname": "Friedrich Gottlieb",
+        "gnd": "https://explore.gnd.network/gnd/118563386",
+        "wikidata": "https://www.wikidata.org/wiki/Q154367"
+    },
+    {
+        "name": "Kant",
+        "firstname": "Immanuel",
+        "gnd": "https://explore.gnd.network/gnd/118559796",
+        "wikidata": "https://www.wikidata.org/wiki/Q9312"
+    },
+    {
+        "name": "von Struensee",
+        "firstname": "Carl August",
+        "gnd": "https://explore.gnd.network/gnd/117348295",
+        "wikidata": "https://www.wikidata.org/wiki/Q98442"
+    },
+    {
+        "name": "Böttiger",
+        "firstname": "Carl August",
+        "gnd": "https://explore.gnd.network/gnd/118824775",
+        "wikidata": ""
+    },
+    {
+        "name": "Lettice",
+        "firstname": "John",
+        "gnd": "https://explore.gnd.network/gnd/1058963856",
+        "wikidata": "https://www.wikidata.org/wiki/Q6244677"
+    },
+    {
+        "name": "von Knebel",
+        "firstname": "Karl Ludwig",
+        "gnd": "https://explore.gnd.network/gnd/118777505",
+        "wikidata": "https://www.wikidata.org/wiki/Q68805"
+    },
+    {
+        "name": "Nicolovius",
+        "firstname": "Georg Heinrich",
+        "gnd": "https://explore.gnd.network/gnd/118786113",
+        "wikidata": "https://www.wikidata.org/wiki/Q1504647"
+    },
+    {
+        "name": "Joseph II.",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/118558404",
+        "wikidata": "https://www.wikidata.org/wiki/Q76555"
+    },
+    {
+        "name": "Huth",
+        "firstname": "Susanna Elisabeth",
+        "gnd": "",
+        "wikidata": ""
+    },
+    {
+        "name": "von Kalb",
+        "firstname": "Charlotte",
+        "gnd": "https://explore.gnd.network/gnd/11871483X",
+        "wikidata": "https://www.wikidata.org/wiki/Q77413"
+    },
+    {
+        "name": "Rousseau",
+        "firstname": "Jacob August",
+        "gnd": "https://explore.gnd.network/gnd/1117166546",
+        "wikidata": "https://www.wikidata.org/wiki/Q94880475"
+    },
+    {
+        "name": "von Schlichtegroll (geb. Rousseau)",
+        "firstname": "Auguste",
+        "gnd": "https://explore.gnd.network/gnd/11732714X",
+        "wikidata": "https://www.wikidata.org/wiki/Q55675255"
+    },
+    {
+        "name": "von Wiebeking (geb. Rousseau)",
+        "firstname": "Charlotte",
+        "gnd": "https://explore.gnd.network/gnd/1034559753",
+        "wikidata": "https://www.wikidata.org/wiki/Q95213079"
+    },
+    {
+        "name": "Brentano",
+        "firstname": "Clemens",
+        "gnd": "https://explore.gnd.network/gnd/118515055",
+        "wikidata": "https://www.wikidata.org/wiki/Q57235"
+    },
+    {
+        "name": "von Kotzebue",
+        "firstname": "August",
+        "gnd": "https://explore.gnd.network/gnd/118565796",
+        "wikidata": "https://www.wikidata.org/wiki/Q57242"
+    },
+    {
+        "name": "Petersen",
+        "firstname": "Johann Friedrich Christian",
+        "gnd": "https://explore.gnd.network/gnd/108020895X",
+        "wikidata": "https://www.wikidata.org/wiki/Q94923039"
+    },
+    {
+        "name": "Kraus",
+        "firstname": "Georg Melchior",
+        "gnd": "https://explore.gnd.network/gnd/118715615",
+        "wikidata": ""
+    },
+    {
+        "name": "von Humboldt",
+        "firstname": "Wilhelm",
+        "gnd": "https://explore.gnd.network/gnd/118554727",
+        "wikidata": "https://www.wikidata.org/wiki/Q77888"
+    },
+    {
+        "name": "von Humboldt (geb. von Dacheröden)",
+        "firstname": "Karoline Friederike",
+        "gnd": "https://explore.gnd.network/gnd/118554719",
+        "wikidata": "https://www.wikidata.org/wiki/Q96140"
+    },
+    {
+        "name": "zu Stolberg",
+        "firstname": "Friedrich Leopold",
+        "gnd": "https://explore.gnd.network/gnd/118755552",
+        "wikidata": "https://www.wikidata.org/wiki/Q213737"
+    },
+    {
+        "name": "von Kalb",
+        "firstname": "Heinrich",
+        "gnd": "https://explore.gnd.network/gnd/116028955",
+        "wikidata": "https://www.wikidata.org/wiki/Q1597904"
+    },
+    {
+        "name": "Bertuch",
+        "firstname": "Friedrich Justin",
+        "gnd": "https://explore.gnd.network/gnd/118510169",
+        "wikidata": "https://www.wikidata.org/wiki/Q213775"
+    },
+    {
+        "name": "Brun",
+        "firstname": "Johan Christian Constantin",
+        "gnd": "https://explore.gnd.network/gnd/133065421",
+        "wikidata": "https://www.wikidata.org/wiki/Q3378493"
+    },
+    {
+        "name": "von Kalckstein",
+        "firstname": "Ludwig Karl",
+        "gnd": "https://explore.gnd.network/gnd/116031360",
+        "wikidata": "https://www.wikidata.org/wiki/Q1705537"
+    },
+    {
+        "name": "Murat (geb. Bonaparte",
+        "firstname": "Caroline",
+        "gnd": "https://explore.gnd.network/gnd/118585827",
+        "wikidata": "https://www.wikidata.org/wiki/Q152782"
+    },
+    {
+        "name": "Walther",
+        "firstname": "Wolfgang",
+        "gnd": "https://explore.gnd.network/gnd/1037496868",
+        "wikidata": "https://www.wikidata.org/wiki/Q112564907"
+    },
+    {
+        "name": "Marschall",
+        "firstname": "Heinrich Georg",
+        "gnd": "https://explore.gnd.network/gnd/104039434",
+        "wikidata": "https://www.wikidata.org/wiki/Q112420288"
+    },
+    {
+        "name": "Reuss (geb. Meyer, genannt Frau von Eybenberg)",
+        "firstname": "Karoline Esperance Marianne",
+        "gnd": "https://explore.gnd.network/gnd/116320567",
+        "wikidata": "https://www.wikidata.org/wiki/Q94748037"
+    },
+    {
+        "name": "von Senckenberg",
+        "firstname": "Renatus Karl",
+        "gnd": "https://explore.gnd.network/gnd/100335101",
+        "wikidata": "https://www.wikidata.org/wiki/Q4191414"
+    },
+    {
+        "name": "Dupuis",
+        "firstname": "",
+        "gnd": "https://explore.gnd.network/gnd/1037614682", TODO: evtl. der hier?
+        "wikidata": ""
+    },
+    {
+        "name": "Konnte nicht ermittelt werden",
+        "firstname": "",
+        "gnd": "",
+        "wikidata": ""
+    }
+
+    
+]

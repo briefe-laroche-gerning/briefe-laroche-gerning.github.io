@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <text>
+        <body>
+            <div>
+                [1]
+                <placeName key="ort1">Offenbach</placeName> d. 16. 7br 1800
+                
+                ich bitte meinen theuren Neffen
+                um zwey nachrichten –
+                Eine, ob Sie nichts von meiner
+                in <placeName key="ort14">oßmanstädt</placeName> so sehr Krank
+                liegenden <persName key="person1">Sophie</persName> gehört haben –
+                Zwey ob Sie das kleine gedicht meines
+                guten Mayntzers, auf den <persName key="person16">Coadjutor</persName>
+                wirklich nach <placeName key="prt8">Weimar</placeName> schikten – ich
+                werde so oft u so ernst von dem
+                (j)ungen um nachricht gebeten, daß
+                ich mir nicht zu helfen weiß –
+                Sagen Sie mir auch warum der
+                dichter <persName key="person74">Stolberg</persName> – Catolisch wurde?
+                ich kann nur noch sagen daß ich gestern
+                den Schätzbarn, klugen, <persName key="person76">Bertuch</persName> – u <persName key="person75">H v Kalb</persName>
+                bey mir in meiner Hütte sah – u meinen
+                Neffen hätte dabey sehen mögen – bay alt
+                Tante von la Roche
+
+            </div>
+        </body>
+    </text>
+</TEI>

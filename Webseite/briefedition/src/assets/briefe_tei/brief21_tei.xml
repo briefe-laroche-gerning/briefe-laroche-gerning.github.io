@@ -15,14 +15,14 @@
                 Einwohnern dort tausend schönes
                 im ganzen – <persName key="person6">Wieland</persName> aber einen
                 außzug aus einem Brief der sagt
-                Wenn Sie bey <persName key="person6">Wieland</persName> sind – so sagen
-                Sie ihm daß Er, mit <persName key="person49">Horaz</persName> seit 20 Jahren
+                <hi rend="underline" n="1">Wenn Sie bey <persName key="person6">Wieland</persName> sind – so sagen
+                Sie ihm daß <hi rend="underline" n="2">Er</hi>, mit <persName key="person49">Horaz</persName> seit 20 Jahren
                 meine irrdische Seeligkeit ist –
                 <persName key="person55">Klopstok</persName> ist für mich, was <persName key="person56">kant</persName> unter
-                den Philosophen – <persName key="person6">Wieland</persName> aber ist reines
-                Licht, wo alles sichtbar, u wo nichts blendet
-                gott seegne <persName key="person6">Wieland</persName> u <persName key="person5">Herder</persName>, daß sie
-                den genius der finsternis bestürmen
+                den <hi rend="latintype">Philosophen</hi> – <persName key="person6">Wieland</persName> aber ist reines
+                Licht, wo alles sichtbar, <hi rend="underline" n="2">u</hi> wo nichts blendet
+                gott seegne <persName key="person6">Wieland</persName> <hi rend="underline" n="2">u</hi> <persName key="person5">Herder</persName>, daß sie
+                den genius der finsternis bestürmen</hi>
                 in <persName key="person5">Herders</persName> Hauße – Lieber Neffe, alles
                 nun was Sie schon lange wissen, wie ich
                 für die fürtrefliche denke –
@@ -30,36 +30,36 @@
                 habe aber jetzo immer
                 [2]
                 ein auge nach dem weg meiner abreiße
-                gerichtet – war u bin hier in eine
+                gerichtet – war <hi rend="underline" n="1">u</hi> bin hier in eine
                 neue welt gegekommen, doch der Himmel
                 hat überall gute geschöpfe – ich werde
                 über <placeName key="ort17">leipzig</placeName> zurük, weil ich den
                 weeg über <placeName key="ort15">Eißleben</placeName> nicht mehr be-
                 -rühren kann ohne dort vor angst und
-                ärger zu sterben – u ich will meine
+                ärger zu sterben – <hi rend="underline" n="1">u</hi> ich will meine
                 Hütte in <placeName key="ort1">offenbach</placeName> noch einmal sehen
-                adieu O grüßen Sie <placeName key="ort8">Weimar</placeName> en bloc
+                adieu O grüßen Sie <placeName key="ort8"><hi rend="underline" n="1">Weimar</hi></placeName> en bloc
                 et en detail – unßerm landsmann
-                <persName key="person33">Göthe</persName> viel u Ihnen selbst auch
-                von der alten tante La Roche =
-                der <persName key="person57">Minister v Struensèe</persName> will uns
-                zum essen u einer lustreiße auf
-                der Elbe – u gestern habe mich
+                <persName key="person33">Göthe</persName> viel <hi rend="underline" n="1">u</hi> Ihnen selbst auch
+                von der alten tante <hi rend="latintype">La Roche</hi> =
+                der <persName key="person57"><hi rend="latintype">Minister v Struensèe</hi></persName> will uns
+                zum essen <hi rend="underline" n="1">u</hi> einer lustreiße auf
+                der Elbe – <hi rend="underline" n="1">u</hi> gestern habe mich
                 in einen <persName key="person78">80 jahr alten feldmarchall</persName> verliebt=
                 da schreibe keine große briefe mehr an andre
                 Leute –
                 [3]
-                à Monsieur
-                Monsieur Gerning - Conseiller de Legation
+                <hi rend="latintype">à Monsieur
+                Monsieur <hi rend="underline" n="1">Gerning</hi> - Conseiller de Legation
                 de La Cour de <placeName key="person23">Neapel</placeName>
-                <placeName key="person8">Weimar</placeName>
+                <placeName key="person8"><hi rend="underline" n="1">Weimar</hi></placeName></hi>
                 
                 [4]
-                <placeName key="person16">Schönebeck</placeName> x 29ter
+                <placeName key="person16">Schönebeck</placeName> x 29<hi rend="sup">ter</hi>
                 aug. 1799
                 Laroche.
-                E d. 5ten 7ber.
-                b. x 22ten.
+                <hi rend="underline" n="1">E d. 5<hi rend="sup">ten</hi> 7ber.
+                b. x 22ten.</hi>
             </div>
         </body>
     </text>

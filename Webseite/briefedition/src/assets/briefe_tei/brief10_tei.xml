@@ -5,10 +5,10 @@
             <div>
                 [1]
                 <placeName key="ort1">Offbach</placeName> 11 &amp;
-                12ter Jan: 1797.
+                12<hi rend="sup">ter</hi> Jan: 1797.
                 Laroche.
-                E d. gl.
-                b x 13ten
+                <hi rend="underline" n="1">E d. gl.
+                b x 13ten</hi>
                 [2]
                 den 12 des jahres 1797
                 
@@ -29,7 +29,7 @@
                 <persName key="person26">H. v. Münchhaußen</persName> nicht nennen wenn
                 Er etwa dieße besorgnis haben sollte –
                 noch eine Frage – Schätzbarer Freund!
-                haben Sie den <name type="work" key="werk13">Cultivateur ameriain</name> bey H
+                haben Sie den <name type="work" key="werk13"><hi rend="underline" n="1"><hi rend="latintype">Cultivateur ameriain</hi></hi></name> bey H
                 [3]
                 <persName key="person27">Herrmann</persName> bezalt – nur ja oder
                 nein – Sie haben mehr zu thun, als
@@ -40,13 +40,13 @@
                 feinen <persName key="person28">marivaux</persName> erinnern der
                 sagte
                 wenn das gesicht der weiber
-                zu einer Masque geworden ist
+                zu einer <hi rend="latintype">Masque</hi> geworden ist
                 sollen sie auch den geist des scherzens
                 verabschieden –
                 ich möchte dießen Rath früher als
                 gestern abend gehört haben  –
-                adieu
-                gesundheit  – Heiterkeit  – u glüklicher
+                <hi rend="latintype">adieu</hi>
+                gesundheit  – Heiterkeit  – <hi rend="underline" n="1">u</hi> glüklicher
                 fortgang aller unternehmung für meinen
                 Neffen  – dieß ist sehr ernst der alten
                 tante v Laroche

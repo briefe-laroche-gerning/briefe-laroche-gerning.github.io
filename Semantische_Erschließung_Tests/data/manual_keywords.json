@@ -1,0 +1,100 @@
+{
+    "Literatur": {
+        "Sophie von La Roches Werke": [
+            "Schaffensprozess",
+            "Inhalt eigener Werke",
+            "Rezeption eigener Werke",
+            "Schriftstellerische Tätigkeit als Frau"
+        ],
+        "Johann Isaak von Gernings Werke": [
+            "Johann Isaak von Gernings Dichtung"
+        ],
+        "Rezeption anderer Werke": [
+            "Kulturgeschichtliches Buch",
+            "Dichtung",
+            "Biographisches Werk",
+            "Brief",
+            "Philosophischer Text",
+            "Kunst"
+        ]
+    },
+    "Geselligkeit/Beziehungen": {
+        "Freundschaft": [
+            "Freundschaft mit Wieland"
+        ],
+        "Familie": [
+            "Sophie von La Roches Kinder",
+            "Sophie von La Roches Enkel*innen",
+            "Johann Isaak von Gernings Mutter"
+        ],
+        "Schriftsteller-/Dichterkreis": [
+            "Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland"
+        ],
+        "Liebesbeziehung": [
+            "Verliebtheit Gernings"
+        ],
+        "Bekanntschaften": []
+    },
+    "Persönliches": [
+        "Alter",
+        "Krankheit",
+        "Haus und Garten",
+        "Personal/Dienstleister",
+        "Geschäfte/Verkauf"
+    ],
+    "Politik": {
+        "Deutschland": {
+            "innenpolitische Unruhe ": []
+        },
+        "Revolution": [],
+        "Frankreich": [],
+        "Italien": [],
+        "Deutschland - Frankreich": [
+            "Koalitionskriege"
+        ]
+    },
+    "Reisen": {
+        "Deutschland": {
+            "Taunus": []
+        },
+        "Italien": [],
+        "Natur": [],
+        "Ausflug": []
+    },
+    "Emotion": [
+        "Freude",
+        "Trauer",
+        "Trübsinnigkeit",
+        "Missbilligung",
+        "Streit"
+    ],
+    "Sprechakt": {
+        "Wunsch": [],
+        "Appell": [],
+        "Dank": [],
+        "Lob": [],
+        "Warnung": [],
+        "Kondolenz": [],
+        "Ratschlag": [],
+        "Bitte": {
+            "Bitte um Besorgung": [
+                "Bitte um Besorgung von Büchern"
+            ],
+            "Bitte um Weitersendung von Büchern": [],
+            "Bitte um Weitersendung von Briefen": []
+        }
+    },
+    "Ästhetischer Sprachgebrauch": [],
+    "Antike griechische Schriftsteller": [],
+    "Erziehung": [],
+    "Warensendung": [
+        "Warensendung Literatur",
+        "Rückgabe geliehener Literatur",
+        "Sendung Brief",
+        "Rücksendung Brief"
+    ],
+    "Zitat": [
+        "Zitat Gedicht",
+        "Zitat philosophischer Text"
+    ]
+}

@@ -544,5 +544,11 @@
         "firstname": "Carl",
         "gnd": "https://explore.gnd.network/gnd/116738081",
         "wikidata": "https://www.wikidata.org/wiki/Q49006095"
+    },
+    "person92": {
+        "name": "Grasset-Saint-Sauveur",
+        "firstname": "Jacques",
+        "gnd": "https://explore.gnd.network/gnd/118858149",
+        "wikidata": "https://www.wikidata.org/wiki/Q3159027"
     }
 }

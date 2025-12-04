@@ -77,6 +77,13 @@
     </sup>
   </xsl:template>
   
+  <!-- unclear (nicht entzifferte Stellen) -->
+  <xsl:template match="tei:unclear">
+    <span class="unclear">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
 
   <!-- Verse -->
 

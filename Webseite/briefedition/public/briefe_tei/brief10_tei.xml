@@ -4,11 +4,11 @@
         <body>
             <div>
                 [1]
-                <placeName key="ort1">Offbach</placeName> 11 &amp;<lb/>
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offbach</placeName> 11 &amp;<lb/>
                 12<hi rend="sup">ter</hi> Jan: 1797.<lb/>
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. gl.<lb/>
-                b <unclear>x</unclear> 13ten</hi><lb/>
+                b <unclear>x</unclear> 13ten</hi></note><lb/>
                 [2]
                 den 12 des jahres 1797<lb/>
                 <lb/>

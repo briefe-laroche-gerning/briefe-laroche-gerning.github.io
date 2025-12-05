@@ -26,12 +26,11 @@
                 Nb möchten Sie nicht ein<lb/>
                 urtheil über Epilogue lesen?<lb/>
                 <lb/>
-                <placeName key="ort1">offenb.</placeName> 12<hi rend="sup">ter</hi><lb/>
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenb.</placeName> 12<hi rend="sup">ter</hi><lb/>
                 May 96.<lb/>
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E gl.<lb/>
-                b gl</hi><lb/>
-
+                b gl</hi><lb/></note>
             </div>
         </body>
     </text>

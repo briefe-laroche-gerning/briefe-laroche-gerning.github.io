@@ -12,12 +12,12 @@
                 betragen gegen <persName key="person13"><hi rend="latintype">Testa N.</hi></persName> u <persName key="person9">S.</persName> ohne zu brechen<lb/>
                 in aller Eile - Tante la Roche<lb/>
                 [2]
-                <placeName key="ort1">offenbach</placeName> 10 &amp; 11ter<lb/>
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenbach</placeName> 10 &amp; 11ter<lb/>
                 &amp; 14<hi rend="underline" n="2"><hi rend="sup">ter</hi></hi> febr 1796.<lb/>
                 Laroche.<lb/>
                 13ter<lb/>
                 <hi rend="underline" n="1">E d. 11<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi> &lt;15<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi>&gt;<lb/>
-                b <unclear>x</unclear> 16<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi></hi><lb/>
+                b <unclear>x</unclear> 16<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi></hi><lb/></note>
                 [3]
                 d 11 Fbr 1796<lb/>
                 <lb/>
@@ -82,8 +82,6 @@
                 mißhandlet wurde – es ist das blatt womit<lb/>
                 ich den gestrigen kleinen Brief vergrößern<lb/>
                 und das verliehren hindern wolte/<lb/>
-
-
             </div>
         </body>
     </text>

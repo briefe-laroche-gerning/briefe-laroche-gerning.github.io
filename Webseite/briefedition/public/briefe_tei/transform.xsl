@@ -84,7 +84,13 @@
     </span>
   </xsl:template>
   
-
+  <!-- Annotation des Empfängers -->
+  <xsl:template match="tei:note[@type='annotation']">
+    <span class="recipient-note">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
   <!-- Verse -->
 
   <!-- Strophe (lg) -->

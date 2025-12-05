@@ -1,9 +1,10 @@
 from lxml import etree
 
-xml = etree.parse("brief1_tei.xml")
-xsl = etree.parse("transform.xsl")
+for i in range(1, 26):
+    xml = etree.parse(f"brief{i}_tei.xml")
+    xsl = etree.parse("transform.xsl")
 
-transform = etree.XSLT(xsl)
-html = transform(xml)
+    transform = etree.XSLT(xsl)
+    html = transform(xml)
 
-open("brief1.html","w",encoding="utf-8").write(str(html))
+    open(f"brief{i}.html","w",encoding="utf-8").write(str(html))

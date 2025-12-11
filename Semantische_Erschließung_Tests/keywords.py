@@ -10,10 +10,10 @@ from keybert import KeyBERT
 base_dir = dirname(abspath(__file__))
 
 # data folder
-letters_folder = join(base_dir, "data", "input", "*.txt")
+letters_folder = join(base_dir, "data", "input", "25_briefe", "*.txt")
 yake_output_folder = join(base_dir, "data", "output", "YAKE_keywords")
 keybert_output_folder = join(base_dir, "data", "output", "keyBERT_keywords")
-stopword_file = join(base_dir, "data", "stopwords.txt")
+stopword_file = join(base_dir, "data", "stopwords_keywords.txt")
 
 
 # Stopword list from .txt file
@@ -34,13 +34,13 @@ def yake_keyword_extraction(text):
 
     # With custom parameters
     custom_kw_extractor = yake.KeywordExtractor(
-        lan="de",              # language
         n=3,                   # ngram size
-        dedupLim=0.9,          # deduplication threshold
-        dedupFunc='seqm',      # deduplication function
+        dedupLim=0.8,          # deduplication threshold
+        dedupFunc='levs',      # deduplication function
         windowsSize=1,         # context window
         top=10,                # number of keywords to extract
-        features=None          # custom features
+        features=None,         # custom features
+        stopwords = set(stopwords)
     )
 
     keywords = custom_kw_extractor.extract_keywords(text)
@@ -54,7 +54,7 @@ def keybert_keyword_extraction(text):
 
     vectorizer = CountVectorizer(
         stop_words=stopwords,
-        ngram_range=(1, 2)
+        ngram_range=(1, 3)
     )
 
     keywords = kw_model.extract_keywords(text, vectorizer=vectorizer, top_n=10)

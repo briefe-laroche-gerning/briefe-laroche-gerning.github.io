@@ -43,6 +43,9 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 
 <script>
+import { nextTick } from 'vue';
+import { Tooltip } from "bootstrap";
+
 import FacsimileViewer from '@/components/FacsimileViewer.vue';
 
 export default {
@@ -94,11 +97,21 @@ export default {
     this.loadLetter();
   },
 
-  watch: {
-    nummer() {
-      this.loadLetter(); // neu laden, falls Route sich ändert
-    }
+watch: {
+  // Reagiert auf Routen-Änderung (wenn nr property sich ändert, muss sich auch der angezeigte Brief ändern)
+  nr() {
+    this.loadLetter();
   },
+
+  // Reagiert auf neues HTML
+  async content() {
+    await nextTick();
+    this.initTooltips();
+  }
+},
+
+
+  
 
   methods: {
   
@@ -141,9 +154,71 @@ export default {
     }
 
     this.currentImageIndex = 0; // reset auf erstes Bild
-  }
+  },
+
+ async initTooltips() {
+      await nextTick();
+
+      // Tooltips neu initialisieren
+      document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => {
+        if (el._tooltipInstance) {
+          el._tooltipInstance.dispose();
+        }
+      });
+
+      const elements = document.querySelectorAll(".recipient-note, .unclear");
+
+      elements.forEach(el => {
+        let title = "";
+
+        if (el.classList.contains("recipient-note")) {
+          title = "Notiz des Empfängers";
+        }
+        if (el.classList.contains("unclear")) {
+          title = "Nicht entziffert";
+        }
+
+        el.setAttribute("title", title);
+        el.setAttribute("data-bs-toggle", "tooltip");
+
+        const instance = new Tooltip(el);
+        el._tooltipInstance = instance;
+
+        // ---------------------------------------------------------
+        //  WICHTIG:
+        //  Wenn man über ein inneres .unclear fährt,
+        //  soll das äußere Tooltip NICHT erscheinen.
+        // ---------------------------------------------------------
+
+        if (el.classList.contains("unclear")) {
+          const outer = el.closest(".recipient-note");
+
+          if (outer) {
+            // Inneres Tooltip blockiert äußeres
+            el.addEventListener("mouseenter", e => {
+              if (outer._tooltipInstance) {
+                outer._tooltipInstance.disable();
+              }
+            });
+
+            // Wenn man das unclear verlässt → äußeres Tooltip wieder aktivieren
+            el.addEventListener("mouseleave", e => {
+              if (outer._tooltipInstance) {
+                outer._tooltipInstance.enable();
+              }
+            });
+          }
+        }
+      });
+    }
+
+
+
+  
 
   }
+
+  
 };
 </script>
 
@@ -169,5 +244,19 @@ export default {
 .latintype {
   font-family: 'Open Sans'
 }
+
+/* Farben für Notizen Gernings und nicht entzifferte Stellen */
+.recipient-note {
+  color: gray
+}
+.unclear {
+  color: darkred
+}
+
+
+
+
+
+
 
 </style>

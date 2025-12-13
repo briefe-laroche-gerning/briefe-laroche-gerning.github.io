@@ -1,110 +1,110 @@
 {
     "ort1": {
-        "ort": "Offenbach",
+        "name": "Offenbach",
         "geolink": ""
     },
     "ort2": {
-        "ort": "Frankfurt",
+        "name": "Frankfurt",
         "geolink": ""
     },
     "ort3": {
-        "ort": "Erlangen",
+        "name": "Erlangen",
         "geolink": ""
     },
     "ort4": {
-        "ort": "Hanau",
+        "name": "Hanau",
         "geolink": ""
     },
     "ort5": {
-        "ort": "Büdingen",
+        "name": "Büdingen",
         "geolink": ""
     },
     "ort6": {
-        "ort": "Erbach",
+        "name": "Erbach",
         "geolink": ""
     },
     "ort7": {
-        "ort": "Taunus",
+        "name": "Taunus",
         "geolink": ""
     },
     "ort8": {
-        "ort": "Weimar",
+        "name": "Weimar",
         "geolink": ""
     },
     "ort9": {
-        "ort": "Rastatt",
+        "name": "Rastatt",
         "geolink": ""
     },
     "ort10": {
-        "ort": "Karlsruhe",
+        "name": "Karlsruhe",
         "geolink": ""
     },
     "ort11": {
-        "ort": "Dieburg",
+        "name": "Dieburg",
         "geolink": ""
     },
     "ort12": {
-        "ort": "Colmar",
+        "name": "Colmar",
         "geolink": ""
     },
     "ort13": {
-        "ort": "Bieberach",
+        "name": "Bieberach",
         "geolink": ""
     },
     "ort14": {
-        "ort": "Oßmannstedt",
+        "name": "Oßmannstedt",
         "geolink": ""
     },
     "ort15": {
-        "ort": "Eisleben",
+        "name": "Eisleben",
         "geolink": ""
     },
     "ort16": {
-        "ort": "Schönebeck (Elbe)",
+        "name": "Schönebeck (Elbe)",
         "geolink": ""
     },
     "ort17": {
-        "ort": "Leipzig",
+        "name": "Leipzig",
         "geolink": ""
     },
     "ort18": {
-        "ort": "Eutin",
+        "name": "Eutin",
         "geolink": ""
     },
     "ort19": {
-        "ort": "Sachsen",
+        "name": "Sachsen",
         "geolink": ""
     },
     "ort20": {
-        "ort": "Jena",
+        "name": "Jena",
         "geolink": ""
     },
     "ort21": {
-        "ort": "Mainz",
+        "name": "Mainz",
         "geolink": ""
     },
     "ort22": {
-        "ort": "Stuttgart",
+        "name": "Stuttgart",
         "geolink": ""
     },
     "ort23": {
-        "ort": "Neapel",
+        "name": "Neapel",
         "geolink": ""
     },
     "ort24": {
-        "ort": "Paris",
+        "name": "Paris",
         "geolink": ""
     },
     "ort25": {
-        "ort": "Neuburg",
+        "name": "Neuburg",
         "geolink": ""
     },
     "ort26": {
-        "ort": "Wien",
+        "name": "Wien",
         "geolink": ""
     },
     "ort27": {
-        "ort": "Rom",
+        "name": "Rom",
         "geolink": ""
     }
 }

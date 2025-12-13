@@ -24,6 +24,36 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/RegisterView.vue')
   },
   {
+  path: '/personenregister',
+  name: 'personenregister',
+  component: () => import('../components/Register.vue'),
+  props: {
+    url: '/data/register/personenregister.json',
+    title: 'Personenregister',
+    type: 'person'
+  }
+},
+{
+  path: '/ortsregister',
+  name: 'ortsregister',
+  component: () => import('../views/OrtsregisterView.vue'),
+  props: {
+    url: '/data/register/ortsregister.json',
+    title: 'Ortsregister',
+    type: 'place'
+  }
+},
+{
+  path: '/werkregister',
+  name: 'werkregister',
+  component: () => import('../views/WerkregisterView.vue'),
+  props: {
+    url: '/data/register/werkregister.json',
+    title: 'Werkregister',
+    type: 'work'
+  }
+},
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

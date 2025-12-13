@@ -33,9 +33,9 @@
                 Register
                 </router-link>
                 <ul class="dropdown-menu">
-                    <li><router-link class="dropdown-item" to="/register/personen">Personen</router-link></li>
-                    <li><router-link class="dropdown-item" to="/register/orte">Orte</router-link></li>
-                    <li><router-link class="dropdown-item" to="/register/werke">Werke</router-link></li>
+                    <li><router-link class="dropdown-item" to="/personenregister">Personen</router-link></li>
+                    <li><router-link class="dropdown-item" to="/ortsregister">Orte</router-link></li>
+                    <li><router-link class="dropdown-item" to="/werkregister">Werke</router-link></li>
                 </ul>
             </li>
             <li class="nav-item">

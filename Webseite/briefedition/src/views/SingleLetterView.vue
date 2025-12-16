@@ -25,21 +25,54 @@
         </div>
 
         <!-- Transkript -->
-        <div class="col-sm-4">
-            <div v-if="loading">Lade Inhalt...</div>
-            <div v-else v-html="content"></div>
+        <div class="col-sm-3">
+<div v-if="loading">Lade Inhalt …</div>
+<div
+  v-else
+  ref="letterContent"
+  class="letter-content"
+  v-html="content"
+></div>
+
         </div>
 
         <!-- Registereinträge -->
-        <div class="col-sm-2">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  
+        <div class="col-sm-3">
+          <!-- Personen -->
+          <h4>Personen</h4>
+          <ul>
+            <li v-for="person in persons" :key="person.id">
+              <router-link :to="{ name: 'personenregister', hash: '#' + person.id }">
+                {{ person.firstname }} {{ person.name }}
+              </router-link>
+            </li>
+          </ul>
+          <!-- Orte -->
+          <h4>Orte</h4>
+          <ul>
+            <li v-for="place in places" :key="place.id">
+              <router-link :to="{ name: 'ortsregister', hash: '#' + place.id }">
+                {{ place.name }}
+              </router-link>
+            </li>
+          </ul>
+          <!-- Werke -->
+          <h4>Werke</h4>
+          <ul>
+            <li v-for="work in works" :key="work.id">
+              <router-link :to="{ name: 'werkregister', hash: '#' + work.id }">
+                {{ work.name }}
+              </router-link>
+            </li>
+          </ul>
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer
+
+
         </div>
+
         </div>
 
 </template>
-
 
 
 <script>
@@ -52,89 +85,99 @@ export default {
   components: {
     FacsimileViewer
   },
+
   props: ['nr'],
 
   data() {
-  return {
-    content: '',           // HTML-Inhalt (Transkription des Briefs)
-    loading: true,         // Ladezustand für HTML
-    images: [],            // Array der Faksimile-Bilder
-    currentImageIndex: 0,  // Index für Carousel
-    currentImage: null,    // für das Modal / Vollansicht des Bildes
-    rotation: 0,           // für Rotation des Digitalisats
-    scale: 1,              // für Zoom des Digitalisats
-    briefPages: {          // Anzahl der Seiten pro Brief
-      1: 4,
-      2: 4,
-      3: 4,
-      4: 6,
-      5: 2,
-      6: 4,
-      7: 4,
-      8: 4,
-      9: 4,
-      10: 4,
-      11: 4,
-      12: 4,
-      13: 4,
-      14: 4,
-      15: 4,
-      16: 7,
-      17: 6,
-      18: 4,
-      19: 2,
-      20: 2,
-      21: 4,
-      22: 6,
-      23: 4,
-      24: 4,
-      25: 1
+    return {
+      content: '',           // HTML-Inhalt (Transkription)
+      loading: true,
+
+      images: [],
+      currentImageIndex: 0,
+      currentImage: null,
+      rotation: 0,
+      scale: 1,
+
+      briefPages: {
+        1: 4, 2: 4, 3: 4, 4: 6, 5: 2,
+        6: 4, 7: 4, 8: 4, 9: 4, 10: 4,
+        11: 4, 12: 4, 13: 4, 14: 4, 15: 4,
+        16: 7, 17: 6, 18: 4, 19: 2, 20: 2,
+        21: 4, 22: 6, 23: 4, 24: 4, 25: 1
+      },
+
+      personenRegister: {},
+      ortsRegister: {},
+      werkRegister: {},
+
+      // Gesammelte Entities aus dem Brief (kommen im Brieftext vor)
+      mentionedEntities: {
+        person: new Set(),
+        place: new Set(),
+        work: new Set()
+      }
+    };
+  },
+
+  async mounted() {
+    const resPersonen = await fetch('/data/register/personenregister.json');
+    this.personenRegister = await resPersonen.json();
+    const resOrte = await fetch('/data/register/ortsregister.json');
+    this.ortsRegister = await resOrte.json();
+    const resWerke = await fetch('/data/register/werkregister.json');
+    this.werkRegister = await resWerke.json();
+
+    await this.loadLetter();
+  },
+
+  watch: {
+    nr() {
+      this.loadLetter();
     },
-  };
+
+    async content() {
+      await nextTick();
+      this.linkEntitiesInHtml();
+      this.initTooltips();
+    }
   },
 
-  mounted() {
-    this.loadLetter();
+  computed: {
+  persons() {
+    return [...this.mentionedEntities.person]
+      .map(id => this.personenRegister[id])
+      .filter(Boolean);
   },
 
-watch: {
-  // Reagiert auf Routen-Änderung (wenn nr property sich ändert, muss sich auch der angezeigte Brief ändern)
-  nr() {
-    this.loadLetter();
+  places() {
+    return [...this.mentionedEntities.place]
+      .map(id => this.ortsRegister[id])
+      .filter(Boolean);
   },
 
-  // Reagiert auf neues HTML
-  async content() {
-    await nextTick();
-    this.initTooltips();
+  works() {
+    return [...this.mentionedEntities.work]
+      .map(id => this.werkRegister[id])
+      .filter(Boolean);
   }
 },
 
 
-  
-
   methods: {
-  
 
     async loadLetter() {
       await this.loadHtml();
       this.loadImages();
     },
 
-    // Für HTML-Dateien (Transkriptionen)
     async loadHtml() {
       this.loading = true;
-
-      // URL zu den HTML-Dateien im public-Ordner
-      const filename = `/briefe_html/brief${this.nr}.html`;
+      const filename = `/data/briefe_html/brief${this.nr}.html`;
 
       try {
         const response = await fetch(filename);
-
-        if (!response.ok) {
-          throw new Error('Datei nicht gefunden');
-        }
-
+        if (!response.ok) throw new Error("Datei nicht gefunden");
         this.content = await response.text();
       } catch (error) {
         this.content = `<h2>Die Datei brief${this.nr}.html existiert nicht.</h2>`;
@@ -143,23 +186,73 @@ watch: {
 
       this.loading = false;
     },
-    // Bilder für das Carousel laden (den jeweiligen Brief)
-  loadImages() {
-    const numImages = this.briefPages[this.nr] || 0; // fallback 0
-    this.images = [];
 
-    for (let i = 1; i <= numImages; i++) {
-      const url = `/img/digitalisate/brief${this.nr}_${i}.jpg`;
-      this.images.push(url);
+    loadImages() {
+      const numImages = this.briefPages[this.nr] || 0;
+      this.images = [];
+
+      for (let i = 1; i <= numImages; i++) {
+        this.images.push(`/img/digitalisate/brief${this.nr}_${i}.jpg`);
+      }
+
+      this.currentImageIndex = 0;
+    },
+
+   linkEntitiesInHtml() {
+  // Sets zurücksetzen
+  this.mentionedEntities.person.clear();
+  this.mentionedEntities.place.clear();
+  this.mentionedEntities.work.clear();
+
+  const container = this.$refs.letterContent;
+  if (!container) return;
+
+  const spans = container.querySelectorAll("span.entity");
+
+  spans.forEach(span => {
+    let keys = [];
+
+    if (span.classList.contains("person")) {
+      // Personen haben data-keys als JSON-Array
+      keys = JSON.parse(span.dataset.keys || "[]");
+    } else if (span.classList.contains("place") || span.classList.contains("work")) {
+      // Orte / Werke haben nur einen string in data-key
+      if (span.dataset.key) keys = [span.dataset.key];
     }
 
-    this.currentImageIndex = 0; // reset auf erstes Bild
-  },
+    if (!keys.length) return;
 
- async initTooltips() {
+    let type = null;
+    let route = null;
+
+    if (span.classList.contains("person")) {
+      type = "person";
+      route = "personenregister";
+    } else if (span.classList.contains("place")) {
+      type = "place";
+      route = "ortsregister";
+    } else if (span.classList.contains("work")) {
+      type = "work";
+      route = "werkregister";
+    }
+
+    if (!type) return;
+
+    // IDs für Randspalte sammeln
+    keys.forEach(id => this.mentionedEntities[type].add(id));
+
+    // Link erzeugen (bei mehreren IDs: erste nehmen)
+    const a = document.createElement("a");
+    a.innerHTML = span.innerHTML;
+    a.href = `/${route}#${keys[0]}`;
+    a.classList.add("entity-link", type);
+
+    span.replaceWith(a);
+  });
+},
+    async initTooltips() {
       await nextTick();
 
-      // Tooltips neu initialisieren
       document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => {
         if (el._tooltipInstance) {
           el._tooltipInstance.dispose();
@@ -184,43 +277,26 @@ watch: {
         const instance = new Tooltip(el);
         el._tooltipInstance = instance;
 
-        // ---------------------------------------------------------
-        //  WICHTIG:
-        //  Wenn man über ein inneres .unclear fährt,
-        //  soll das äußere Tooltip NICHT erscheinen.
-        // ---------------------------------------------------------
-
         if (el.classList.contains("unclear")) {
           const outer = el.closest(".recipient-note");
 
           if (outer) {
-            // Inneres Tooltip blockiert äußeres
-            el.addEventListener("mouseenter", e => {
-              if (outer._tooltipInstance) {
-                outer._tooltipInstance.disable();
-              }
+            el.addEventListener("mouseenter", () => {
+              outer._tooltipInstance?.disable();
             });
 
-            // Wenn man das unclear verlässt → äußeres Tooltip wieder aktivieren
-            el.addEventListener("mouseleave", e => {
-              if (outer._tooltipInstance) {
-                outer._tooltipInstance.enable();
-              }
+            el.addEventListener("mouseleave", () => {
+              outer._tooltipInstance?.enable();
             });
           }
         }
       });
     }
-
-
-
-  
-
   }
-
-  
 };
 </script>
+
+
 
 <style>
 

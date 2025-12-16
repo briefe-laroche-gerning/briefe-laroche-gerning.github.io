@@ -5,7 +5,7 @@
         <h2>{{ title }}</h2>
 
         <ul>
-          <li v-for="entry in entries" :key="entryKey(entry)">
+          <li v-for="entry in entries" :key="entry.id" :id="entry.id">
             <!-- NAME -->
             <template v-if="type === 'person'">
               <b>
@@ -83,7 +83,15 @@ export default {
     try {
       const res = await fetch(this.url);
       const data = await res.json();
-          this.entries = Object.entries(data).map(([id, entry]) => ({id, ...entry}));
+      this.entries = Object.entries(data).map(([id, entry]) => ({ id, ...entry }));
+
+      // Scroll zu Hash, falls vorhanden
+      if (this.$route.hash) {
+        this.$nextTick(() => {
+          const el = document.querySelector(this.$route.hash);
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        });
+      }
     } catch (err) {
       console.error("Fehler beim Laden des Registers:", err);
     }

@@ -146,19 +146,31 @@ export default {
   computed: {
   persons() {
     return [...this.mentionedEntities.person]
-      .map(id => this.personenRegister[id])
+      .map(id => {
+        const obj = this.personenRegister[id];
+        if (!obj) return null;        
+        return { ...obj, id };          // ID direkt aus dem Set übernehmen
+      })
       .filter(Boolean);
   },
 
   places() {
     return [...this.mentionedEntities.place]
-      .map(id => this.ortsRegister[id])
+      .map(id => {
+        const obj = this.ortsRegister[id];
+        if (!obj) return null;
+        return { ...obj, id };          // ID aus dem Set übernehmen
+      })
       .filter(Boolean);
   },
 
   works() {
     return [...this.mentionedEntities.work]
-      .map(id => this.werkRegister[id])
+      .map(id => {
+        const obj = this.werkRegister[id];
+        if (!obj) return null;
+        return { ...obj, id };          // ID aus dem Set übernehmen
+      })
       .filter(Boolean);
   }
 },

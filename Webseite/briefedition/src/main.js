@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Z.B. für Carousel, Popper
 
+
 import "@fancyapps/ui/dist/fancybox/fancybox.css";   // Für Galerieoptionen (Rotieren etc. bei den Faksimiles)
 import { Fancybox } from "@fancyapps/ui";
 

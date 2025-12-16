@@ -3,42 +3,68 @@
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <h2>{{ title }}</h2>
+
         <ul>
           <li v-for="entry in entries" :key="entryKey(entry)">
-            <!-- Name -->
+            <!-- NAME -->
             <template v-if="type === 'person'">
-              <b><span v-if="entry.firstname">{{ entry.firstname }}</span> {{ entry.name }}</b>
+              <b>
+                <span v-if="entry.firstname">{{ entry.firstname }} </span>{{ entry.name }}
+              </b>
             </template>
             <template v-else>
               <b>{{ entry.name }}</b>
             </template>
 
-            <!-- Links unter dem Namen -->
-            <div v-if="type === 'person' || type === 'work'">
-              <!-- Personen und Werke: GND / Wikidata -->
-              <span v-if="entry.gnd"><a :href="entry.gnd" target="_blank">GND</a></span>
-              <span v-if="entry.wikidata">
-                <span v-if="entry.gnd"> </span>
-                <a :href="entry.wikidata" target="_blank">Wikidata</a>
+            <!-- PERSON -->
+            <div v-if="type === 'person'" class="meta">
+              <span>
+                <a v-if="entry.gnd" :href="entry.gnd" target="_blank">GND</a>
+                <span v-else class="placeholder">GND</span>
               </span>
-
-              <!-- Werke: Digitalisat / Volltext -->
-              <template v-if="type === 'work' && (entry.digitalisat || entry.volltext)">
-                <span v-if="entry.digitalisat"> <a :href="entry.digitalisat" target="_blank">Digitalisat</a></span>
-                <span v-if="entry.volltext"> <a :href="entry.volltext" target="_blank">Volltext</a></span>
-              </template>
+              |
+              <span>
+                <a v-if="entry.wikidata" :href="entry.wikidata" target="_blank">Wikidata</a>
+                <span v-else class="placeholder">Wikidata</span>
+              </span>
             </div>
 
-            <!-- Orte: Geolink unter dem Namen -->
-            <div v-if="type === 'place' && entry.geolink">
-              <a :href="entry.geolink" target="_blank">Geolink</a>
+            <!-- ORT -->
+            <div v-if="type === 'place'" class="meta">
+              <a v-if="entry.geolink" :href="entry.geolink" target="_blank">Geolink</a>
+              <span v-else class="placeholder">Geolink</span>
             </div>
+
+            <!-- WERK -->
+            <div v-if="type === 'work'" class="meta">
+              <span>
+                <a v-if="entry.gnd" :href="entry.gnd" target="_blank">GND</a>
+                <span v-else class="placeholder">GND</span>
+              </span>
+              |
+              <span>
+                <a v-if="entry.wikidata" :href="entry.wikidata" target="_blank">Wikidata</a>
+                <span v-else class="placeholder">Wikidata</span>
+              </span>
+              |
+              <span>
+                <a v-if="entry.digitalisat" :href="entry.digitalisat" target="_blank">Digitalisat</a>
+                <span v-else class="placeholder">Digitalisat</span>
+              </span>
+              |
+              <span>
+                <a v-if="entry.volltext" :href="entry.volltext" target="_blank">Volltext</a>
+                <span v-else class="placeholder">Volltext</span>
+              </span>
+            </div>
+
           </li>
         </ul>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -57,7 +83,7 @@ export default {
     try {
       const res = await fetch(this.url);
       const data = await res.json();
-      this.entries = Object.values(data);
+          this.entries = Object.entries(data).map(([id, entry]) => ({id, ...entry}));
     } catch (err) {
       console.error("Fehler beim Laden des Registers:", err);
     }
@@ -83,5 +109,17 @@ li {
 /* Links in einer Zeile, Abstand durch | */
 li div a {
   margin-right: 4px;
+}
+
+/* Metadaten der Registereinträge */
+.meta {
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+/* Ausgegraute Links/Placeholder wenn kein Link vorhanden */
+.placeholder {
+  color: rgb(50, 46, 46);
+  background: none;
 }
 </style>

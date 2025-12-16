@@ -9,7 +9,7 @@
             <!-- NAME -->
             <template v-if="type === 'person'">
               <b>
-                <span v-if="entry.firstname">{{ entry.firstname }} </span>{{ entry.name }}
+                {{ entry.firstname ? entry.firstname + ' ' : '' }}{{ entry.name }}
               </b>
             </template>
             <template v-else>

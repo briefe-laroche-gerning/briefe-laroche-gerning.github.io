@@ -8,7 +8,7 @@
         Home
       </router-link>
 
-      <!-- Mobile Toggler -->
+      <!-- Mobile Toggler /Hamburgermenü in mobilder Ansicht, um Platz zu sparen)-->
       <button 
         class="navbar-toggler" 
         type="button" 
@@ -25,13 +25,13 @@
 
             <li class="nav-item">
                 <router-link to="/briefe" class="nav-link">
-                Briefe
+                  Briefe
                 </router-link>
             </li>
-            <li class="nav-item dropdown">
-                <router-link to="/register/personen" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
+            <li class="nav-item dropdown">  
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                 Register
-                </router-link>
+              </a>
                 <ul class="dropdown-menu">
                     <li><router-link class="dropdown-item" to="/personenregister">Personen</router-link></li>
                     <li><router-link class="dropdown-item" to="/ortsregister">Orte</router-link></li>
@@ -40,7 +40,7 @@
             </li>
             <li class="nav-item">
                 <router-link to="/about" class="nav-link">
-                Über diese Edition
+                  Über diese Edition
                 </router-link>
             </li>
         </ul>

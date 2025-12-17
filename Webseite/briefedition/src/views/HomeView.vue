@@ -2,7 +2,7 @@
   <div class="home">
 
     <div class="row justify-content-center align-items-center">
-        
+
       <!-- Bild von Sophie von La Roche -->
       <div class="col-sm-3 text-center">
         <img src="/img/LaRoche_Portrait.jpg" class="portrait">
@@ -12,7 +12,7 @@
       <div class="col-sm-4 text-center">
 
 
-        <div id="carouselText" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div id="carouselText" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
           <!-- Indicators -->
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselText" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -63,7 +63,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 .carousel-inner {
   min-height: 250px;

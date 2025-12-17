@@ -1,6 +1,6 @@
 <template>
   <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+<div class="single-letter-page">
 <div class="row justify-content-center">
   <div class="col-sm-10">
       <h1>Brief vom xx.xx.xxxx</h1>
@@ -71,7 +71,7 @@
         </div>
 
         </div>
-
+</div>
 </template>
 
 
@@ -254,56 +254,103 @@ export default {
     keys.forEach(id => this.mentionedEntities[type].add(id));
 
     // Link erzeugen (bei mehreren IDs: erste nehmen)
-    const a = document.createElement("a");
-    a.innerHTML = span.innerHTML;
-    a.href = `/${route}#${keys[0]}`;
-    a.classList.add("entity-link", type);
+const a = document.createElement("a");
+a.innerHTML = span.innerHTML;
+a.href = `/${route}#${keys[0]}`;
+a.classList.add("entity-link", type);
 
-    span.replaceWith(a);
+// Tooltip-Inhalt zusammenbauen
+let tooltipLines = [];
+
+keys.forEach(id => {
+  if (type === "person") {
+    const p = this.personenRegister[id];
+    if (p) tooltipLines.push(`${p.firstname} ${p.name}`);
+  }
+  if (type === "place") {
+    const o = this.ortsRegister[id];
+    if (o) tooltipLines.push(o.name);
+  }
+  if (type === "work") {
+    const w = this.werkRegister[id];
+    if (w) tooltipLines.push(w.name);
+  }
+});
+
+// Tooltip-Attribute setzen
+if (tooltipLines.length) {
+  a.setAttribute("data-bs-title", tooltipLines.join("<br>"));
+  a.setAttribute("data-bs-toggle", "tooltip");
+  a.setAttribute("data-bs-html", "true");
+}
+
+span.replaceWith(a);
+
   });
 },
-    async initTooltips() {
-      await nextTick();
+async initTooltips() {
+  await nextTick();
 
-      document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => {
-        if (el._tooltipInstance) {
-          el._tooltipInstance.dispose();
-        }
-      });
-
-      const elements = document.querySelectorAll(".recipient-note, .unclear");
-
-      elements.forEach(el => {
-        let title = "";
-
-        if (el.classList.contains("recipient-note")) {
-          title = "Notiz des Empfängers";
-        }
-        if (el.classList.contains("unclear")) {
-          title = "Nicht entziffert";
-        }
-
-        el.setAttribute("title", title);
-        el.setAttribute("data-bs-toggle", "tooltip");
-
-        const instance = new Tooltip(el);
-        el._tooltipInstance = instance;
-
-        if (el.classList.contains("unclear")) {
-          const outer = el.closest(".recipient-note");
-
-          if (outer) {
-            el.addEventListener("mouseenter", () => {
-              outer._tooltipInstance?.disable();
-            });
-
-            el.addEventListener("mouseleave", () => {
-              outer._tooltipInstance?.enable();
-            });
-          }
-        }
-      });
+  // Alte Tooltips entfernen
+  document.querySelectorAll(
+    ".recipient-note, .unclear, .entity-link"
+  ).forEach(el => {
+    if (el._tooltipInstance) {
+      el._tooltipInstance.dispose();
+      el._tooltipInstance = null;
     }
+  });
+
+  const elements = document.querySelectorAll(
+    ".recipient-note, .unclear, .entity-link"
+  );
+
+  elements.forEach(el => {
+    let title = el.getAttribute("data-bs-title");
+
+    // feste Tooltip-Texte
+    if (el.classList.contains("recipient-note")) {
+      title = "Notiz des Empfängers";
+    }
+
+    if (el.classList.contains("unclear")) {
+      title = "Nicht entziffert";
+    }
+
+    if (!title) return;
+
+    el.setAttribute("data-bs-title", title);
+    el.setAttribute("data-bs-toggle", "tooltip");
+    el.removeAttribute("title");
+
+    const instance = new Tooltip(el, {
+      html: true,
+      trigger: "hover focus"
+    });
+
+    el._tooltipInstance = instance;
+
+    // 🔑 Zentrale Logik:
+    // Innerer Tooltip deaktiviert äußeren recipient-note Tooltip
+    if (
+      el.classList.contains("unclear") ||
+      el.classList.contains("entity-link")
+    ) {
+      const outer = el.closest(".recipient-note");
+
+      if (outer && outer._tooltipInstance) {
+        el.addEventListener("mouseenter", () => {
+          outer._tooltipInstance.disable();
+        });
+
+        el.addEventListener("mouseleave", () => {
+          outer._tooltipInstance.enable();
+        });
+      }
+    }
+  });
+}
+
   }
 };
 </script>
@@ -340,6 +387,12 @@ export default {
 .unclear {
   color: darkred
 }
+
+/* Abstand am unteren Rand der Seite */
+.single-letter-page {
+  margin-bottom: 4rem;
+}
+
 
 
 

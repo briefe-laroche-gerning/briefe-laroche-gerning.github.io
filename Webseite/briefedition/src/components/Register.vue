@@ -79,27 +79,45 @@ export default {
       entries: []
     };
   },
-  async mounted() {
-    try {
-      const res = await fetch(this.url);
-      const data = await res.json();
-      this.entries = Object.entries(data).map(([id, entry]) => ({ id, ...entry }));
+async mounted() {
+  try {
+    const res = await fetch(this.url);
+    const data = await res.json();
 
-      // Scroll zu Hash, falls vorhanden
-      if (this.$route.hash) {
-        this.$nextTick(() => {
-          const el = document.querySelector(this.$route.hash);
-          if (el) el.scrollIntoView({ behavior: 'smooth' });
-        });
-      }
-    } catch (err) {
-      console.error("Fehler beim Laden des Registers:", err);
+    this.entries = Object.entries(data)
+      .map(([id, entry]) => ({ id, ...entry }))
+      .sort((a, b) => this.compareEntries(a, b));
+
+    // Scroll zu Hash, falls vorhanden
+    if (this.$route.hash) {
+      this.$nextTick(() => {
+        const el = document.querySelector(this.$route.hash);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      });
     }
-  },
+  } catch (err) {
+    console.error("Fehler beim Laden des Registers:", err);
+  }
+},
+
   methods: {
-    entryKey(entry) {
-      return entry.gnd || entry.name;
+    /* Zum Sortieren der Register-Einträge nach Alphabet */
+      compareEntries(a, b) {
+    const collator = new Intl.Collator("de", {
+      sensitivity: "base",
+      numeric: true
+    });
+
+    // PERSONEN: Nachname, Vorname
+    if (this.type === "person") {
+      const nameA = `${a.name || ""} ${a.firstname || ""}`.trim();
+      const nameB = `${b.name || ""} ${b.firstname || ""}`.trim();
+      return collator.compare(nameA, nameB);
     }
+
+    // ORTE & WERKE: Name
+    return collator.compare(a.name || "", b.name || "");
+  }
   }
 };
 </script>

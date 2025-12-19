@@ -1,0 +1,29 @@
+
+{
+  "title": "Sophie von La Roche an Johann Isaak von Gerning",
+  "editor": "Rachel Aimee Georg",
+  "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
+  "date": "27.08.1796",
+  "sender": {
+    "name": "Sophie von La Roche",
+    "gnd": "http://d-nb.info/gnd/118569767",
+    "place": "[Offenbach]",
+    "placeGnd": "http://d-nb.info/gnd/4043359-6"
+  },
+  "recipient": {
+    "name": "Johann Isaak von Gerning",
+    "gnd": "http://d-nb.info/gnd/100143695",
+    "place": "",
+    "placeGnd": ""
+  },
+  "identifier": {
+    "institution": "Freies Deutsches Hochstift Frankfurt",
+    "signature": "Hs-4731"
+  },
+  "object": {
+    "type": "Manuskript",
+    "subtype": "Original",
+    "note": "Absendeort erschlossen"
+  }
+}
+  

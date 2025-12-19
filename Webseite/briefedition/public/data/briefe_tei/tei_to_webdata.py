@@ -7,7 +7,7 @@ for i in range(1, 26):
     transform = etree.XSLT(xsl)
     html = transform(xml)
 
-    open(f"brief{i}.html","w",encoding="utf-8").write(str(html))
+    open(f"../briefe_html/brief{i}.html","w",encoding="utf-8").write(str(html))
 
 
 for i in range(1, 26):
@@ -17,4 +17,4 @@ for i in range(1, 26):
     transform = etree.XSLT(xsl)
     json = transform(xml)
 
-    open(f"brief{i}.json","w",encoding="utf-8").write(str(json))
+    open(f"../briefe_json/brief{i}.json","w",encoding="utf-8").write(str(json))

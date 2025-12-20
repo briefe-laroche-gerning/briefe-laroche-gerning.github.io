@@ -37,6 +37,16 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Dank</term>
+                    <term>Bekanntschaften</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Missbilligung</term>
+                    <term>Trübsinnigkeit</term>
+                    <term>Bitte um Besorgung von Büchern</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

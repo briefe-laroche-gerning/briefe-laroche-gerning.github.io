@@ -38,6 +38,14 @@
                     <placeName ref="http://d-nb.info/gnd/4018118-2">Frankfurt</placeName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Johann Isaak von Gernings Mutter</term>
+                    <term>Trauer</term>
+                    <term>Freundschaft</term>
+                    <term>Kondolenz</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

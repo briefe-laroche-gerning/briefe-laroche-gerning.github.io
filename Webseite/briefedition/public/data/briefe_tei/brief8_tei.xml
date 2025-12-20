@@ -38,6 +38,19 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Kulturgeschichtliches Buch</term>
+                    <term>Biographisches Werk</term>
+                    <term>Philosophischer Text</term>
+                    <term>Brief</term>
+                    <term>Freude</term>
+                    <term>Freundschaft</term>
+                    <term>Ratschlag</term>
+                    <term>Bekanntschaften</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

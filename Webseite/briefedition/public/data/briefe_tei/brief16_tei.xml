@@ -37,6 +37,25 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rückgabe geliehener Literatur</term>
+                    <term>Sendung Brief</term>
+                    <term>Freude</term>
+                    <term>Geschäfte/Verkauf</term>
+                    <term>Sophie von La Roches Werke</term>
+                    <term>Inhalt eigener Werke</term>
+                    <term>Freundschaft</term>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Brief</term>
+                    <term>Reisen</term>
+                    <term>Taunus</term>
+                    <term>Natur</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Zitat Gedicht</term>
+                    <term>Antike griechische Schriftsteller</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

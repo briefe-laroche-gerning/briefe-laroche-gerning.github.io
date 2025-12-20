@@ -39,6 +39,21 @@
                     <placeName ref="http://d-nb.info/gnd/4065105-8">[Weimar]</placeName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Freude</term>
+                    <term>Freundschaft</term>
+                    <term>Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)</term>
+                    <term>Freundschaft mit Wieland</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                    <term>Alter</term>
+                    <term>Politik</term>
+                    <term>Deutschland - Frankreich</term>
+                    <term>Koalitionskriege</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

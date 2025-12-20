@@ -37,6 +37,17 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Krankheit</term>
+                    <term>Trübsinnigkeit</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                    <term>Freundschaft</term>
+                    <term>Koalitionskriege</term>
+                    <term>Revolution</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

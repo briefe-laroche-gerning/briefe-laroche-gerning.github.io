@@ -37,6 +37,19 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Warensendung Literatur</term>
+                    <term>Sendung Brief</term>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Biographisches Werk</term>
+                    <term>Kunst</term>
+                    <term>Philosophischer Text</term>
+                    <term>Politik</term>
+                    <term>Frankreich (Politik)</term>
+                    <term>Zitat philosophischer Text</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

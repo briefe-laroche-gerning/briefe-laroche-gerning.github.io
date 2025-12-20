@@ -37,6 +37,14 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Bitte</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Krankheit</term>
+                    <term>Religion</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

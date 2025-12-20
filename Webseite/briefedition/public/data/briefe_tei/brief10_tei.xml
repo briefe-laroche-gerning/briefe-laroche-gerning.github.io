@@ -21,8 +21,8 @@
                         <objectDesc>
                             <ab type ="type">Manuskript</ab>
                             <ab type ="subtype">Original</ab>
-                        </objectDesc >
-                    </physDesc >
+                        </objectDesc>
+                    </physDesc>
                 </msDesc>
             </sourceDesc >
         </fileDesc>
@@ -37,6 +37,15 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rückgabe geliehener Literatur</term>
+                    <term>Sophie von La Roches Werke</term>
+                    <term>Schaffensprozess</term>
+                    <term>Bekanntschaften</term>
+                    <term>Bitte</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

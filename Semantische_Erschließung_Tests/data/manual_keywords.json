@@ -44,7 +44,7 @@
     ],
     "Politik": {
         "Deutschland": {
-            "innenpolitische Unruhe ": []
+            "Innenpolitische Unruhe": []
         },
         "Revolution": [],
         "Frankreich": [],
@@ -76,6 +76,7 @@
         "Warnung": [],
         "Kondolenz": [],
         "Ratschlag": [],
+        "Empfehlung": [],
         "Bitte": {
             "Bitte um Besorgung": [
                 "Bitte um Besorgung von Büchern"

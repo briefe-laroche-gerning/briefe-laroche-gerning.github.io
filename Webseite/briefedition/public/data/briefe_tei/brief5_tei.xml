@@ -37,6 +37,14 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Bekanntschaften</term>
+                    <term>Bitte um Besorgung von Büchern</term>
+                    <term>Politik</term>
+                    <term>Koalitionskriege</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

@@ -37,6 +37,17 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Sophie von La Roches Werke</term>
+                    <term>Schaffensprozess</term>
+                    <term>Inhalt eigener Werke</term>
+                    <term>Schriftstellerische Tätigkeit als Frau</term>
+                    <term>Erziehung</term>
+                    <term>Bekanntschaften</term>
+                    <term>Bitte um Besorgung von Büchern</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

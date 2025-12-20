@@ -37,6 +37,17 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Verliebtheit Gernings</term>
+                    <term>Ratschlag</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Freundschaft</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

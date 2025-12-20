@@ -37,6 +37,13 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rücksendung Brief</term>
+                    <term>Trübsinnigkeit</term>
+                    <term>Bekanntschaften</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

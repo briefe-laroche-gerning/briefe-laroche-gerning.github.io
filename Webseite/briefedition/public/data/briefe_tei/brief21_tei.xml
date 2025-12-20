@@ -38,6 +38,17 @@
                     <placeName ref="http://d-nb.info/gnd/4065105-8">Weimar</placeName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Bitte um Weitersendung von Briefen</term>
+                    <term>Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                    <term>Freundschaft</term>
+                    <term>Bekanntschaften</term>
+                    <term>Sophie von La Roches Kinder</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

@@ -1,19 +1,18 @@
 Brief 1:
 - Ausflug
-- Familie
--- Enkel
+-- Sophie von La Roches Enkel*innen
 - Sophie von La Roches Werke
 - Bitte um Besorgung
 
 
 Brief 2:
 - Rezeption anderer Werke
--- philosophische Texte
+-- Philosophischer Text
 - Sophie von La Roches Werke
 -- Inhalt eigener Werke
 - Bekanntschaften
 - Politik
--- innenpolitische Unruhe
+-- Innenpolitische Unruhe
 - Warnung
 - Freundschaft
 
@@ -31,7 +30,7 @@ Brief 3:
 Brief 4:
 - Freundschaft
 - Verliebtheit Gernings
-- ästhetischer Sprachgebrauch
+- Ästhetischer Sprachgebrauch
 - Streit
 - Lob
 - Ratschlag
@@ -47,29 +46,26 @@ Brief 5:
 Brief 6:
 - Verliebtheit Gernings
 - Ratschlag
-- ästhetischer Sprachgebrauch
-- Familie
--- Enkel
+- Ästhetischer Sprachgebrauch
+-- Sophie von La Roches Enkel*innen
 - Freundschaft
 - Reisen
--- innerhalb Deutschlands
+- Deutschland
 
 
 Brief 7:
-- Familie
--- Gernings Mutter
-- Tod
+-- Johann Isaak von Gernings Mutter
 - Trauer
 - Freundschaft
-- Kondoleszens
+- Kondolenz
 
 
 Brief 8:
 - Rezeption anderer Werke
--- kulturgeschichtliches Buch
--- biographisches Werk
--- philosophischer Text
--- Briefe
+-- Kulturgeschichtliches Buch
+-- Biographisches Werk
+-- Philosophischer Text
+-- Brief
 - Freude
 - Freundschaft
 - Ratschlag
@@ -79,14 +75,12 @@ Brief 8:
 Brief 9:
 - Warensendung
 - Freundschaft
-- Gernings Werke
--- Dichtung
+- Johann Isaak von Gernings Dichtung
 - Bekanntschaften
 
 
 Brief 10:
-- Warensendung
--- Rückgabe geliehenes Buch
+-- Rückgabe geliehener Literatur
 - Sophie von La Roches Werke
 -- Schaffensprozess
 - Bekanntschaften
@@ -97,10 +91,9 @@ Brief 11:
 - Freude
 - Dank
 - Bekanntschaften
-- Privates
 -- Personal/Dienstleister
 - Empfehlung
-- antike Schriftsteller (griechisch)
+- Antike griechische Schriftsteller
 
 
 Brief 12:
@@ -114,15 +107,15 @@ Brief 13:
 - Freundschaft
 - Politik
 -- Frankreich
-- ästhetischer Sprachgebrauch
-- antike Schriftsteller (griechisch)
+- Ästhetischer Sprachgebrauch
+- Antike griechische Schriftsteller
 
 
 Brief 14:
 - Krankheit
 - Trübsinnigkeit
 - Reisen
--- innerhalb Deutschlands
+-- Deutschland
 - Freundschaft
 - Koalitionskriege
 - Revolution
@@ -133,17 +126,15 @@ Brief 15:
 - Rezeption anderer Werke
 - Sophie von La Roches Werke
 -- Inhalt eigener Werke
-- Garten und Haus
-- Zitat
--- Gedicht
+- Haus und Garten
+- Zitat Gedicht
 - Bekanntschaften
 - Lob
 - Geschäfte/Verkauf
 
 
 Brief 16:
-- Warensendung
--- Rückgabe geliehenes Buch
+-- Rückgabe geliehener Literatur
 -- Sendung Brief
 - Freude
 - Geschäfte/Verkauf
@@ -151,28 +142,25 @@ Brief 16:
 -- Inhalt eigener Werke
 - Freundschaft
 - Rezeption anderer Werke
--- Briefe
+-- Brief
 - Reisen
 -- Taunus
--- Natur'
-- ästhetischer Sprachgebrauch
-- Zitat
--- Gedicht
-- antike Schriftsteller (griechisch)
+-- Natur
+- Ästhetischer Sprachgebrauch
+- Zitat Gedicht
+- Antike griechische Schriftsteller
 
 
 Brief 17:
-- Warensendung
--- Literatur
+-- Warensendung Literatur
 -- Sendung Brief
 - Rezeption anderer Werke
--- biographisches Werk
+-- Biographisches Werk
 -- Kunst
--- philosophischer Text
+-- Philosophischer Text
 - Politik
 -- Frankreich
-- Zitat
--- philosophischer Text
+- Zitat philosophischer Text
 
 
 Brief 18:
@@ -189,7 +177,6 @@ Brief 19:
 - Sophie von La Roches Werke
 -- Schaffensprozess
 -- Rezeption eigener Werke
-- Familie
 -- Sophie von La Roches Enkel*innen
 - Weimarer Viergestirn
 - Freundschaft
@@ -199,26 +186,23 @@ Brief 20:
 - Freude
 - Freundschaft
 - Weimarer Viergestirn
-- Wieland
+- Freundschaft mit Wieland
 - Reisen
--- innerhalb Deutschlands
+-- Deutschland
 - Alter
 - Politik
--- Frankreich - Deutschland
+-- Deutschland - Frankreich
 -- Koalitionskriege
-- Familie
 -- Sophie von La Roches Enkel*innen
 
 
 Brief 21:
-- Bitte
 -- Bitte um Weitersendung von Briefen
 - Weimarer Viergestirn
 - Reisen
--- innerhalb Deutschlands
+-- Deutschland
 - Freundschaft
 - Bekanntschaften
-- Familie
 -- Sophie von La Roches Kinder
 
 
@@ -228,9 +212,8 @@ Brief 22:
 - Freundschaft
 - Bekanntschaften
 - Politik
-- Italien
+- Italien (Reisen)
 - Natur
-- Bitte
 -- Bitte um Besorgung von Büchern
 
 
@@ -249,15 +232,13 @@ Brief 24:
 - Bekanntschaften
 - Missbilligung
 - Sophie von La Roches Enkel*innen
-- Wieland
+- Freundschaft mit Wieland
 - Bitte
-- Gernings Werke
--- Dichtung
+- Johann Isaak von Gernings Dichtung
 
 
 Brief 25:
 - Bitte
-- Familie
 -- Sophie von La Roches Enkel*innen
 - Krankheit
 - Religion

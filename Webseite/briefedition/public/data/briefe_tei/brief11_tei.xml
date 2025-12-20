@@ -38,6 +38,16 @@
                     <placeName ref="http://d-nb.info/gnd/4018118-2">Frankfurt</placeName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Freude</term>
+                    <term>Dank</term>
+                    <term>Bekanntschaften</term>
+                    <term>Personal/Dienstleister</term>
+                    <term>Empfehlung</term>
+                    <term>Antike griechische Schriftsteller</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

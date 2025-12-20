@@ -37,6 +37,16 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Freundschaft</term>
+                    <term>Verliebtheit Gernings</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Streit</term>
+                    <term>Lob</term>
+                    <term>Ratschlag</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

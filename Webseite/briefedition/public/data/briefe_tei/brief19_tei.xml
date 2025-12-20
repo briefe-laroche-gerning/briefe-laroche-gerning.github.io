@@ -37,6 +37,17 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Haus und Garten</term>
+                    <term>Sophie von La Roches Werke</term>
+                    <term>Schaffensprozess</term>
+                    <term>Rezeption eigener Werke</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)</term>
+                    <term>Freundschaft</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

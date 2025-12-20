@@ -38,6 +38,19 @@
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                 </correspAction>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Philosophischer Text</term>
+                    <term>Sophie von La Roches Werke</term>
+                    <term>Inhalt eigener Werke</term>
+                    <term>Bekanntschafteny</term>
+                    <term>Politik</term>
+                    <term>Innenpolitische Unruhe</term>
+                    <term>Warnung</term>
+                    <term>Freundschaft</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader >
     <facsimile>

@@ -2,13 +2,17 @@
   <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 <div class="single-letter-page">
 <div class="row justify-content-center">
-  <div class="col-sm-10">
-      <h1>Brief vom xx.xx.xxxx</h1>
-      <p>Bestandshaltende Institution:</p>
-      <p>Signatur:</p>
-      <p>TEI-Download</p>
-      <p>TXT Download</p>
+<div class="col-sm-10">
+  <h3>Brief vom {{ metadata?.date || '' }}</h3>
+  <p><b>Bestandshaltende Institution:</b> {{ metadata?.identifier?.institution || '' }}</p>
+  <p><b>Signatur:</b> {{ metadata?.identifier?.signature || '' }}</p>
+  <p>
+  <a :href="`/data/briefe_tei/brief${nr}_tei.xml`" target="_blank">TEI-Download</a>
+</p>
+
+  <p>TXT Download</p>
 </div>
+
   </div>
 
 
@@ -107,6 +111,8 @@ export default {
         21: 4, 22: 6, 23: 4, 24: 4, 25: 1
       },
 
+      metadata: null, // die Meta-Daten aus brief{i}.json
+
       personenRegister: {},
       ortsRegister: {},
       werkRegister: {},
@@ -180,6 +186,7 @@ export default {
 
     async loadLetter() {
       await this.loadHtml();
+      await this.loadMetadata();
       this.loadImages();
     },
 
@@ -198,6 +205,18 @@ export default {
 
       this.loading = false;
     },
+
+    /* Laden der Meta-Daten aus brief{i}.json */
+    async loadMetadata() {
+  try {
+    const response = await fetch(`/data/briefe_json/brief${this.nr}.json`);
+    if (!response.ok) throw new Error("JSON-Datei nicht gefunden");
+    this.metadata = await response.json();
+  } catch (error) {
+    console.error(error);
+    this.metadata = null;
+  }
+},
 
     loadImages() {
       const numImages = this.briefPages[this.nr] || 0;
@@ -392,6 +411,17 @@ async initTooltips() {
 .single-letter-page {
   margin-bottom: 4rem;
 }
+
+/* Metadaten (Kopf der Seite) */
+.single-letter-page .col-sm-10 p {
+  margin: 0;
+}
+.single-letter-page .col-sm-10 h3 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+
 
 
 

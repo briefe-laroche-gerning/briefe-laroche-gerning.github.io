@@ -18,16 +18,17 @@
       <div class="col-md-8">
         <label>Keywords</label>
         <div class="keyword-filter">
-          <span
-            v-for="kw in allKeywords"
-            :key="kw"
-            class="keyword-badge"
-            :class="{ active: selectedKeywords.includes(kw) }"
-            @click="toggleKeyword(kw)"
-          >
-            {{ kw }}
-          </span>
-        </div>
+  <span
+    v-for="kw in ALL_KEYWORDS"
+    :key="kw"
+    class="keyword-badge"
+    :class="[ 'kw-' + KEYWORD_CATEGORIES[kw], { active: selectedKeywords.includes(kw) } ]"
+    @click="toggleKeyword(kw)"
+  >
+    {{ kw }}
+  </span>
+</div>
+
       </div>
     </div>
 
@@ -56,7 +57,7 @@
         </div>
 
         <!-- Datum, Absendeort, Empfangsort -->
-        <div class="col-sm-4 meta">
+        <div class="col-sm-3 meta">
             <div class="date">
               Datum: {{ letter.date }}
             </div>
@@ -67,15 +68,17 @@
         </div>
 
         <!-- Keywords -->
-        <div class="col-sm-5">
+        <div class="col-sm-7">
           <div class="keywords">
-            <span
-              v-for="kw in letter.keywords"
-              :key="kw.label"
-              class="keyword-badge"
-            >
-              {{ kw.label }}
-            </span>
+<span
+  v-for="kw in letter.keywords"
+  :key="kw.label"
+  class="keyword-badge"
+  :class="'kw-' + keywordCategory(kw.label)"
+>
+  {{ kw.label }}
+</span>
+
           </div>
         </div>
 
@@ -87,6 +90,8 @@
 
 
 <script>
+import { KEYWORD_CATEGORIES, ALL_KEYWORDS } from "./keyword_categories.js";
+
 export default {
   data() {
     return {
@@ -102,17 +107,16 @@ export default {
   },
 
   computed: {
+
+    ALL_KEYWORDS() {
+      return ALL_KEYWORDS;
+    },
+    KEYWORD_CATEGORIES() {
+      return KEYWORD_CATEGORIES;
+    },
     /* ===== verfügbare Jahre ===== */
     years() {
       return ["1795", "1796", "1797", "[1797]", "1798", "1799", "1800"];
-    },
-
-    /* ===== alle Keywords ===== */
-    allKeywords() {
-      const kws = this.letters.flatMap(l =>
-        l.keywords?.map(k => k.label) || []
-      );
-      return [...new Set(kws)].sort();
     },
 
     /* ===== gefilterte Briefe ===== */
@@ -150,6 +154,10 @@ if (this.selectedYear) {
   // sucht entweder yyyy oder [yyyy] in Datumsangabe des Briefs
   const match = date.match(/\[?\d{4}\]?$/);
   return match ? match[0] : null;
+},
+/* Get keyword kategory from list */
+keywordCategory(label) {
+  return KEYWORD_CATEGORIES[label] || "default";
 }
   }
 };
@@ -203,4 +211,99 @@ if (this.selectedYear) {
   flex-wrap: wrap;
   gap: 0.4rem;
 }
+
+
+
+
+
+
+
+/* ===== Keyword-Kategorien ===== */
+
+.kw-literatur {
+  background-color: #ca07076d;
+}
+
+.kw-literatur_oberkategorie {
+  background-color: #ad2601;
+  color: #ffffff;
+}
+
+.kw-beziehungen {
+  background-color: #ff8c0081;
+}
+
+.kw-beziehungen_oberkategorie {
+  background-color: #f98800;
+  color: #ffffff;
+}
+
+.kw-persoenliches {
+  background-color: #044c8b88;
+}
+
+.kw-persoenliches_oberkategorie {
+  background-color: #044b8b;
+  color: #ffffff;
+}
+
+.kw-politik {
+  background-color: #6c0f7c82;
+}
+
+.kw-politik_oberkategorie {
+  background-color: #6b0f7c;
+  color: #ffffff;
+}
+
+.kw-reisen {
+  background-color: #3ea06d86;
+}
+
+.kw-reisen_oberkategorie {
+  background-color: #3ea06d;
+  color: #ffffff;
+}
+
+.kw-emotion {
+  background-color: #dbd4018d;
+}
+
+.kw-emotion_oberkategorie {
+  background-color: #edca05df;
+  color: #ffffff;
+}
+
+.kw-sprechakt {
+  background-color: #f9bf0084;
+}
+
+.kw-sprechakt_oberkategorie {
+  background-color: #F9C000;
+  color: #ffffff;
+}
+
+.kw-warensendung {
+  background-color: #e2037288;
+}
+
+.kw-warensendung_oberkategorie {
+  background-color: #e20372;
+  color: #ffffff;
+}
+
+.kw-zitat {
+  background-color: #753b0896;
+}
+
+.kw-zitat_oberkategorie {
+  background-color: #753b08;
+  color: #ffffff;
+}
+
+/* Fallback */
+.kw-default {
+  background-color: #383d41;
+}
+
 </style>

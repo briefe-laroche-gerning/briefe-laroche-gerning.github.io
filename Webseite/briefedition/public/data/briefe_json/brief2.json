@@ -1,4 +1,3 @@
-
 {
   "title": "Sophie von La Roche an Johann Isaak von Gerning",
   "editor": "Rachel Aimee Georg",
@@ -24,6 +23,35 @@
     "type": "Manuskript",
     "subtype": "Original",
     "note": "Absendeort erschlossen"
-  }
+  },
+  "keywords": [
+    {
+      "label": "Rezeption anderer Werke"
+    },
+    {
+      "label": "Philosophischer Text"
+    },
+    {
+      "label": "Sophie von La Roches Werke"
+    },
+    {
+      "label": "Inhalt eigener Werke"
+    },
+    {
+      "label": "Bekanntschafteny"
+    },
+    {
+      "label": "Politik"
+    },
+    {
+      "label": "Innenpolitische Unruhe"
+    },
+    {
+      "label": "Warnung"
+    },
+    {
+      "label": "Freundschaft"
+    }
+  ],
+  "nr": 2
 }
-  

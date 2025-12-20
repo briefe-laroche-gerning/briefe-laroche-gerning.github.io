@@ -1,4 +1,3 @@
-
 {
   "title": "Sophie von La Roche an Johann Isaak von Gerning",
   "editor": "Rachel Aimee Georg",
@@ -24,6 +23,41 @@
     "type": "Manuskript",
     "subtype": "Abschrift",
     "note": "Absendeort sowie Empfangsort erschlossen"
-  }
+  },
+  "keywords": [
+    {
+      "label": "Freude"
+    },
+    {
+      "label": "Freundschaft"
+    },
+    {
+      "label": "Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)"
+    },
+    {
+      "label": "Freundschaft mit Wieland"
+    },
+    {
+      "label": "Reisen"
+    },
+    {
+      "label": "Deutschland (Reisen)"
+    },
+    {
+      "label": "Alter"
+    },
+    {
+      "label": "Politik"
+    },
+    {
+      "label": "Deutschland - Frankreich"
+    },
+    {
+      "label": "Koalitionskriege"
+    },
+    {
+      "label": "Sophie von La Roches Enkel*innen"
+    }
+  ],
+  "nr": 20
 }
-  

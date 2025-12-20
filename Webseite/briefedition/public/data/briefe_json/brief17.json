@@ -1,4 +1,3 @@
-
 {
   "title": "Sophie von La Roche an Johann Isaak von Gerning",
   "editor": "Rachel Aimee Georg",
@@ -24,6 +23,35 @@
     "type": "Manuskript",
     "subtype": "Original",
     "note": ""
-  }
+  },
+  "keywords": [
+    {
+      "label": "Warensendung Literatur"
+    },
+    {
+      "label": "Sendung Brief"
+    },
+    {
+      "label": "Rezeption anderer Werke"
+    },
+    {
+      "label": "Biographisches Werk"
+    },
+    {
+      "label": "Kunst"
+    },
+    {
+      "label": "Philosophischer Text"
+    },
+    {
+      "label": "Politik"
+    },
+    {
+      "label": "Frankreich (Politik)"
+    },
+    {
+      "label": "Zitat philosophischer Text"
+    }
+  ],
+  "nr": 17
 }
-  

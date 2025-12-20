@@ -1,4 +1,3 @@
-
 {
   "title": "Sophie von La Roche an Johann Isaak von Gerning",
   "editor": "Rachel Aimee Georg",
@@ -24,6 +23,26 @@
     "type": "Manuskript",
     "subtype": "Original",
     "note": "Absendeort erschlossen, Datum (Jahr) durch Archiv erschlossen"
-  }
+  },
+  "keywords": [
+    {
+      "label": "Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)"
+    },
+    {
+      "label": "Freundschaft"
+    },
+    {
+      "label": "Politik"
+    },
+    {
+      "label": "Frankreich (Politik)"
+    },
+    {
+      "label": "Ästhetischer Sprachgebrauch"
+    },
+    {
+      "label": "Antike griechische Schriftsteller"
+    }
+  ],
+  "nr": 13
 }
-  

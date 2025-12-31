@@ -5,29 +5,36 @@
 
     <!-- ===== Filter ===== -->
     <div class="filters row mb-4">
-      <div class="col-md-4">
-        <label>Jahr</label>
+      <div class="col-md-12">
+        <h5>Jahr</h5>
         <select v-model="selectedYear" class="form-select">
           <option value="">Alle</option>
           <option v-for="year in years" :key="year" :value="year">
             {{ year }}
           </option>
         </select>
-      </div>
 
-      <div class="col-md-8">
-        <label>Keywords</label>
-        <div class="keyword-filter">
-  <span
-    v-for="kw in ALL_KEYWORDS"
-    :key="kw"
-    class="keyword-badge"
-    :class="[ 'kw-' + KEYWORD_CATEGORIES[kw], { active: selectedKeywords.includes(kw) } ]"
-    @click="toggleKeyword(kw)"
+<br>
+
+        <h5>Keywords</h5>
+      <div class="keyword-filter">
+  <div
+    v-for="(group, groupKey) in keywordGroups"
+    :key="groupKey"
+    class="keyword-group"
   >
-    {{ kw }}
-  </span>
+    <span
+      v-for="kw in group"
+      :key="kw.label"
+      class="keyword-badge"
+      :class="[kw.cssClass, { active: selectedKeywords.includes(kw.label) }]"
+      @click="toggleKeyword(kw.label)"
+    >
+      {{ kw.label }}
+    </span>
+  </div>
 </div>
+
 
       </div>
     </div>
@@ -90,14 +97,15 @@
 
 
 <script>
-import { KEYWORD_CATEGORIES, ALL_KEYWORDS } from "./keyword_categories.js";
+import { KEYWORD_CATEGORIES, ALL_KEYWORDS, KEYWORD_TREE } from "./keyword_categories.js";
 
 export default {
   data() {
     return {
       letters: [],
       selectedYear: "",
-      selectedKeywords: []
+      selectedKeywords: [],
+      selectedCategories: []
     };
   },
 
@@ -114,40 +122,134 @@ export default {
     KEYWORD_CATEGORIES() {
       return KEYWORD_CATEGORIES;
     },
+ keywordGroups() {
+    const groups = {};
+
+    for (const [label, cls] of Object.entries(KEYWORD_CATEGORIES)) {
+      // Basis-Gruppe bestimmen (literatur, politik, reisen, …)
+      const groupKey = cls.replace('_oberkategorie', '');
+
+      if (!groups[groupKey]) {
+        groups[groupKey] = [];
+      }
+
+      groups[groupKey].push({
+        label,
+        cssClass: 'kw-' + cls,
+        isTopLevel: cls.endsWith('_oberkategorie')
+      });
+    }
+
+    // optional: Oberkategorie innerhalb der Gruppe nach vorne
+    Object.values(groups).forEach(group => {
+      group.sort((a, b) => b.isTopLevel - a.isTopLevel);
+    });
+
+    return groups;
+  },
+  filterKeywords() {
+    return Object.keys(KEYWORD_CATEGORIES).map(label => ({
+      label,
+      cssClass: 'kw-' + KEYWORD_CATEGORIES[label],
+      isTopLevel: KEYWORD_CATEGORIES[label].endsWith('_oberkategorie')
+    }));
+  },
+
+
+
     /* ===== verfügbare Jahre ===== */
     years() {
       return ["1795", "1796", "1797", "[1797]", "1798", "1799", "1800"];
     },
 
     /* ===== gefilterte Briefe ===== */
-    filteredLetters() {
-      return this.letters.filter(letter => {
+   filteredLetters() {
+  return this.letters.filter(letter => {
 
-        /* Jahr */
-if (this.selectedYear) {
-  const year = this.extractYear(letter.date);
-  if (year !== this.selectedYear) return false;
+    /* ===== Jahr ===== */
+    if (this.selectedYear) {
+      const year = this.extractYear(letter.date);
+      if (year !== this.selectedYear) return false;
+    }
+
+    /* ===== Keywords (rekursiv!) ===== */
+    if (this.selectedKeywords.length) {
+
+      const letterKeywordLabels =
+        letter.keywords?.map(k => k.label) || [];
+
+      // für jedes aktive Filter-Keyword
+      for (const filterLabel of this.selectedKeywords) {
+
+        const node = this.findNodeByLabel(KEYWORD_TREE, filterLabel);
+
+        // alle passenden Keywords unter diesem Knoten
+        const allowedKeywords = node
+          ? this.collectKeywords(node)
+          : [filterLabel];
+
+        // Brief muss mindestens eines davon enthalten
+        const matches = allowedKeywords.some(kw =>
+          letterKeywordLabels.includes(kw)
+        );
+
+        if (!matches) return false;
+      }
+    }
+
+    return true;
+  });
 }
 
-        /* Keywords */
-        if (this.selectedKeywords.length) {
-          const letterKeywords = letter.keywords?.map(k => k.label) || [];
-          if (!this.selectedKeywords.every(k => letterKeywords.includes(k))) {
-            return false;
-          }
-        }
 
-        return true;
-      });
-    }
   },
 
   methods: {
-    toggleKeyword(kw) {
-      const i = this.selectedKeywords.indexOf(kw);
-      if (i === -1) this.selectedKeywords.push(kw);
-      else this.selectedKeywords.splice(i, 1);
-    },
+    /* Sammelt alle Keywords unter einem Knoten in der Hierarchie (einer Oberkategorie) */
+/* Sammelt alle Labels unter einem Knoten inklusive des Knotens selbst */
+collectKeywords(node, result = []) {
+  if (!node) return result;
+
+  // Knoten-Label hinzufügen (falls vorhanden)
+  if (node.label) {
+    result.push(node.label);
+  }
+
+  // Wenn es Kinder gibt, rekursiv sammeln
+  if (node.children) {
+    Object.values(node.children).forEach(child =>
+      this.collectKeywords(child, result)
+    );
+  }
+
+  return result;
+},
+
+/* Mapped Oberkategorie auf Knoten im Baum */
+findNodeByLabel(tree, label) {
+  for (const node of Object.values(tree)) {
+    if (node.label === label) return node;
+
+    if (node.children) {
+      const found = this.findNodeByLabel(node.children, label);
+      if (found) return found;
+    }
+  }
+  return null;
+},
+
+
+      toggleKeyword(kw) {
+    const i = this.selectedKeywords.indexOf(kw);
+    if (i === -1) this.selectedKeywords.push(kw);
+    else this.selectedKeywords.splice(i, 1);
+  },
+
+  toggleCategory(cat) {
+    const i = this.selectedCategories.indexOf(cat);
+    if (i === -1) this.selectedCategories.push(cat);
+    else this.selectedCategories.splice(i, 1);
+  },
     extractYear(date) {
   if (!date) return null;
 
@@ -191,19 +293,45 @@ keywordCategory(label) {
   gap: 0.4rem;
 }
 
-/* ===== Keyword Badges ===== */
-.keyword-badge {
-  background: #eee;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.4rem;
-  font-size: 0.8rem;
-  cursor: pointer;
+.h5 {
+  font-weight: bold;
 }
+
+/* ===== Keyword Badges ===== */
+.keyword-filter {
+  display: flex;
+  flex-direction: column; /* jede Gruppe untereinander */
+  gap: 0.6rem; /* Abstand zwischen Oberkategorien */
+}
+
+.keyword-group {
+  display: flex;
+  flex-wrap: wrap; /* Unterkeywords in der Gruppe umbrechen */
+  gap: 0.4rem;    /* Abstand zwischen Unterkeywords */
+}
+
+.keyword-badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  white-space: nowrap; /* verhindert, dass der Text umbricht */
+}
+
+.keyword-badge.oberkategorie {
+  font-weight: bold;
+  margin-right: 0.5rem; /* etwas Abstand zu Unterkeywords */
+}
+
+
+
 
 .keyword-badge.active {
   background: #333;
   color: white;
 }
+
+
 
 /* Filter */
 .keyword-filter {
@@ -211,6 +339,8 @@ keywordCategory(label) {
   flex-wrap: wrap;
   gap: 0.4rem;
 }
+
+
 
 
 
@@ -301,9 +431,9 @@ keywordCategory(label) {
   color: #ffffff;
 }
 
-/* Fallback */
-.kw-default {
-  background-color: #383d41;
+.kw-andere {
+  background-color: gray;
+  color: #ffffff;
 }
 
 </style>

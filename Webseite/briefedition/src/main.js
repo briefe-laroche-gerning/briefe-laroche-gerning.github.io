@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Z.B. für Carousel, Popper
-
 
 import "@fancyapps/ui/dist/fancybox/fancybox.css";   // Für Galerieoptionen (Rotieren etc. bei den Faksimiles)
 import { Fancybox } from "@fancyapps/ui";

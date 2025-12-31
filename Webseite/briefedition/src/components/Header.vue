@@ -8,7 +8,7 @@
         Home
       </router-link>
 
-      <!-- Mobile Toggler /Hamburgermenü in mobilder Ansicht, um Platz zu sparen)-->
+      <!-- Mobile Toggler/Hamburgermenü in mobilder Ansicht -->
       <button 
         class="navbar-toggler" 
         type="button" 
@@ -28,16 +28,29 @@
                   Briefe
                 </router-link>
             </li>
-            <li class="nav-item dropdown">  
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                Register
-              </a>
-                <ul class="dropdown-menu">
-                    <li><router-link class="dropdown-item" to="/personenregister">Personen</router-link></li>
-                    <li><router-link class="dropdown-item" to="/ortsregister">Orte</router-link></li>
-                    <li><router-link class="dropdown-item" to="/werkregister">Werke</router-link></li>
-                </ul>
-            </li>
+ <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Register
+  </a>
+
+  <ul class="dropdown-menu">
+    <li>
+      <router-link class="dropdown-item" to="/personenregister">Personen</router-link>
+    </li>
+    <li>
+      <router-link class="dropdown-item" to="/ortsregister">Orte</router-link>
+    </li>
+    <li>
+      <router-link class="dropdown-item" to="/werkregister">Werke</router-link>
+    </li>
+  </ul>
+</li>
+
             <li class="nav-item">
                 <router-link to="/about" class="nav-link">
                   Über diese Edition

@@ -2,6 +2,13 @@
   <div class="home">
 
     <div class="row justify-content-center align-items-center">
+      <div class="col-9 text-center">
+        <h1>Die Briefe Sophie von La Roches an Johann Isaak von Gerning (1795-1800)</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center">
+
 
       <!-- Bild von Sophie von La Roche -->
       <div class="col-sm-3 text-center">

@@ -1,9 +1,11 @@
 from os.path import join, dirname, abspath
-
 import glob
+
 from sklearn.feature_extraction.text import CountVectorizer
 import yake
 from keybert import KeyBERT
+
+from help import fix_hyphenation, sort_letters
 
 
 # folder with keywords.py
@@ -82,11 +84,16 @@ def keybert_keyword_extraction_diverse(text):
 
 def main():
 
+    letters = glob.glob(letters_folder) # glob does not sort the files in the directory
+    sorted_letters = sort_letters(letters)
+
     i=1
-    for textfile in glob.glob(letters_folder):
+    for textfile in sorted_letters:
     
         with open(textfile, "r", encoding="utf-8") as f:
             text = f.read()
+            text = fix_hyphenation(text)
+            print(text)
 
             print(f"Keywords extracted with YAKE for brief{i}")
             yake_keywords = yake_keyword_extraction(text)

@@ -511,7 +511,6 @@ vom
 von
 vor
 w
-wahr?
 während
 währenddem
 währenddessen
@@ -614,4 +613,5 @@ les
 ses
 le
 la
+adieu
 

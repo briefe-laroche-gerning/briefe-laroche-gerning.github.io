@@ -91,6 +91,7 @@ dein
 deine
 deinem
 deiner
+deinen
 dem
 dementsprechend
 demgegenüber
@@ -270,9 +271,7 @@ ihren
 ihrer
 ihres
 im
-im
 immer
-in
 in
 indem
 infolgedessen
@@ -482,6 +481,7 @@ tel
 tritt
 trotzdem
 tun
+thun
 u
 über
 überhaupt
@@ -494,6 +494,9 @@ uns
 unser
 unsere
 unserer
+unßer
+unßere
+unßerer
 unter
 v
 vergangenen
@@ -603,10 +606,13 @@ zwey
 dieß
 dieße
 dießes
+dießen
+dießem
 neffe
 tante
 gerning
 laroche
+laRoche
 la
 roche
 les

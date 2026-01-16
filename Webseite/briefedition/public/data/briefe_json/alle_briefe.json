@@ -126,7 +126,7 @@
     },
     "keywords": [
       {
-        "label": "Sophie von La Roches Werke"
+        "label": "Rezeption eigener Werke"
       },
       {
         "label": "Schaffensprozess"
@@ -235,6 +235,9 @@
       },
       {
         "label": "Koalitionskriege"
+      },
+      {
+        "label": "Dank"
       }
     ],
     "nr": 5
@@ -427,6 +430,9 @@
       },
       {
         "label": "Bekanntschaften"
+      },
+      {
+        "label": "Schriftsteller-/Dichterkreis"
       }
     ],
     "nr": 9
@@ -559,6 +565,9 @@
       },
       {
         "label": "Bekanntschaften"
+      },
+      {
+        "label": "Freude"
       }
     ],
     "nr": 12
@@ -696,9 +705,6 @@
         "label": "Rezeption anderer Werke"
       },
       {
-        "label": "Sophie von La Roches Werke"
-      },
-      {
         "label": "Inhalt eigener Werke"
       },
       {
@@ -759,9 +765,6 @@
         "label": "Geschäfte/Verkauf"
       },
       {
-        "label": "Sophie von La Roches Werke"
-      },
-      {
         "label": "Inhalt eigener Werke"
       },
       {
@@ -781,6 +784,9 @@
       },
       {
         "label": "Natur"
+      },
+      {
+        "label": "Ausflug"
       },
       {
         "label": "Ästhetischer Sprachgebrauch"
@@ -1053,7 +1059,7 @@
         "label": "Deutschland (Reisen)"
       },
       {
-        "label": "Freundschaft"
+        "label": "Freundschaft mit Wieland"
       },
       {
         "label": "Bekanntschaften"

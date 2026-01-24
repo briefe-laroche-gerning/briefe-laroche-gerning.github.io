@@ -132,7 +132,7 @@ export const KEYWORD_TREE = {
   },
 
   beziehungen: {
-    label: "Geselligkeit / Beziehungen",
+    label: "Geselligkeit/Beziehungen",
     color: "beziehungen",
     children: {
       freundschaft: {

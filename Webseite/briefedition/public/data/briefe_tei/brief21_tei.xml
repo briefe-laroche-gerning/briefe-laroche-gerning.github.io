@@ -36,6 +36,7 @@
                 <correspAction type="received">
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
                     <placeName ref="http://d-nb.info/gnd/4065105-8">Weimar</placeName>
+                    <date when="1799-09-05">05.09.1799</date>
                 </correspAction>
             </correspDesc>
             <textClass>

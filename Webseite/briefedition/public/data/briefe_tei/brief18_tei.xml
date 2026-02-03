@@ -35,6 +35,7 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1798-10-05">05.10.1798</date>
                 </correspAction>
             </correspDesc>
             <textClass>

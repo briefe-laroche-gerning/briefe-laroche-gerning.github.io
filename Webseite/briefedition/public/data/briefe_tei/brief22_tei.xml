@@ -59,6 +59,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 <placeName key="ort1">offenbach</placeName> den 19 Fbr 1800<lb/>
                 <lb/>
@@ -84,6 +85,8 @@
                 werde?<lb/>
                 <name type="work" key="werk20">Schatten risse merkwürdiger tage 1799</name> – mehr<lb/>
                 wird es nicht seyn<lb/>
+                </div>
+                <div>
                 [2]
                 daß <hi rend="underline" n="1">Sie</hi>, und der mir so Schäzbare <persName key="person58">Böttiger</persName><lb/>
                 klagen, daß nicht mehr eigenthümliche züge<lb/>
@@ -107,6 +110,8 @@
                 welches <hi rend="underline" n="1">Sie</hi> zu der beurteilung von <persName key="person48">Madame Schlosser</persName><lb/>
                 leitete - - - Ihnen spitze Feedern gaab,<lb/>
                 und stark geschwärzte tinte aufgoß<lb/>
+                </div>
+                <div>
                 [3]
                 ach Gerning! sage ich – sonst nichts –<lb/>
                 <persName key="person58">H Böttiger</persName> sagen Sie – daß Er für die edle<lb/>
@@ -130,6 +135,8 @@
                 oft dachte ich an <hi rend="underline" n="1">Sie</hi> nie hörte ich, nie<lb/>
                 laß ich, den nahmen <placeName key="ort23"><hi rend="underline" n="1"><hi rend="latintype">Neapel</hi></hi></placeName> – ohne rührung<lb/>
                 ohne tränen, <hi rend="underline" n="1">u</hi> wünsche<lb/>
+                </div>
+                <div>
                 [4]
                 O der schöne Brief, den von <persName key="person63">Sanna Huth</persName> aus <placeName key="ort27">Rom</placeName><lb/>
                 erhielt – kein wizigs, aber ein großes weißes weßen –<lb/>
@@ -163,6 +170,8 @@
                 v. Kalb</persName>? weil ein<lb/>
                 keine antwort er<lb/>
                 hielt –<lb/>
+                </div>
+                <div>
                 [5]
                 <note type="annotation" resp="recipient"><placeName key="ort1">Offenbach</placeName><lb/>
                 <unclear>x</unclear> 19ter febr<lb/>
@@ -170,6 +179,7 @@
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. 1<hi rend="sup">ten</hi> Merz.<lb/>
                 b <unclear>x</unclear> 18ten</hi></note><lb/>
+                </div>
             </div>
         </body>
     </text>

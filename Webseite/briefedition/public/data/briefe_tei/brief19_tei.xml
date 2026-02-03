@@ -57,6 +57,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 La Roche an Gerning<lb/>
                 <placeName key="ort1">Offenbach</placeName> d. 31 Xbr. 98.<lb/>
@@ -85,6 +86,8 @@
                 d Sie zu viel sagten, und nun nichts mehr davon!<lb/>
                 die wohlwollenden Grüsse von <persName key="person6">Wieland</persName>, <persName key="person5">Herder</persName>, <persName key="person33">Göthe</persName><lb/>
                 u.s.w. machten mir große Freude. die Aussicht, welche der<lb/>
+                </div>
+                <div>
                 [2]
                 morgende Tag mir auf schöne Tage in <placeName key="ort14">Osmannstädt</placeName><lb/>
                 eröffnete, ist mehr als Freude – aber meine gütigen<lb/>
@@ -95,6 +98,7 @@
                 Dichter vor meines Neffen Dank.<lb/>
                 Warum antwortet er der <persName key="person24">Bandemer</persName> nicht? Sie<lb/>
                 wohnt nun bey der Pfarre in <placeName key="ort25">Neuburg</placeName>.<lb/>
+                </div>
             </div>
         </body>
     </text>

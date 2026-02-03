@@ -54,6 +54,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 <placeName key="ort1">Offenbach</placeName> d. 16. 7br 1800<lb/>
                 <lb/>
@@ -75,6 +76,7 @@
                 bey mir in meiner Hütte sah – u meinen<lb/>
                 <hi rend="underline" n="1">Neffen</hi> hätte dabey sehen mögen – bay alt<lb/>
                 Tante von la Roche<lb/>
+                </div>
             </div>
         </body>
     </text>

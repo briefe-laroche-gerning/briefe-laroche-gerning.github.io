@@ -29,17 +29,23 @@
   </xsl:template>
   
   <xsl:template match="tei:div">
-    <div class="tei-div">
+    <div>
+      <xsl:attribute name="class">
+        <xsl:choose>
+          <!-- äußerste div (keine tei:div-Vorfahren) -->
+          <xsl:when test="not(ancestor::tei:div)">
+            tei-div
+          </xsl:when>
+          <!-- alle inneren -->
+          <xsl:otherwise>
+            page
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  
-  <xsl:template match="tei:p">
-    <p>
-      <xsl:apply-templates/>
-    </p>
-  </xsl:template>
-  
   
   <!-- Zeilenumbrüche -->
   <xsl:template match="tei:lb">

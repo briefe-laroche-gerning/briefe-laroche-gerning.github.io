@@ -56,12 +56,15 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 <note type="annotation" resp="recipient"><placeName key="ort1">Offbach</placeName> 11 &amp;<lb/>
                 12<hi rend="sup">ter</hi> Jan: 1797.<lb/>
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. gl.<lb/>
                 b <unclear>x</unclear> 13ten</hi></note><lb/>
+                </div>
+                <div>
                 [2]
                 den 12 des jahres 1797<lb/>
                 <lb/>
@@ -83,6 +86,8 @@
                 Er etwa dieße besorgnis haben sollte –<lb/>
                 noch eine Frage – Schätzbarer Freund!<lb/>
                 haben Sie den <name type="work" key="werk13"><hi rend="underline" n="1"><hi rend="latintype">Cultivateur ameriain</hi></hi></name> bey H<lb/>
+                </div>
+                <div>
                 [3]
                 <persName key="person27">Herrmann</persName> bezalt – nur ja oder<lb/>
                 nein – Sie haben mehr zu thun, als<lb/>
@@ -103,6 +108,7 @@
                 fortgang aller unternehmung für meinen<lb/>
                 Neffen  – dieß ist sehr ernst der alten<lb/>
                 tante v Laroche<lb/>
+                </div>
             </div>
         </body>
     </text>

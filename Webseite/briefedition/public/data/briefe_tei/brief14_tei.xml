@@ -58,6 +58,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 den 29 merz 1798<lb/>
                 <lb/>
@@ -79,6 +80,8 @@
                 da könnt ich Sie bey <persName key="person41">hofrath <hi rend="underline" n="1">Wucherer</hi></persName> sehen<lb/>
                 und sprechen – in 14 tag hoffe wieder da<lb/>
                 zu seyn – Gott<lb/>
+                </div>
+                <div>
                 [2]
                 daß ich nur <hi rend="underline" n="1">Sie</hi> nicht versäume nicht<lb/>
                 verliehre – daß nur die Franken<lb/>
@@ -97,6 +100,8 @@
                 =schaft wurde der Staats <hi rend="latintype">Cörper</hi> von teutsch<lb/>
                 =land aufgelößt – wie soll mein blutt in<lb/>
                 dießer luft neue <hi rend="latintype">Consistenz</hi> <hi rend="underline" n="1">erhalten können</hi><lb/>
+                </div>
+                <div>
                 [3]
                 der Himmel Seegne – erhalte, und<lb/>
                 schütze <hi rend="underline" n="1">Sie</hi> edler schätzbarer Freund!<lb/>
@@ -110,12 +115,15 @@
                 armen Tante vlaRoche<lb/>
                 ich reiße gleich ab nach <placeName key="ort1">offenbach</placeName> –<lb/>
                 aber <placeName key="ort9">Rastadt</placeName> besuche einen tag –<lb/>
+                </div>
+                <div>
                 [4]
                 <note type="annotation" resp="recipient"><placeName key="ort1">offenbach</placeName> <unclear>x</unclear> 29ter<lb/>
                 Merz 1798.<lb/>
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. 24 Juny.<lb/>
                 b. d gl.</hi></note><lb/>
+                </div>
             </div>
         </body>
     </text>

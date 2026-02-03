@@ -59,6 +59,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 <placeName key="ort1">offenbach</placeName> den 18 august 1800<lb/>
                 <lb/>
@@ -80,6 +81,8 @@
                 mir es doch ich bitte Sie – daß gedrukte<lb/>
                 zeug ist unwürdiger unßinn – der<lb/>
                 mich schmerzt –<lb/>
+                </div>
+                <div>
                 [2]
                 die wie <persName key="person58">böttger</persName> sagt<lb/>
                 <persName key="person1"><hi rend="underline" n="1">unähnliche Schwester</hi></persName> – bleibt den<lb/>
@@ -99,6 +102,8 @@
                 vielerleÿ außlegung unterworfen –<lb/>
                 <hi rend="underline" n="1">u</hi> die menschen geben, so verschiedene<lb/>
                 Seiten zu sehen – <hi rend="latintype">adieu</hi> guter Neffe<lb/>
+                </div>
+                <div>
                 [3]
                 Nb von Papieren die Ihnen gehören<lb/>
                 habe sonst nichts<lb/>
@@ -116,12 +121,15 @@
                 <l>böser Bube du bist selbst ein</l>
                 <l>verdrehter Satyr</l>
                 </lg></note>
+                </div>
+                <div>
                 [4]
                 <note type="annotation" resp="recipient"><placeName key="ort1">offenbach</placeName> <unclear>x</unclear><lb/>
                 18<hi rend="sup">ten</hi> Aug. 1800.<lb/>
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. gl.<lb/>
                 b <unclear>x</unclear> 21ten.</hi></note><lb/>
+                </div>
             </div>
         </body>
     </text>

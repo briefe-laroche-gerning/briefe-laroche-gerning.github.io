@@ -57,6 +57,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 <placeName key="ort1">offenbach</placeName> den 14 august 1800<lb/>
                 <lb/>
@@ -81,6 +82,8 @@
                 =der regen, der Erde bald wohlthun, und<lb/>
                 meinen Neffen wieder zu mir bringen<lb/>
                 mich reute<lb/>
+                </div>
+                <div>
                 [2]
                 sehr – <hi rend="underline" n="1">daß ich</hi> &lt;der lieben&gt; <hi rend="underline" n="1"><persName key="person66">Schlichtegroll</persName> – nicht<lb/>
                 einen brief an <persName key="person70">Petersen</persName> mitgaab –<lb/>
@@ -108,6 +111,7 @@
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. gl.<lb/>
                 b <unclear>x.</unclear> 16ten</hi></note><lb/>
+                </div>
             </div>
         </body>
     </text>

@@ -66,6 +66,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 den 14 august<lb/>
                 <lb/>
@@ -86,6 +87,8 @@
                 der <persName key="person77">Brunn</persName> ist reich er zalt es gerne<lb/>
                 der Himmel Seegne jeden othemzug in Hauße<lb/>
                 zu Ruhe des gemüths, u gesundheit des Cörpers<lb/>
+                </div>
+                <div>
                 [2]
                 für Sie – und Freund <persName key="person45">Hüsgen</persName> –<lb/>
                 es wird schön seyn, mit Ihnen nach <placeName key="ort11">Dieburg</placeName><lb/>
@@ -108,6 +111,8 @@
                 gieng hinter dem <placeName key="ort7">taunus</placeName> unter in voller<lb/>
                 pracht – u zwischen den bäumen des kleinen<lb/>
                 waldes fielen noch<lb/>
+                </div>
+                <div>
                 [3]
                 von ihren Stralen auf dieße Hügel, der<lb/>
                 abend wind, war kühl, als die luft, vor<lb/>
@@ -128,6 +133,8 @@
                 hier eine Frau – die gestalt ist nur einen<lb/>
                 schritt von Ihnen - - - - adieu in Eile –<lb/>
                 alt ergeben tante Laroche<lb/>
+                </div>
+                <div>
                 [4]
                 <note type="annotation" resp="recipient"><placeName key="ort1">offb</placeName> 14<hi rend="sup">ter</hi><lb/>
                 aug. 1798.<lb/>
@@ -141,6 +148,7 @@
                 einen Stern Kranz – mit unsterblichen Roßen, und<lb/>
                 <hi rend="latintype">Myrthen</hi> gemischt zur Crone bestimmte –<lb/>
                 <hi rend="latintype">Sophie la Roche</hi><lb/>
+                </div>
             </div>
         </body>
     </text>

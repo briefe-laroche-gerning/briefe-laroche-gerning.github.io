@@ -59,6 +59,7 @@
     <text>
         <body>
             <div>
+                <div>
                 [1]
                 den 29 august in <placeName key="ort16">Schönebek</placeName> 1799<lb/>
                 <lb/>
@@ -84,6 +85,8 @@
                 für die fürtrefliche denke –<lb/>
                 ich bin glüklich bey meinen <persName key="person91">Kindern</persName><lb/>
                 habe aber jetzo immer<lb/>
+                </div>
+                <div>
                 [2]
                 ein auge nach dem weg meiner abreiße<lb/>
                 gerichtet – war <hi rend="underline" n="1">u</hi> bin hier in eine<lb/>
@@ -104,18 +107,23 @@
                 in einen <persName key="person78">80 jahr alten feldmarchall</persName> verliebt=<lb/>
                 da schreibe keine große briefe mehr an andre<lb/>
                 Leute –<lb/>
+                </div>
+                <div>
                 [3]
                 <hi rend="latintype">à Monsieur<lb/>
                 Monsieur <hi rend="underline" n="1">Gerning</hi> - Conseiller de Legation<lb/>
                 de La Cour de <placeName key="person23">Neapel</placeName><lb/>
                 <placeName key="person8"><hi rend="underline" n="1">Weimar</hi></placeName></hi><lb/>
                 <lb/>
+                </div>
+                <div>
                 [4]
                 <note type="annotation" resp="recipient"><placeName key="person16">Schönebeck</placeName> <unclear>x</unclear> 29<hi rend="sup">ter</hi><lb/>
                 aug. 1799<lb/>
                 Laroche.<lb/>
                 <hi rend="underline" n="1">E d. 5<hi rend="sup">ten</hi> 7ber.<lb/>
                 b. <unclear>x</unclear> 22ten.</hi></note><lb/>
+                </div>
             </div>
         </body>
     </text>

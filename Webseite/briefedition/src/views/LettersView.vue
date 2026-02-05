@@ -5,7 +5,7 @@
 
     <!-- ===== Filter ===== -->
     <div class="filters row mb-4">
-      <div class="col-md-12">
+      <div class="col-md-3">
         <h5>Jahr</h5>
         <select v-model="selectedYear" class="form-select">
           <option value="">Alle</option>
@@ -13,8 +13,41 @@
             {{ year }}
           </option>
         </select>
+      </div>
 
-<br>
+      <div class="col-md-3">
+        <h5>Absendeort</h5>
+        <select v-model="selectedSenderLocation" class="form-select">
+          <option value="">Alle</option>
+          <option v-for="location in sender_locations" :key="location" :value="location">
+            {{ location }}
+          </option>
+        </select>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Empfangsort</h5>
+        <select v-model="selectedRecipientLocation" class="form-select">
+          <option value="">Alle</option>
+          <option v-for="location in recipient_locations" :key="location" :value="location">
+            {{ location }}
+          </option>
+        </select>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Typ</h5>
+        <select v-model="selectedManuscriptType" class="form-select">
+          <option value="">Alle</option>
+          <option v-for="type in manuscript_types" :key="type" :value="type">
+            {{ type }}
+          </option>
+        </select>
+      </div>
+
+
+        </div>
+  
 
         <h5>Keywords</h5>
       <div class="keyword-filter">
@@ -35,9 +68,9 @@
   </div>
 </div>
 
+<br>
 
-      </div>
-    </div>
+
 
     <!-- ===== LISTEN-WRAPPER ===== -->
     <div class="letters-list">
@@ -70,7 +103,7 @@
             </div>
           <div class="places">
             Absendeort: {{ letter.sender.place }}<br>
-            Empfangsort: {{ letter.recipient.place || 'Nicht bekannt' }}
+            Empfangsort: {{ letter.recipient.place || 'Keine Angabe' }}
           </div>
         </div>
 
@@ -104,6 +137,9 @@ export default {
     return {
       letters: [],
       selectedYear: "",
+      selectedSenderLocation: "",
+      selectedRecipientLocation: "",
+      selectedManuscriptType: "",
       selectedKeywords: [],
       selectedCategories: []
     };
@@ -157,9 +193,18 @@ export default {
 
 
 
-    /* ===== verfügbare Jahre ===== */
+    /* ===== verfügbare Jahre, Absende- und Empfangsorte und Handschrift-Typen ===== */
     years() {
       return ["1795", "1796", "1797", "[1797]", "1798", "1799", "1800"];
+    },
+    sender_locations() {
+      return ["Offenbach", "[Offenbach]", "Schönebeck"]
+    },
+    recipient_locations() {
+      return ["Frankfurt", "Weimar", "[Weimar]", "Keine Angabe"]
+    },
+    manuscript_types() {
+      return ["Original", "Abschrift"]
     },
 
     /* ===== gefilterte Briefe ===== */
@@ -170,6 +215,25 @@ export default {
     if (this.selectedYear) {
       const year = this.extractYear(letter.date);
       if (year !== this.selectedYear) return false;
+    }
+    /* ===== Absendeort ===== */
+    if (this.selectedSenderLocation) {
+      if (letter.sender.place !== this.selectedSenderLocation) {
+        return false;
+      }
+    }
+    /* ===== Empfangsort ===== */
+    if (this.selectedRecipientLocation) {
+      const recipientLocation = letter.recipient.place || "Keine Angabe";
+      if (recipientLocation !== this.selectedRecipientLocation) {
+        return false;
+      }
+    }
+    /* ===== Manuskript-Typ ===== */
+    if (this.selectedManuscriptType) {
+      if (letter.object.subtype !== this.selectedManuscriptType) {
+        return false;
+      }
     }
 
     /* ===== Keywords (rekursiv!) ===== */

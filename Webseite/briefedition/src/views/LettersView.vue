@@ -363,9 +363,9 @@ keywordCategory(label) {
 
 /* ===== Keyword Badges ===== */
 .keyword-filter {
-  display: flex;
-  flex-direction: column; /* jede Gruppe untereinander */
-  gap: 0.6rem; /* Abstand zwischen Oberkategorien */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
 }
 
 .keyword-group {
@@ -460,11 +460,11 @@ keywordCategory(label) {
 }
 
 .kw-emotion {
-  background-color: #dbd4018d;
+  background-color: #2cafbb8d;
 }
 
 .kw-emotion_oberkategorie {
-  background-color: #edca05df;
+  background-color: #03717b92;
   color: #ffffff;
 }
 

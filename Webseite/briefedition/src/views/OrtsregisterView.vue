@@ -1,4 +1,5 @@
 <template>
+  <!-- Nutzt Komponente "Register" und übergibt als Daten die Ortsregister-JSON.  -->
   <Register url="/data/register/ortsregister.json" title="Ortsregister" type="place" />
 </template>
 

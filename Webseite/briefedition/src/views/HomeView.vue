@@ -52,7 +52,7 @@
           </div> <!-- Carousel schließen -->
         </div>
         <!-- Button zu den Briefen-->
-        <a class="btn btn-dark btn-lg button" href="/briefe" role="button">→ Zu den Briefen</a>
+        <a class="btn btn-dark btn-lg button" href="/briefe" role="button">Zu den Briefen</a>
       </div> <!-- col schließen -->
     
       <!-- Bild von Johann Isaak von Gerning -->
@@ -75,8 +75,8 @@ export default {
 .carousel-inner {
   min-height: 250px;
   background-color: bisque;
-  align-items: center; /* vertikal zentrieren */
-  justify-content: center; /* horizontal zentrieren */
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -101,23 +101,21 @@ export default {
 }
 
 .carousel-indicators .active {
-  background-color: #020664 !important; /* aktiver Punkt */
+  background-color: var(--primary-blue)  !important; /* aktiver Punkt */
   width: 14px;
   height: 14px;
   border-radius: 50%;
 }
 
-
-
 /* Portrait-Bilder */
 .portrait {
-  width: 240px;       /* Breite anpassen */
-  height: 320px;      /* Höhe anpassen */
-  object-fit: cover;  /* Bild zuschneiden, ohne zu verzerren */
-  border-radius: 50%; /* Oval/Rund */
+  width: 240px;
+  height: 320px;
+  object-fit: cover;  /* Bild zuschneiden, ohne es zu verzerren */
+  border-radius: 50%; /* Oval */
   display: block;
-  margin: 0 auto;     /* zentrieren */
-  border: 5px solid #020664; /* blauer Rahmen */
+  margin: 0 auto;     /* Zentrieren */
+  border: 5px solid var(--primary-blue) ;
 }
 
 .row.justify-content-center.align-items-center {
@@ -125,10 +123,8 @@ export default {
 }
 
 .button {
-  background-color: #020664 !important;
+  background-color: var(--primary-blue) !important;
   margin-top: 20px;
 }
-
-
 
 </style>

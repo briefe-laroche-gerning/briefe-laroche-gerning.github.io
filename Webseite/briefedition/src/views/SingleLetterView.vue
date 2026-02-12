@@ -3,18 +3,24 @@
 <div class="single-letter-page">
 <div class="row justify-content-center">
 <div class="col-sm-10">
-  <h3>Brief vom {{ metadata?.date || '' }}</h3>
-  <p><b>Bestandshaltende Institution:</b> {{ metadata?.identifier?.institution || '' }}</p>
-  <p><b>Signatur:</b> {{ metadata?.identifier?.signature || '' }}</p>
+  <h3>Sophie von La Roche an Johann Isaak von Gerning am {{ metadata?.date || '' }}</h3>
   <p>
-  <a :href="`/data/briefe_tei/brief${nr}_tei.xml`" target="_blank">TEI-Download</a>
-</p>
-
-  <p>TXT Download</p>
+    <b>Bestandshaltende Institution:</b> {{ metadata?.identifier?.institution || '' }}
+    <b style="margin-left: 10px;">Signatur:</b> {{ metadata?.identifier?.signature || '' }}
+  </p>
+  <p>
+    <b>Absendeort:</b> {{ metadata?.sender.place || 'Keine Angabe' }}
+    <b style="margin-left: 10px;">Empfangsort:</b> {{ metadata?.recipient.place || 'Keine Angabe' }}
+  </p>
+  <p>
+    <a :href="`/data/briefe_tei/brief${nr}_tei.xml`" target="_blank">TEI-Download</a>
+    <a style="margin-left: 10px;" :href="`/data/briefe_txt/brief${nr}.txt`" target="_blank">TXT-Download</a>
+  </p>
 </div>
 
   </div>
 
+  <br>
 
       <div class="row justify-content-center">
         <!-- Faksimile (Carousel: Bilder können durchgeblättert werden)-->

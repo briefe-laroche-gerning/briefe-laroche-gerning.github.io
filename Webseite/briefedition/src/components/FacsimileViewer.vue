@@ -1,45 +1,28 @@
+<!-- HINWEIS: Diese Komponente wurde Schritt für Schritt  mithilfe von GPT-5 generiert und anschließend überarbeitet. -->
+  
+<!--  Der FacsimileViewer wird in der SingleLetterView verwendet, um die Digitalisate anzuzeigen.  -->
 <template>
   <div class="facsimile-viewer">
+
     <!-- Carousel -->
     <div class="carousel-container position-relative">
       <div class="carousel-inner">
-        <div
-          v-for="(img, idx) in images"
-          :key="idx"
-          class="carousel-item"
-          :class="{ active: idx === currentImageIndex }"
-        >
-<img
-  :src="img"
-  class="d-block carousel-image"
-  alt="Digitalisat"
-  @mousedown="startDrag"
-  @wheel.prevent="onWheel"
-/>
-
-
+        <div v-for="(img, idx) in images" :key="idx" class="carousel-item" :class="{ active: idx === currentImageIndex }">
+          <img :src="img" class="d-block carousel-image" alt="Digitalisat" @mousedown="startDrag" @wheel.prevent="onWheel"/>
         </div>
       </div>
 
-      <!-- Navigation Buttons (Bootstrap Style) -->
-      <button
-        class="carousel-control-prev"
-        type="button"
-        @click="prevSlide"
-      >
+      <!-- Buttons zur Navigation (im Bootstrap Style) -->
+      <button class="carousel-control-prev" type="button" @click="prevSlide">
         <span class="carousel-control-prev-icon"></span>
       </button>
 
-      <button
-        class="carousel-control-next"
-        type="button"
-        @click="nextSlide"
-      >
+      <button class="carousel-control-next" type="button"@click="nextSlide">
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
 
-    <!-- Rotation + Zoom Controls -->
+    <!-- Rotation, Zoom und Reset der Ansicht -->
     <div class="mt-2 d-flex justify-content-center gap-2">
       <button class="btn btn-secondary" @click="rotateImage(-90)">⟲ Drehen</button>
       <button class="btn btn-secondary" @click="rotateImage(90)">⟳ Drehen</button>
@@ -53,42 +36,34 @@
 <script setup>
 import { ref, watch } from "vue";
 
-const dragging = ref(false);
-const last = ref({ x: 0, y: 0 });
-const props = defineProps({
+const dragging = ref(false); // Dragging des Bildes (aktiv bzw. inaktiv)
+const last = ref({ x: 0, y: 0 }); // Position der Maus
+const props = defineProps({       // Digitalisate (Bilder)
   images: { type: Array, required: true }
 });
 
-// Carousel state
+// Carousel-Status
 const currentImageIndex = ref(0);
 
-// Transform state
+// Status der Bildtransformation (gedreht, gezoomt, Position des Mauszeigers)
 const rotation = ref(0);
 const scale = ref(1);
 const pos = ref({ x: 0, y: 0 });
 
-// -------------------
-// Carousel Navigation
-// -------------------
+// Für Navigation des Carousels
+// Nächstes Bild (blättern)
 function nextSlide() {
   currentImageIndex.value =
     (currentImageIndex.value + 1) % props.images.length;
   resetTransform();
 }
-
+// Voriges Bild (blättern)
 function prevSlide() {
   currentImageIndex.value =
     (currentImageIndex.value - 1 + props.images.length) % props.images.length;
   resetTransform();
 }
-
-// -------------------
-// Transform Helpers
-// -------------------
-function getActiveImg() {
-  return document.querySelector(".carousel-item.active img");
-}
-
+// Transformieren des aktuellen Bildes (drehen, zoomen) ausführen
 function applyTransform() {
   const img = document.querySelector(".carousel-item.active img");
   if (!img) return;
@@ -97,20 +72,16 @@ function applyTransform() {
     ` rotate(${rotation.value}deg)` +
     ` scale(${scale.value})`;
 }
-
-
 // Rotation
 function rotateImage(deg) {
   rotation.value += deg;
   applyTransform();
 }
-
 // Zoom
 function zoomImage(factor) {
   scale.value *= factor;
   applyTransform();
 }
-
 // Reset
 function resetTransform() {
   rotation.value = 0;
@@ -118,7 +89,6 @@ function resetTransform() {
   pos.value = { x: 0, y: 0 };
   applyTransform();
 }
-
 // Dragging im Bild und Zoomen mit Scroll
 function startDrag(e) {
   e.preventDefault();       // verhindert Textauswahl
@@ -129,7 +99,7 @@ function startDrag(e) {
   window.addEventListener("mousemove", onDrag);
   window.addEventListener("mouseup", endDrag);
 }
-
+// Dragging
 function onDrag(e) {
   if (!dragging.value) return; // nur bewegen, wenn gedrückt
 
@@ -142,21 +112,20 @@ function onDrag(e) {
   last.value = { x: e.clientX, y: e.clientY };
   applyTransform();
 }
-
+// Drag bewegen bei loslassen der Maus
 function endDrag() {
   dragging.value = false;    // Drag deaktivieren
   window.removeEventListener("mousemove", onDrag);
   window.removeEventListener("mouseup", endDrag);
 }
-
+// Zoomen mit Mausrad
 function onWheel(e) {
   const delta = e.deltaY < 0 ? 1.1 : 0.9;
   scale.value *= delta;
   applyTransform();
 }
 
-
-// Reset transform on slide change
+// Bei Wechsel des Bildes (der Slide): Reset
 watch(currentImageIndex, resetTransform);
 </script>
 
@@ -164,10 +133,10 @@ watch(currentImageIndex, resetTransform);
 .carousel-container {
   position: relative;
   width: 100%;
-  max-width: 800px; /* optional */
+  max-width: 800px;
   margin: auto;
   overflow: hidden;
-  background-color: #f8f9fa; /* optional hellgrau */
+  background-color: gray;
 }
 
 .carousel-inner {
@@ -187,7 +156,6 @@ watch(currentImageIndex, resetTransform);
   display: block;
 }
 
-
 .carousel-image {
   max-width: 100%;
   height: auto;
@@ -201,7 +169,6 @@ watch(currentImageIndex, resetTransform);
   cursor: grabbing;
   transition: none;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -234,13 +201,5 @@ watch(currentImageIndex, resetTransform);
   height: 1.5rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.5 0L4.78.72 1.28 4.22l3.5 3.5L5.5 8l-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.5 0l.72.72L6.72 4.22l-3.5 3.5L2.5 8l4-4z'/%3E%3C/svg%3E");
 }
 </style>

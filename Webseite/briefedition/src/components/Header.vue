@@ -5,7 +5,7 @@
       <!-- Brand / Home (Router-Link statt <a>) -->
       <router-link class="navbar-brand d-flex align-items-center" to="/">
         <img src="@/assets/logo.png" alt="Logo" width="100" height="100" class="me-2" />
-        Home
+        Startseite
       </router-link>
 
       <!-- Mobile Toggler/Hamburgermenü in mobilder Ansicht -->

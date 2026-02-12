@@ -1,4 +1,7 @@
 <template>
+  <!-- HINWEIS: Der Inhalt von compareEntries(a, b){...}, sowie async mounted(){...} wurde mithilfe von GPT-5 generiert und anschließend überarbeitet. -->
+  
+  <!--  Dieses Template generiert alle drei Registerseiten (Personen, Orte, Werke). Es ändert sich je nach übergebenen Daten.  -->
   <div>
     <div class="row justify-content-center">
       <div class="col-sm-10">
@@ -6,7 +9,8 @@
 
         <ul>
           <li v-for="entry in entries" :key="entry.id" :id="entry.id">
-            <!-- NAME -->
+            <!--  Name existiert für alle drei Arten von Registereinträgen  -->
+            <!-- Wenn Person: Namen aus Vor- und Nachnamen zusammensetzen -->
             <template v-if="type === 'person'">
               <b>
                 {{ entry.firstname ? entry.firstname + ' ' : '' }}{{ entry.name }}
@@ -16,7 +20,7 @@
               <b>{{ entry.name }}</b>
             </template>
 
-            <!-- PERSON -->
+            <!-- Person: GND- und Wikidata-Link -->
             <div v-if="type === 'person'" class="meta">
               <span>
                 <a v-if="entry.gnd" :href="entry.gnd" target="_blank">GND</a>
@@ -29,13 +33,13 @@
               </span>
             </div>
 
-            <!-- ORT -->
+            <!-- Ort: Geolink -->
             <div v-if="type === 'place'" class="meta">
               <a v-if="entry.geolink" :href="entry.geolink" target="_blank">Geolink</a>
               <span v-else class="placeholder">Geolink</span>
             </div>
 
-            <!-- WERK -->
+            <!-- Werk: GND- und Wikidata-Link, Link zu Digitalisat, Link zu Volltext -->
             <div v-if="type === 'work'" class="meta">
               <span>
                 <a v-if="entry.gnd" :href="entry.gnd" target="_blank">GND</a>
@@ -65,14 +69,13 @@
   </div>
 </template>
 
-
 <script>
 export default {
   name: "Register",
   props: {
     url: { type: String, required: true },
     title: { type: String, required: true },
-    type: { type: String, default: "person" } // 'person', 'place', 'work'
+    type: { type: String, required: true } // Möglichkeiten: 'person', 'place', 'work'
   },
   data() {
     return {
@@ -81,14 +84,16 @@ export default {
   },
 async mounted() {
   try {
-    const res = await fetch(this.url);
-    const data = await res.json();
+    // Laden der Daten
+    const response = await fetch(this.url);
+    const data = await response.json();
 
     this.entries = Object.entries(data)
+      // Umstrukturierung des JSON-Objekts
       .map(([id, entry]) => ({ id, ...entry }))
       .sort((a, b) => this.compareEntries(a, b));
 
-    // Scroll zu Hash, falls vorhanden
+    // Scroll zu Hash, falls vorhanden (Benötigt für Weiterleitung, wenn User auf einen Link zu einem Registereintrag klickt)
     if (this.$route.hash) {
       this.$nextTick(() => {
         const el = document.querySelector(this.$route.hash);
@@ -100,23 +105,24 @@ async mounted() {
   }
 },
 
-  methods: {
-    /* Zum Sortieren der Register-Einträge nach Alphabet */
-      compareEntries(a, b) {
+methods: {
+
+  // Zum Sortieren der Register-Einträge nach Alphabet
+  compareEntries(a, b) {
     const collator = new Intl.Collator("de", {
       sensitivity: "base",
       numeric: true
     });
 
-    // PERSONEN: Nachname, Vorname
+    // Personen: "Nachname Vorname", funktioniert auch, wenn nur eins davon existiert
     if (this.type === "person") {
-      const nameA = `${a.name || ""} ${a.firstname || ""}`.trim();
-      const nameB = `${b.name || ""} ${b.firstname || ""}`.trim();
+      const nameA = `${a.name.replace(/^(von|der|den|de|zu)\s+/i, "").trim() || ""} ${a.firstname || ""}`.trim();
+      const nameB = `${b.name.replace(/^(von|der|den|de|zu)\s+/i, "").trim() || ""} ${b.firstname || ""}`.trim();
       return collator.compare(nameA, nameB);
     }
 
-    // ORTE & WERKE: Name
-    return collator.compare(a.name || "", b.name || "");
+    // Orte & Werke: Name
+    return collator.compare(a.name, b.name);
   }
   }
 };
@@ -143,7 +149,7 @@ li div a {
   margin-top: 2px;
 }
 
-/* Ausgegraute Links/Placeholder wenn kein Link vorhanden */
+/* Ausgegraute Links/Placeholder wenn kein Link vorhanden (für GND, Wikidata etc.) */
 .placeholder {
   color: rgb(50, 46, 46);
   background: none;

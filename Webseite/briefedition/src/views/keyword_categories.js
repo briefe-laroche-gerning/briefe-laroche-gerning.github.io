@@ -36,6 +36,13 @@ export const KEYWORD_CATEGORIES = {
     "Personal/Dienstleister": "persoenliches",
     "Geschäfte/Verkauf": "persoenliches",
 
+    "Reisen": "reisen_oberkategorie",
+    "Deutschland (Reisen)": "reisen",
+    "Taunus": "reisen",
+    "Italien (Reisen)": "reisen",
+    "Natur": "reisen",
+    "Ausflug": "reisen",
+
     "Politik": "politik_oberkategorie",
     "Deutschland (Politik)": "politik",
     "Innenpolitische Unruhe": "politik",
@@ -44,20 +51,6 @@ export const KEYWORD_CATEGORIES = {
     "Italien (Politik)": "politik",
     "Deutschland - Frankreich": "politik",
     "Koalitionskriege": "politik",
- 
-    "Reisen": "reisen_oberkategorie",
-    "Deutschland (Reisen)": "reisen",
-    "Taunus": "reisen",
-    "Italien (Reisen)": "reisen",
-    "Natur": "reisen",
-    "Ausflug": "reisen",
-
-    "Emotion": "emotion_oberkategorie",
-    "Freude": "emotion",
-    "Trauer": "emotion",
-    "Trübsinnigkeit": "emotion",
-    "Missbilligung": "emotion",
-    "Streit": "emotion",
 
     "Sprechakt": "sprechakt_oberkategorie",
     "Wunsch": "sprechakt",
@@ -74,10 +67,12 @@ export const KEYWORD_CATEGORIES = {
     "Bitte um Weitersendung von Büchern": "sprechakt",
     "Bitte um Weitersendung von Briefen": "sprechakt",
 
-    "Ästhetischer Sprachgebrauch": "andere",
-    "Antike griechische Schriftsteller": "andere",
-    "Erziehung": "andere",
-    "Religion": "andere",
+    "Emotion": "emotion_oberkategorie",
+    "Freude": "emotion",
+    "Trauer": "emotion",
+    "Trübsinnigkeit": "emotion",
+    "Missbilligung": "emotion",
+    "Streit": "emotion",
 
     "Warensendung": "warensendung_oberkategorie",
     "Warensendung Literatur": "warensendung",
@@ -87,7 +82,12 @@ export const KEYWORD_CATEGORIES = {
 
     "Zitat": "zitat_oberkategorie",
     "Zitat Gedicht": "zitat",
-    "Zitat philosophischer Text": "zitat"
+    "Zitat philosophischer Text": "zitat",
+
+    "Ästhetischer Sprachgebrauch": "andere",
+    "Antike griechische Schriftsteller": "andere",
+    "Erziehung": "andere",
+    "Religion": "andere"
 
 };
 

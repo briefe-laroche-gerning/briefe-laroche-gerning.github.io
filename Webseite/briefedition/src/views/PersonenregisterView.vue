@@ -1,4 +1,5 @@
 <template>
+  <!-- Nutzt Komponente "Register" und übergibt als Daten die Personenregister-JSON.  -->
   <Register url="/data/register/personenregister.json" title="Personenregister" type="person" />
 </template>
 

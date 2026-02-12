@@ -13,11 +13,6 @@ const routes = [
     component: () => import('../views/LettersView.vue')
   },
   {
-    path: '/register',
-    name: 'register',
-    component: () => import('../views/RegisterView.vue')
-  },
-  {
   path: '/personenregister',
   name: 'personenregister',
   component: () => import('../components/Register.vue'),

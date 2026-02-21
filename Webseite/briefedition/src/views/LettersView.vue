@@ -271,6 +271,11 @@ export default {
 </script>
 
 <style>
+/* Abstand zum Rand oben und unten auf der Seite */
+.letters-overview {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /* Vorschaubilder der Faksimiles */
 .thumbnail {

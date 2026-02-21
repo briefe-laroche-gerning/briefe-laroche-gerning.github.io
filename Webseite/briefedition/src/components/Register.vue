@@ -123,6 +123,12 @@ methods: {
 </script>
 
 <style scoped>
+
+/* Abstand zum oberen Rand */
+.row {
+  margin-top: 20px;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0;

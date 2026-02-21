@@ -21,7 +21,6 @@
       </p>
     </div>
   </div>
-  <br>
   <div class="row justify-content-center">
     <!-- Faksimile (Carousel: Bilder können durchgeblättert werden)-->
     <div class="col-sm-4">
@@ -36,7 +35,7 @@
     <!-- Registereinträge: Springen mit zugeordneter ID direkt zum Eintrag auf der Registerseite -->
     <div class="col-sm-3">
       <!-- Personen -->
-      <h4>Personen</h4>
+      <h4 v-if="persons.length">Personen</h4> <!-- Nur anzeigen, wenn Personen vohanden -->
       <ul>
         <li v-for="person in persons" :key="person.id">
           <router-link :to="{ name: 'personenregister', hash: '#' + person.id }">
@@ -45,7 +44,7 @@
         </li>
       </ul>
       <!-- Orte -->
-      <h4>Orte</h4>
+      <h4 v-if="places.length">Orte</h4> <!-- Nur anzeigen, wenn Orte vohanden -->
       <ul>
         <li v-for="place in places" :key="place.id">
           <router-link :to="{ name: 'ortsregister', hash: '#' + place.id }">
@@ -54,7 +53,7 @@
         </li>
       </ul>
       <!-- Werke -->
-      <h4>Werke</h4>
+      <h4 v-if="works.length">Werke</h4> <!-- Nur anzeigen, wenn Werke vohanden -->
       <ul>
         <li v-for="work in works" :key="work.id">
           <router-link :to="{ name: 'werkregister', hash: '#' + work.id }">
@@ -387,9 +386,10 @@ async initTooltips() {
   color: darkred
 }
 
-/* Abstand am unteren Rand der Seite */
+/* Abstand am unteren und oberen Rand der Seite */
 .single-letter-page {
-  margin-bottom: 4rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Metadaten (Kopf der Seite) */

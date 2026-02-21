@@ -41,11 +41,16 @@ const routes = [
     title: 'Werkregister',
     type: 'work'
   }
-},
+  },
   {
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/impressum',
+    name: 'impressum',
+    component: () => import('../views/ImpressumView.vue')
   },
   {
     path: '/brief:nr',

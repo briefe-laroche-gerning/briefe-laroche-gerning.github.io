@@ -51,12 +51,18 @@
   </ul>
 </li>
 
-            <li class="nav-item">
-                <router-link to="/about" class="nav-link">
-                  Über diese Edition
-                </router-link>
-            </li>
-        </ul>
+  <li class="nav-item">
+    <router-link to="/about" class="nav-link">
+      Über diese Edition
+    </router-link>
+  </li>
+
+  <li class="nav-item">
+    <router-link to="/impressum" class="nav-link">
+      Impressum
+    </router-link>
+  </li>
+  </ul>
 
         <!-- Suche -->
         <form class="d-flex" @submit.prevent="search">

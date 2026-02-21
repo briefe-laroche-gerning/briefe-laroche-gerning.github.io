@@ -127,6 +127,15 @@ export default {
     // Briefdateien laden
     await this.loadLetter();
   },
+  beforeUnmount() {             // Bei Verlassen der Seite alle Tooltips löschen
+  document.querySelectorAll(".entity-link, .recipient-note, .unclear")
+    .forEach(el => {
+      if (el._tooltipInstance) {
+        el._tooltipInstance.dispose();
+        el._tooltipInstance = null;
+      }
+    });
+  },
 
   watch: {
     nr() {                  // Wenn sich die Briefnummer ändert, muss neu geladen werden (andere Dateien) 
@@ -261,8 +270,15 @@ export default {
     // Link erzeugen (bei mehreren IDs: erste nehmen)
     const a = document.createElement("a");
     a.innerHTML = span.innerHTML;
-    a.href = `/${route}#${keys[0]}`;
+    a.addEventListener("click", (e) => {    // Vue Router benutzen (normaler href-Link würde in Production nicht mehr funktionieren)
+      e.preventDefault();
+      this.$router.push({
+      name: route,
+      hash: `#${keys[0]}`
+      });
+    });
     a.classList.add("entity-link", type);
+    a.style.cursor = "pointer";
 
     // Tooltip-Inhalt zusammenbauen
     let tooltipLines = [];

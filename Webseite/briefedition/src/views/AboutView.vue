@@ -1,5 +1,63 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+  <div class="row justify-content-center">
+  <div class="col-9">
+    <h1>Über diese Edition</h1>
+    <p>
+      Diese Edition entstand im Rahmen der Masterarbeit 
+      "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795-1800): Möglichkeiten der semantischen Erschließung" 
+      an der Universität Trier.
+      Das zugehörige Github-Repository ist abrufbar unter folgendem <a href="https://github.com/briefe-laroche-gerning/briefe-laroche-gerning.github.io" target="_blank">Link</a>.
+    </p>
+    <h3>Transkriptionsrichtlinien</h3>
+    <p>
+      Die Wiedergabe der Briefe in der Edition erfolgt in einer diplomatischen Transkription,
+      es werden also alle individuellen bzw. historischen
+      Schreibweisen originalgetreu wiedergegeben. Orthographie und Zeichensetzung werden
+      nicht normiert, Schreibfehler nicht verbessert.<br>
+      Der Zeilenfall wird wie im originalen Brief wiedergegeben. Dies erleichtert zum einen den Vergleich mit dem Digitalisat und trägt
+      zum anderen zur Leserlichkeit bei, da Sophie von La Roche Sätze oft am Zeilenende ohne
+      das Hinzufügen eines Satzzeichens oder durch die Verwendung eines Gedankenstriches
+      beendet. Auf die Abbildung von Einrückungen oder die exakte Positionierung einzelner
+      Zeilen wird allerdings verzichtet, da diese im Digitalisat einsehbar sind. Lediglich klar getrennte
+      Absätze werden auch in der Transkription durch Leerzeilen getrennt.<br>
+      Die Seiten der Handschrift werden nummeriert und in eckigen Klammern in den Text eingefügt.
+      Geminationsstriche auf dem Buchstaben „m“ („m&#x0305;“) und Verdopplungsstriche auf „n“
+      („n&#x0305;“) werden zu „mm“ bzw. „nn“ aufgelöst. Abkürzungen mit Punkt oder Doppelpunkt
+      werden als solche wiedergegeben. Endverschleifungen werden aufgelöst. Einfache und
+      doppelte Unterstreichungen und hochgestellter Text wird genau so wiedergegeben. Gedankenstriche
+      werden, unabhängig von ihrer Länge oder Form, als solche wiedergegeben.
+      Streichungen Sophie von La Roches werden in geschweiften Klammern („{“, „}“) angegeben,
+      Hinzufügungen, die über, unter oder neben der Zeile stehen in spitzen Klammern
+      („<“, „>“).<br>
+      Nicht lesbare Textstellen werden mit einem roten „x“ pro Buchstabe dargestellt. Ist
+      die Anzahl der Buchstaben nicht zu erkennen, wird „xxx“ verwendet. Zusätzlich wird
+      im Mouseover „Nicht entziffert“ angegeben. Notizen Johann Isaak von Gernings auf den
+      Briefen werden durch das Mouseover „Notiz des Empfängers“ und eine graue Färbung
+      gekennzeichnet. Einzelne Wörter oder Textabschnitte in lateinischer Schrift unterscheiden
+      sich in der Darstellung von Text in der Kurrentschrift. Die Kurrentschrift wird mit der
+      Schriftart „Garamond“ dargestellt, lateinische Schrift in „Open Sans“.
+    </p>
+    <h3>Verwendete Quellen</h3>
+    <p>
+      Die Digitalisate wurden vom Freien Deutschen Hochstift (FDH) und der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB) 
+      zur Verfügung gestellt.<br>
+      Die einzelnen Briefe sind dabei mit der jeweiligen Institution, sowie ihrer Signatur im Bestand gekennzeichnet.
+    </p>
+    <p>
+      Zum Erstellen dieser Webseite wurde das Vue-Framework, sowie Bootstrap verwendet.
+      Das Logo der Webseite ist eine Bearbeitung eines Logos von freepik.com (<a href="https://de.freepik.com/icon/vertrag_18954712#fromView=search&page=1&position=14&uuid=cf35f84a-7557-4961-ab1d-8d9633faad41" target="_blank">Link</a>).
+      Die Bilder auf der Startseite stammen von Wikimedia und sind gemeinfrei.
+    </p>
+    <p></p>
+  </div>
+  </div>
   </div>
 </template>
+
+<style>
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+</style>

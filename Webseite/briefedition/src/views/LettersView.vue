@@ -135,8 +135,9 @@ export default {
     keywordGroups() {  // Return: Objekt der Form {literatur: [{label: "Literatur", cssClass: "kw-literatur_oberkategorie", isTopLevel: true}, {...}], politik: [...], ...}
       const groups = {};
       for (const [label, category] of Object.entries(KEYWORD_CATEGORIES)) {
-        // Basis-Gruppe bestimmen (literatur, politik, reisen, …)
-        const groupKey = category.replace('_oberkategorie', '');
+        // Basis-Gruppe (literatur, politik, reisen, …) und Level in Hierarchie (1, 2, 3 oder 4) bestimmen
+        const [groupKey, level] = category.split('_');
+        const numericLevel = parseInt(level, 10);
         // Wenn Gruppe noch nicht existiert: neue erstellen
         if (!groups[groupKey]) {
           groups[groupKey] = [];
@@ -144,13 +145,9 @@ export default {
         groups[groupKey].push({
           label,
           cssClass: 'kw-' + category,
-          isTopLevel: category.endsWith('_oberkategorie')
+          level: numericLevel
         });
       }
-      // Oberkategorie innerhalb der Gruppe nach vorne einordnen (um im Interface als erstes dargestellt zu werden)
-      Object.values(groups).forEach(group => {
-        group.sort((a, b) => b.isTopLevel - a.isTopLevel);
-      });
 
       return groups;
     },
@@ -345,88 +342,112 @@ export default {
 
 /* Keyword-Kategorien: Oberkategorien sind dunkler/gesättigter eingefärbt als Unterkategorien */
 
-.kw-literatur {
-  background-color: #ca07076d;
-}
-
-.kw-literatur_oberkategorie {
+.kw-literatur_1 {
   background-color: #ad2601;
   color: #ffffff;
 }
 
-.kw-beziehungen {
-  background-color: #ff8c0081;
+.kw-literatur_2 {
+  background-color: #ca0707ae;
 }
 
-.kw-beziehungen_oberkategorie {
+.kw-literatur_3 {
+  background-color: #ca07076d;
+}
+
+.kw-beziehungen_1 {
   background-color: #f98800;
   color: #ffffff;
 }
 
-.kw-persoenliches {
-  background-color: #044c8b88;
+.kw-beziehungen_2 {
+  background-color: #ff8c00c6;
 }
 
-.kw-persoenliches_oberkategorie {
+.kw-beziehungen_3 {
+  background-color: #ff8c0081;
+}
+
+.kw-persoenliches_1 {
   background-color: #044b8b;
   color: #ffffff;
 }
 
-.kw-politik {
-  background-color: #6c0f7c82;
+.kw-persoenliches_2 {
+  background-color: #044c8b88;
 }
 
-.kw-politik_oberkategorie {
+.kw-politik_1 {
   background-color: #6b0f7c;
   color: #ffffff;
 }
 
-.kw-reisen {
-  background-color: #3ea06d86;
+.kw-politik_2 {
+  background-color: #6c0f7c82;
 }
 
-.kw-reisen_oberkategorie {
+.kw-politik_3 {
+  background-color: #6c0f7c43;
+}
+
+.kw-reisen_1 {
   background-color: #3ea06d;
   color: #ffffff;
 }
 
-.kw-emotion {
-  background-color: #2cafbb8d;
+.kw-reisen_2 {
+  background-color: #3ea06da6;
 }
 
-.kw-emotion_oberkategorie {
-  background-color: #03717b92;
+.kw-reisen_3 {
+  background-color: #3ea06d4a;
+}
+
+.kw-emotion_1 {
+  background-color: #03717bb5;
   color: #ffffff;
 }
 
-.kw-sprechakt {
-  background-color: #f9bf0084;
+.kw-emotion_2 {
+  background-color: #2cafbb6e;
 }
 
-.kw-sprechakt_oberkategorie {
-  background-color: #F9C000;
+.kw-sprechakt_1 {
+  background-color: #e7b100;
   color: #ffffff;
 }
 
-.kw-warensendung {
-  background-color: #e2037288;
+.kw-sprechakt_2 {
+  background-color: #f9bf00a1;
 }
 
-.kw-warensendung_oberkategorie {
+.kw-sprechakt_3 {
+  background-color: #f9bf0065;
+}
+
+.kw-sprechakt_4 {
+  background-color: #f9bf003b;
+}
+
+.kw-warensendung_1 {
   background-color: #e20372;
   color: #ffffff;
 }
 
-.kw-zitat {
-  background-color: #753b0896;
+.kw-warensendung_2 {
+  background-color: #e2037288;
 }
 
-.kw-zitat_oberkategorie {
+.kw-zitat_1 {
   background-color: #753b08;
   color: #ffffff;
 }
 
-.kw-andere {
+.kw-zitat_2 {
+  background-color: #753b0896;
+}
+
+.kw-andere_1 {
   background-color: gray;
   color: #ffffff;
 }

@@ -20,8 +20,8 @@
               <b>{{ entry.name }}</b>
             </template>
 
-            <!-- Person: GND- und Wikidata-Link -->
-            <div v-if="type === 'person'" class="meta">
+            <!-- Person oder Ort: GND- und Wikidata-Link -->
+            <div v-if="type === 'person' || type === 'place'" class="meta">
               <span>
                 <a v-if="entry.gnd" :href="entry.gnd" target="_blank">GND</a>
                 <span v-else class="placeholder">GND</span>
@@ -31,12 +31,6 @@
                 <a v-if="entry.wikidata" :href="entry.wikidata" target="_blank">Wikidata</a>
                 <span v-else class="placeholder">Wikidata</span>
               </span>
-            </div>
-
-            <!-- Ort: Geolink -->
-            <div v-if="type === 'place'" class="meta">
-              <a v-if="entry.geolink" :href="entry.geolink" target="_blank">Geolink</a>
-              <span v-else class="placeholder">Geolink</span>
             </div>
 
             <!-- Werk: GND- und Wikidata-Link, Link zu Digitalisat, Link zu Volltext -->
@@ -138,7 +132,7 @@ li {
   margin-bottom: 8px;
 }
 
-/* Links in einer Zeile, Abstand durch | */
+/* Links in einer Zeile, getrennt durch | */
 li div a {
   margin-right: 4px;
 }

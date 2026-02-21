@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-213</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1796-08-15">15.08.1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <placeName ref="http://d-nb.info/gnd/4018118-2">Frankfurt</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Johann Isaak von Gernings Mutter</term>
+                    <term>Trauer</term>
+                    <term>Freundschaft</term>
+                    <term>Kondolenz</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                d. 15 august abends<lb/>
+                <lb/>
+                theurer theurer Gerning! was für eine<lb/>
+                Nachricht! ich kann nicht darüber schreiben<lb/>
+                aber gewiß wenn irgend eine Lebande<lb/>
+                Seele Ihren Schmerz innigst theilt<lb/>
+                ist es Ihre gewiß mütterliche la Roche<lb/>
+                die rechtschafne gute <persName key="person8">Mutter</persName>! hatt doch<lb/>
+                ihre letzte ruhe, und Freuden tage aus<lb/>
+                der Hand ihres edlen Sohns erhalten –<lb/>
+                Gott lohne Sie dafür theurer Rechtschafner<lb/>
+                Gerning! O wie danke ich Gott und Ihnen<lb/>
+                das Sie hier waren – kommen Sie – O kommen<lb/>
+                Sie Zu mir – ich will Sie wie einen zweyten<lb/>
+                <persName key="person17">Frantz</persName> empfangen und stetts so für Sie denken<lb/>
+                mein Hertz meine Gesinungen für <hi rend="underline" n="1">Sie</hi> und die<lb/>
+                </div>
+                <div>
+                [2]
+                <persName key="person8">würdige Frau</persName> – geben mir ein recht<lb/>
+                meine Thräume mit den Ihrigen zu<lb/>
+                Mischen – kommen Sie zu Ihrer Mutter<lb/>
+                la Roche während die theuren übereste<lb/>
+                unßerer Mutter Erde in den Schooß gelegt<lb/>
+                werden – Mein Sohn Gerning!<lb/>
+                Gott gab Ihnen Viel – und dießer Verlust<lb/>
+                ist auf zu zeigen, wie Sie große<lb/>
+                edle Güten der Seele gebrauchen<lb/>
+                Gott der Sie schon viel erfahren lassen.<lb/>
+                <hi rend="underline" n="1">Stärke</hi> – <hi rend="underline" n="1">erhalte</hi> und <hi rend="underline" n="1">Seegne Sie</hi><lb/>
+                ich werde Sie immer für dieß Seegnen was<lb/>
+                <hi rend="underline" n="1">Sie</hi> Ihrer würdigen <persName key="person8">Mutter</persName> waren <hi rend="underline" n="1">u</hi> was Sie<lb/>
+                mir noch mittwochs sagten – der Ewige <hi rend="underline" n="1">erhalte<lb/>
+                Sie</hi> theurer bester junger Mann!<lb/>
+                ihre Laroche<lb/>
+                </div>
+                <div>
+                [3]
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offenbach</placeName> 15r. 18<hi rend="sup">ter</hi><lb/>
+                Aug. 1796.<lb/>
+                S. v. Laroche.<lb/>
+                <hi rend="underline" n="1">E d. 16n: 18<hi rend="sup">ten</hi></hi><lb/>
+                b <unclear>x</unclear> 17n. 18<hi rend="sup">ten</hi><lb/>
+                mündl.<lb/>
+                <hi rend="underline" n="1">19<hi rend="sup">ten</hi> schriftl.</hi><lb/></note>
+                <lb/>
+                <hi rend="latintype">à Monsieur<lb/>
+                Monsieur Gerning – Conseiller de Legation<lb/>
+                de sa M. le Roi de <placeName key="ort23">Neaple</placeName><lb/>
+                à<lb/>
+                <placeName key="ort2">Frankfort</placeName></hi><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

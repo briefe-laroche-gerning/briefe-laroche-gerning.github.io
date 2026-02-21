@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4728</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1796-02-11">10./11.02.1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Freundschaft</term>
+                    <term>Verliebtheit Gernings</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Streit</term>
+                    <term>Lob</term>
+                    <term>Ratschlag</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                d. 10 Fbr<lb/>
+                <lb/>
+                Gerning! Edler Schätzbarer Gerning!<lb/>
+                Sey Edelmütig in allem – gieb alle rache auf<lb/>
+                und zeige dich <hi rend="underline" n="1">großmütig</hi> in deinem<lb/>
+                betragen gegen <persName key="person13"><hi rend="latintype">Testa N.</hi></persName> u <persName key="person9">S.</persName> ohne zu brechen<lb/>
+                in aller Eile – Tante la Roche<lb/>
+                </div>
+                <div>
+                [2]
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenbach</placeName> 10 &amp; 11ter<lb/>
+                &amp; 14<hi rend="underline" n="2"><hi rend="sup">ter</hi></hi> febr 1796.<lb/>
+                Laroche.<lb/>
+                13ter<lb/>
+                <hi rend="underline" n="1">E d. 11<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi> &lt;15<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi>&gt;<lb/>
+                b <unclear>x</unclear> 16<hi rend="underline" n="2"><hi rend="sup">ten</hi></hi></hi><lb/></note>
+                </div>
+                <div>
+                [3]
+                d 11 Fbr 1796<lb/>
+                <lb/>
+                auch ich will meinem theuren, edelgesinnten Neffen<lb/>
+                eine Stunde wiedmen – zum dank des schönen<lb/>
+                guten Briefs vom 8 – und den schöner als je gelung<lb/>
+                =nen – Geist und Hertz voller gesängen –<lb/>
+                die alte tante kann nichts thun, als Seegnen, aber<lb/>
+                gewiß von gantzer Seele – den gang – arbeit<lb/>
+                Wahl – und Ton Ihrer <hi rend="latintype">Muse</hi> – ich freue mich zu denken<lb/>
+                dieße Edle Begeistrung – hebt meinen theuren<lb/>
+                Freund Gerning – über <hi rend="underline" n="1">alles</hi>, was andre junge<lb/>
+                Männer in seiner Laage thun würden – so wie<lb/>
+                sie ihn immer dem reinen æther nahe hielt, so<lb/>
+                wird Sie, in der sich, wie ich glaube &lt;bald&gt; kommenden<lb/>
+                Stunde der entscheidung zwischen Freund und ihm =<lb/>
+                Edel – großmuth voll – Seiner Seelen würde treu,<lb/>
+                ihn handlen machen = <hi rend="underline" n="1">Sie</hi> werden den beweiß<lb/>
+                geben, was Seele, mit Kentnis und liebe alles<lb/>
+                moralisch schönen und guten vereint – unter den<lb/>
+                Menschen ist.<lb/>
+                </div>
+                <div>
+                [4]
+                Das Ihre gesinungen nicht ton der Saiten ihrer<lb/>
+                Lyra, sondern wirkung – der von Ihrem Geist<lb/>
+                und Ihren grundsätzen belebten gefühlen sind.<lb/>
+                ich lege das blätchen bey so gestern schiken wolte<lb/>
+                das aber liegen blieb – weil gewöhnlicher Bott<lb/>
+                nicht kam – ich hatte winke erhalten das die<lb/>
+                Schale sich für Freund neigt – wie froh machte<lb/>
+                mich das wiederholte leßen Ihres briefs – wo Sie<lb/>
+                sagen – <hi rend="underline" n="1">ich war eigentlich nie bezaubert</hi> – Ihre<lb/>
+                <hi rend="underline" n="1"><hi rend="latintype">amena</hi></hi> ist ideal des reinsten edelsten Geistes<lb/>
+                dießem bestimme ich meines Neffen Hertz, und an-<lb/>
+                hänglichkeit – – thun Sie nicht als ob Sie winke<lb/>
+                hätten – Gegen keines – das eine ist berauscht<lb/>
+                das andre verborgen – Sie Theurer! müssen<lb/>
+                vermög Ihrer Seelen Kräfte – <hi rend="underline" n="1">Edel, groß seyn</hi><lb/>
+                tante, die Sie unendlich Schätzt, darf es sagen<lb/>
+                Rache zeigt Stärke, aber nicht größe<lb/>
+                </div>
+                <div>
+                [5]
+                Reden Sie doch nur mit wenigen, von dem gantzen<lb/>
+                ändern Sie nichts – an dem was <hi rend="underline" n="2">Sie sind</hi><lb/>
+                Tretten Sie auf keinen Fußweeg – Sie, berufen<lb/>
+                Zur Sternen Bahn – verzeyhen Sie der alten<lb/>
+                innig liebenden tante –<lb/>
+                dank für Theilnahme an der Freude, die mein<lb/>
+                Hertz an dem günstigen urtheil hatte –<lb/>
+                wie gerne O Theurer! möchte ich in meinem<lb/>
+                Geist und Hertzen etwas finden das ich der<lb/>
+                edlesten Frau wiedmen könnte – aber das<lb/>
+                beste dünkt mich nun, in getrokneten Früchten<lb/>
+                Zu bestehen – und dieße sind unwürdiges<lb/>
+                opfer für die große Schöne Seele –––<lb/>
+                Ach Gerning! wenn <hi rend="latintype">Carnevale</hi> vorüber ist – wenn<lb/>
+                Ihre Muse <hi rend="underline" n="1"><hi rend="latintype">amena</hi></hi> – gantz Sie beherscht – dann möchte<lb/>
+                einmal Ihnen etwas von billigen wünschen – u mäßiger<lb/>
+                Hofnung sagen Ihre ganz ergebene<lb/>
+                tante la Roche<lb/>
+                </div>
+                <div>
+                [6]
+                verzeyhen Sie daß das liedchen beylege<lb/>
+                die worte sind von mir, als ich unaussprechlich<lb/>
+                mißhandlet wurde – es ist das blatt womit<lb/>
+                ich den gestrigen kleinen Brief vergrößern<lb/>
+                und das verliehren hindern wolte/<lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

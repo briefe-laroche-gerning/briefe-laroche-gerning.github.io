@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4735</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1797-05-30">30.05.1797</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1797-05-30">30.05.1797</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rücksendung Brief</term>
+                    <term>Trübsinnigkeit</term>
+                    <term>Bekanntschaften</term>
+                    <term>Freude</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 30 May<lb/>
+                <lb/>
+                hier theurer und Schätzbarer<lb/>
+                Neffe – den schönen brief<lb/>
+                des edlen großen Manns zu<lb/>
+                rük – dank das ich auch dießes<lb/>
+                noch sah – alles wird mir<lb/>
+                mit Ihnen verschwinden und<lb/>
+                ich auf der Sandbank einsam<lb/>
+                bleiben – – – –<lb/>
+                Gott <hi rend="underline" n="1">Seegne</hi> <hi rend="underline" n="1">u</hi> <hi rend="underline" n="1">Leite</hi> <hi rend="underline" n="2">Sie</hi><lb/>
+                tante – ist heut trübsinnig<lb/>
+                aber Hochachtung – Theilnahme und<lb/>
+                die besten Wünsche für Neffe <hi rend="latintype">Gerning</hi><lb/>
+                Fließen Klar aus dem Hertzen der<lb/>
+                <hi rend="underline" n="1">alten laRoche</hi><lb/>
+                arme <hi rend="latintype">Sapho</hi> –<lb/>
+                <persName key="person82">V Meyrs</persName> Zufriedenheit freut mich –<lb/>
+                </div>
+                <div>
+                [2]
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offb</placeName> 30 May<lb/>
+                1797.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E gl.<lb/>
+                b <unclear>x x</unclear> Juny</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

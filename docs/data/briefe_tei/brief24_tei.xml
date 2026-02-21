@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4745</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1800-08-18">18.08.1800</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1800-08-18">18.08.1800</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rücksendung Brief</term>
+                    <term>Freude</term>
+                    <term>Bekanntschaften</term>
+                    <term>Missbilligung</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Freundschaft mit Wieland</term>
+                    <term>Bitte</term>
+                    <term>Johann Isaak von Gernings Dichtung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                <placeName key="ort1">offenbach</placeName> den 18 august 1800<lb/>
+                <lb/>
+                hier mein theurer Neffe Ihre<lb/>
+                Liebe mitgetheilte briefe u der<lb/>
+                außhänge bogen – mit vielem<lb/>
+                dank für Ihre güte zurük – <hi rend="underline" n="1">die<lb/>
+                zufriedenheit, der lieben <persName ref="person65 person66 person67">Gothaer</persName><lb/>
+                mit mir ist – eine große freude<lb/>
+                für mein Herz – warum sah ich<lb/>
+                dieße Weßen nicht auf meiner Wande<lb/>
+                rung? warum ist daß beste glük<lb/>
+                stükwerk – wie das wissen in der<lb/>
+                Bibel?</hi> hat Ihnen <persName key="person27">Herr Herrmann</persName><lb/>
+                die <name type="work" key="werk22">Satiren der Maria</name> – zugeschikt<lb/>
+                Oder selbst gebracht – da er Ihre be-<lb/>
+                kanntschaft wünschte – dießes müßte<lb/>
+                gestern geschehen seyn – sagen Sie<lb/>
+                mir es doch ich bitte Sie – daß gedrukte<lb/>
+                zeug ist unwürdiger unßinn – der<lb/>
+                mich schmerzt –<lb/>
+                </div>
+                <div>
+                [2]
+                die wie <persName key="person58">böttger</persName> sagt<lb/>
+                <persName key="person1"><hi rend="underline" n="1">unähnliche Schwester</hi></persName> – bleibt den<lb/>
+                ganzen winter in <placeName key="ort14">osmanstädt</placeName> –<lb/>
+                <hi rend="underline" n="2">Sie</hi> wieder 8br <placeName key="ort19">Saxonia</placeName> – – Gerning!<lb/>
+                doch ohne viele Menschen besuchen Sie<lb/>
+                noch gute – <hi rend="underline" n="1">Wahre tante la Roche</hi><lb/>
+                /wer hat wohl daß bild von <placeName key="ort8">Weimar</placeName><lb/>
+                im <name type="work" key="werk24">Genius der zeit</name> geschrieben? und<lb/>
+                Lieber! haben Sie das Gedicht zu<lb/>
+                Ehren deß <persName key="person16"><hi rend="latintype">Coadjuten</hi> von Mayntz</persName><lb/>
+                dem <name type="work" key="werk14">Mercur</name> geschikt ich bitte die guten<lb/>
+                Menschen hoffen auf Ihre Güte –<lb/>
+                <persName key="person71">Krauß</persName> fragt nach Vestung – die <hi rend="latintype">cerniert</hi><lb/>
+                wurde, wie steht es? ach lieber!<lb/>
+                das schreiben ist so wenig <hi rend="underline" n="1">u</hi> so<lb/>
+                vielerleÿ außlegung unterworfen –<lb/>
+                <hi rend="underline" n="1">u</hi> die menschen geben, so verschiedene<lb/>
+                Seiten zu sehen – <hi rend="latintype">adieu</hi> guter Neffe<lb/>
+                </div>
+                <div>
+                [3]
+                Nb von Papieren die Ihnen gehören<lb/>
+                habe sonst nichts<lb/>
+                O gehen Sie doch nicht weg ehe<lb/>
+                die <persName ref="person72 person73">Humbolt</persName> da waren, die so<lb/>
+                lieb sind – u auch nach <placeName key="ort8">Weimar</placeName><lb/>
+                gehen werden – wie <persName key="person73">frau v Humb.</persName><lb/>
+                mir schreibt /<lb/>
+                <hi rend="latintype">adieu</hi> glüklicher freund –<lb/>
+                Schätzbarer freunde –<lb/>
+                <lb/>
+                <note type="annotation" resp="recipient"><lg type="stanza">
+                <l>Ärmlicher Witz der nur mit Wort-</l>
+                <l>Verdrehungen frech spielt</l>
+                <l>böser Bube du bist selbst ein</l>
+                <l>verdrehter Satyr</l>
+                </lg></note>
+                </div>
+                <div>
+                [4]
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenbach</placeName> <unclear>x</unclear><lb/>
+                18<hi rend="sup">ten</hi> Aug. 1800.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. gl.<lb/>
+                b <unclear>x</unclear> 21ten.</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4737</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1798-03-29">29.03.1798</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1798-06-24">24.06.1798</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Krankheit</term>
+                    <term>Trübsinnigkeit</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                    <term>Freundschaft</term>
+                    <term>Koalitionskriege</term>
+                    <term>Revolution</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 29 merz 1798<lb/>
+                <lb/>
+                O mein edler theurer Neffe! wie<lb/>
+                unglüklich achtet sich arme tante<lb/>
+                la Roche – daß sie um völlige auf-<lb/>
+                lößung ihres bluts zu verhindern<lb/>
+                eine Reiße machen muß, zu der<lb/>
+                zeit wo <hi rend="underline" n="1">Sie</hi> in die nachbarschaft von<lb/>
+                <placeName key="ort1">offenbach</placeName> kommen – wo ich das un<lb/>
+                schätzbare glük geniessen könnte die zwey<lb/>
+                merkwürdige von mir so verehrte<lb/>
+                Menschen – <persName key="person39">Lord</persName> – <hi rend="underline" n="1">u</hi> <persName key="person40">lady Hamilton</persName><lb/>
+                zu sehen – Sie denken sich den grad<lb/>
+                den grad des Kummers nicht welchen da<lb/>
+                rüber fühle – theuerer Gerning! O wenn<lb/>
+                <hi rend="underline" n="1">Sie</hi> die idèe hätten nach <placeName key="ort9">Rastatt</placeName> zu gehen<lb/>
+                oder in die nähe denn ich geh nach <placeName key="ort10">Carlsruh</placeName><lb/>
+                da könnt ich Sie bey <persName key="person41">hofrath <hi rend="underline" n="1">Wucherer</hi></persName> sehen<lb/>
+                und sprechen – in 14 tag hoffe wieder da<lb/>
+                zu seyn – Gott<lb/>
+                </div>
+                <div>
+                [2]
+                daß ich nur <hi rend="underline" n="1">Sie</hi> nicht versäume nicht<lb/>
+                verliehre – daß nur die Franken<lb/>
+                <placeName key="ort23">Neapel</placeName> – u England nicht weh thun<lb/>
+                O mein Freund! was ist für eine<lb/>
+                zerstörende Moralische Lava, aus<lb/>
+                der revolution von <placeName key="ort23">Paris</placeName> außgeströmt<lb/>
+                denn ohne zerstörte grundsätze der<lb/>
+                teutschen – würde alles anders gewor<lb/>
+                =den seyn –<lb/>
+                Seegnen Sie bester meine Reiße – und<lb/>
+                um des Himmels willen ein wort daß<lb/>
+                mir sage – ob ich hoffen kann <hi rend="underline" n="1">Sie</hi> zu sehen<lb/>
+                ach vielleicht ist mir die luft in <placeName key="ort10">Carlsruh</placeName><lb/>
+                auch nicht günstig – denn in der nachbar<lb/>
+                =schaft wurde der Staats <hi rend="latintype">Cörper</hi> von teutsch<lb/>
+                =land aufgelößt – wie soll mein blutt in<lb/>
+                dießer luft neue <hi rend="latintype">Consistenz</hi> <hi rend="underline" n="1">erhalten können</hi><lb/>
+                </div>
+                <div>
+                [3]
+                der Himmel Seegne – erhalte, und<lb/>
+                schütze <hi rend="underline" n="1">Sie</hi> edler schätzbarer Freund!<lb/>
+                in allen unternehmungen u allen<lb/>
+                zeiten Ihres Lebens –<lb/>
+                O daß ich <hi rend="underline" n="1">Sie</hi> doch sehen <hi rend="underline" n="1">u</hi> sprechen<lb/>
+                könne theurer Schätzbarer Freund!<lb/>
+                um des Himmels Willen nur eine<lb/>
+                zeile – an la Roche in <placeName key="ort10">Carlsruh</placeName><lb/>
+                bey <persName key="person41">rath wucherer</persName> – zum trost der<lb/>
+                armen Tante vlaRoche<lb/>
+                ich reiße gleich ab nach <placeName key="ort1">offenbach</placeName> –<lb/>
+                aber <placeName key="ort9">Rastadt</placeName> besuche einen tag –<lb/>
+                </div>
+                <div>
+                [4]
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenbach</placeName> <unclear>x</unclear> 29ter<lb/>
+                Merz 1798.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. 24 Juny.<lb/>
+                b. d gl.</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

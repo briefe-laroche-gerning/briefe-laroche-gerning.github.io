@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4741</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1798-10-05">05.10.1798</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1798-10-05">05.10.1798</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Dank</term>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Kunst</term>
+                    <term>Geschäfte/Verkauf</term>
+                    <term>Verliebtheit Gernings</term>
+                    <term>Bekanntschaften</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 5 8br um 11 uhr morgens<lb/>
+                <lb/>
+                Wenn mein Schätzbarer <hi rend="latintype">Nepote</hi><lb/>
+                heute schon auf die rükgaabe der<lb/>
+                <name type="work" key="werk18"><hi rend="underline" n="1">Scherzi</hi></name> zälte so ist es mir leid;<lb/>
+                denn ich will noch bey dem zweÿten<lb/>
+                durchleßen – <hi rend="latintype">dolce memorie</hi> genießen<lb/>
+                von der zeit, wo ich die Holde Sprache<lb/>
+                der zartesten gefühle lernte und<lb/>
+                hörte – so lang werde es nicht behal<lb/>
+                ten, als die zwey Damen welche ge<lb/>
+                wöhnt sind die liebe an sich zu ziehen<lb/>
+                und um sich zu haben – und wer<lb/>
+                würde es nicht, wenn sie mit einem<lb/>
+                so liebenswürdigen geist spricht und<lb/>
+                in einem so reitzenden gewand sich<lb/>
+                zeigt. haben Sie dank theurer gütiger<lb/>
+                Neffe daß Sie mir dieße edle Freude<lb/>
+                mitheilten – haben Sie denn wohl auch<lb/>
+                achtung gegeben mit<lb/>
+                </div>
+                <div>
+                [2]
+                welcher <hi rend="latintype">mienn</hi>, und mit welchem<lb/>
+                ton der Stimme <persName key="person9">Fr. v. Sch.</persName> Ihnen<lb/>
+                von dießer allerliebsten Samlung<lb/>
+                sprach, und das Buch Ihnen zurükgaab.<lb/>
+                mir ist es merkwürdig – daß <hi rend="underline" n="1">Sie</hi><lb/>
+                die verschiednen reizende erscheinungen<lb/>
+                der liebe, und ihren gesinungen von<lb/>
+                <persName ref="person9 person1" cert="low">Sophien</persName> zurük halten – soll sie – <hi rend="underline" n="1">muß</hi><lb/>
+                sie nicht gedacht haben –<lb/>
+                <hi rend="latintype">Gerning</hi>! es war eine zeit, wo dein<lb/>
+                geist – in eben so schönen bildern<lb/>
+                und ideèn, mir von deinen edlen<lb/>
+                zärtlichen gefühlen sprach <hi rend="underline" n="1">u</hi> Sang...<lb/>
+                und <hi rend="underline" n="1">Sie</hi> – dachten Sie nicht<lb/>
+                O wenn von jedem meiner Lieder<lb/>
+                die Seele erschien, wie in dießen<lb/>
+                Scherzi – man würde auch artige, und<lb/>
+                bedeutende grouppen sehen –<lb/>
+                </div>
+                <div>
+                [3]
+                O ich muß Sie noch in <hi rend="underline" n="1">Ihrem</hi><lb/>
+                <hi rend="underline" n="1">Hauß</hi> unter Ihren Lieblingen<lb/>
+                sehen – eine Madansel hindert<lb/>
+                mich morgen zu kommen, <hi rend="latintype">adieu</hi><lb/>
+                von tante <hi rend="latintype">la Roche</hi><lb/>
+                <lb/>
+                ich denke an einen Herbstag<lb/>
+                mit Ihnen, da müssen Sie aber<lb/>
+                ganz Neffe seyn –<lb/>
+                <lb/>
+                lieber! ich soll dem Mann<lb/>
+                der dieße büchelg schreibt absatz<lb/>
+                schaffen wie soll ich daß anfangen?<lb/>
+                nähme ein buchhändler was in verlag?<lb/>
+                </div>
+                <div>
+                [4]
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offenbach</placeName> den<lb/>
+                5<hi rend="sup">ten</hi> 8br 1798<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E den gl.<lb/>
+                b. den 12ten.</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

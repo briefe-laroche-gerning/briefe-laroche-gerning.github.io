@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</institution>
+                        <idno type="signatur">Mscr.Dresd.h.37,4°,Bd.55,Nr.30</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1800-09-16">16.09.1800</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Bitte</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Krankheit</term>
+                    <term>Religion</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                <placeName key="ort1">Offenbach</placeName> d. 16. 7br 1800<lb/>
+                <lb/>
+                ich bitte meinen theuren Neffen<lb/>
+                um zwey nachrichten –<lb/>
+                <hi rend="underline" n="1">Eine</hi>, ob Sie nichts von meiner<lb/>
+                <hi rend="underline" n="1">in <placeName key="ort14">oßmanstädt</placeName> so sehr</hi> Krank<lb/>
+                liegenden <persName key="person1">Sophie</persName> gehört haben –<lb/>
+                <hi rend="underline" n="1">Zwey</hi> ob Sie das kleine gedicht meines<lb/>
+                guten Mayntzers, auf den <persName key="person16">Coadjutor</persName><lb/>
+                wirklich nach <placeName key="prt8">Weimar</placeName> schikten – ich<lb/>
+                <hi rend="underline" n="1">werde so oft u so ernst von dem<lb/>
+                jungen um nachricht gebeten, daß<lb/>
+                ich mir nicht zu helfen weiß –</hi><lb/>
+                Sagen Sie mir auch warum der<lb/>
+                dichter <persName key="person74">Stolberg</persName> – Catolisch wurde?<lb/>
+                ich kann nur noch sagen daß ich gestern<lb/>
+                den Schätzbarn, klugen, <persName key="person76">Bertuch</persName> – u <persName key="person75">H v Kalb</persName><lb/>
+                bey mir in meiner Hütte sah – u meinen<lb/>
+                <hi rend="underline" n="1">Neffen</hi> hätte dabey sehen mögen – bay alt<lb/>
+                Tante von la Roche<lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

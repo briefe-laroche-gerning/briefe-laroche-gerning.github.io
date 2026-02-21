@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4742</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Schönebeck</placeName>
+                    <date when="1799-08-29">29.08.1799</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <placeName ref="http://d-nb.info/gnd/4065105-8">Weimar</placeName>
+                    <date when="1799-09-05">05.09.1799</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Bitte um Weitersendung von Briefen</term>
+                    <term>Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                    <term>Freundschaft mit Wieland</term>
+                    <term>Bekanntschaften</term>
+                    <term>Sophie von La Roches Kinder</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 29 august in <placeName key="ort16">Schönebek</placeName> 1799<lb/>
+                <lb/>
+                zwischen Feuer und Wasser sitzend<lb/>
+                will ich meinen Neffen, nach seiner<lb/>
+                gesundheit und seinen nachrichten<lb/>
+                von <placeName key="ort2">frankfort</placeName> fragen ? aber auch<lb/>
+                aufträge geben –<lb/>
+                Einen nach <placeName key="ort14">osmanstädt</placeName> – den lieben<lb/>
+                Einwohnern dort tausend schönes<lb/>
+                im ganzen – <persName key="person6">Wieland</persName> aber einen<lb/>
+                außzug aus einem Brief der sagt<lb/>
+                <hi rend="underline" n="1">Wenn Sie bey <persName key="person6">Wieland</persName> sind – so sagen<lb/>
+                Sie ihm daß <hi rend="underline" n="2">Er</hi>, mit <persName key="person49">Horaz</persName> seit 20 Jahren<lb/>
+                meine irrdische Seeligkeit ist –<lb/>
+                <persName key="person55">Klopstok</persName> ist für mich, was <persName key="person56">kant</persName> unter<lb/>
+                den <hi rend="latintype">Philosophen</hi> – <persName key="person6">Wieland</persName> aber ist reines<lb/>
+                Licht, wo alles sichtbar, <hi rend="underline" n="2">u</hi> wo nichts blendet<lb/>
+                gott seegne <persName key="person6">Wieland</persName> <hi rend="underline" n="2">u</hi> <persName key="person5">Herder</persName>, daß sie<lb/>
+                den genius der finsternis bestürmen</hi><lb/>
+                in <persName key="person5">Herders</persName> Hauße – Lieber Neffe, alles<lb/>
+                nun was Sie schon lange wissen, wie ich<lb/>
+                für die fürtrefliche denke –<lb/>
+                ich bin glüklich bey meinen <persName key="person91">Kindern</persName><lb/>
+                habe aber jetzo immer<lb/>
+                </div>
+                <div>
+                [2]
+                ein auge nach dem weg meiner abreiße<lb/>
+                gerichtet – war <hi rend="underline" n="1">u</hi> bin hier in eine<lb/>
+                neue welt gegekommen, doch der Himmel<lb/>
+                hat überall gute geschöpfe – ich werde<lb/>
+                über <placeName key="ort17">leipzig</placeName> zurük, weil ich den<lb/>
+                weeg über <placeName key="ort15">Eißleben</placeName> nicht mehr be-<lb/>
+                -rühren kann ohne dort vor angst und<lb/>
+                ärger zu sterben – <hi rend="underline" n="1">u</hi> ich will meine<lb/>
+                Hütte in <placeName key="ort1">offenbach</placeName> noch einmal sehen<lb/>
+                adieu O grüßen Sie <placeName key="ort8"><hi rend="underline" n="1">Weimar</hi></placeName> en bloc<lb/>
+                et en detail – unßerm landsmann<lb/>
+                <persName key="person33">Göthe</persName> viel <hi rend="underline" n="1">u</hi> Ihnen selbst auch<lb/>
+                von der alten tante <hi rend="latintype">La Roche</hi> =<lb/>
+                der <persName key="person57"><hi rend="latintype">Minister v Struensèe</hi></persName> will uns<lb/>
+                zum essen <hi rend="underline" n="1">u</hi> einer lustreiße auf<lb/>
+                der Elbe – <hi rend="underline" n="1">u</hi> gestern habe mich<lb/>
+                in einen <persName key="person78">80 jahr alten feldmarchall</persName> verliebt=<lb/>
+                da schreibe keine große briefe mehr an andre<lb/>
+                Leute –<lb/>
+                </div>
+                <div>
+                [3]
+                <hi rend="latintype">à Monsieur<lb/>
+                Monsieur <hi rend="underline" n="1">Gerning</hi> – Conseiller de Legation<lb/>
+                de La Cour de <placeName key="person23">Neapel</placeName><lb/>
+                <placeName key="person8"><hi rend="underline" n="1">Weimar</hi></placeName></hi><lb/>
+                </div>
+                <div>
+                [4]
+                <note type="annotation" resp="recipient"><placeName key="person16">Schönebeck</placeName> <unclear>x</unclear> 29<hi rend="sup">ter</hi><lb/>
+                aug. 1799<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. 5<hi rend="sup">ten</hi> 7ber.<lb/>
+                b. <unclear>x</unclear> 22ten.</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

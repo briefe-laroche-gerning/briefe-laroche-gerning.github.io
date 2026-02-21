@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</institution>
+                        <idno type="signatur">Mscr.Dresd.h.37,Verm.4°,IX,Nr.254</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Abschrift</ab>
+                            <ab type ="note">Absendeort sowie Empfangsort erschlossen</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">[Offenbach]</placeName>
+                    <date when="1799-03-19">19.03.1799</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <placeName ref="http://d-nb.info/gnd/4065105-8">[Weimar]</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Freude</term>
+                    <term>Freundschaft</term>
+                    <term>Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)</term>
+                    <term>Freundschaft mit Wieland</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                    <term>Alter</term>
+                    <term>Politik</term>
+                    <term>Deutschland - Frankreich</term>
+                    <term>Koalitionskriege</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                An Gerning den 19 März 1799<lb/>
+                Mein schätzbarer Neffe, ist sehr gut, und sehr freund<lb/>
+                lich, mir in zwey Briefen lauter gute Nach-<lb/>
+                richten von den Gesinnugen der edlen wohl-<lb/>
+                wollenden Bewohner in <placeName key="ort8">Weimar</placeName> zu geben –<lb/>
+                Sie schleicht die Zeit, mit dem Winter und Eis-<lb/>
+                klötzen davon – und May wird mich auf der<lb/>
+                schönsten Reiße begleiten – ich schrieb <persName key="person6">Wieland</persName><lb/>
+                schon daß ich nicht früher kommen kann als<lb/>
+                gegen Ende des Wonne Monats weil ich allen<lb/>
+                Frost und feuchte Luft vermeiden muß –<lb/>
+                aber meine Gesundheit ist so gut, als ich<lb/>
+                sie mit 68 Jahr zu der Unternehmung<lb/>
+                einer Reiße nur begehren kann – machen<lb/>
+                Sie Wünsche lieber Neffe! daß die Gesundheit<lb/>
+                meiner Seele eben so seÿn möge – um alles<lb/>
+                ganz zu sehen, und zu fassen, was ich in<lb/>
+                dem Vaterland der Ideale aller Art – zu<lb/>
+                bewundern treffen werde – möge ich mit dem<lb/>
+                Ansehen einer alten Fee, auch die Fähigkeit<lb/>
+                vereinen, die sonderbarsten Dinge zu be-<lb/>
+                greifen <hi rend="underline" n="1">und</hi> zu würdigen<lb/>
+                Sagen Sie <hi rend="underline" n="1">amen</hi> Lieber Gerning! denn<lb/>
+                bald wird mir bange, wie vor einer Geister<lb/>
+                Versammlung – und so wahr ich lebe, ich<lb/>
+                werde nie den Muth haben mehrere von<lb/>
+                Ihnen beÿsammen zu sehen. <persName key="person6"><hi rend="underline" n="1">Wieland</hi></persName> ist<lb/>
+                gut – wie <persName key="person6">Wieland</persName> in Bieberach war – Er<lb/>
+                und seine Familie machen den Haupt Ge-<lb/>
+                genstand meiner Absichten bey ihm – un-<lb/>
+                </div>
+                <div>
+                [2]
+                ter den Bäumen seines Sabinum wie Sie<lb/>
+                es nennen hoffte ich alle indulgenz der Phi=<lb/>
+                losophie und der Freundschaft – niemand<lb/>
+                anders ist mir welche schuldig – Sie mein<lb/>
+                guter Neffe werden in <placeName key="ort8">Weimar</placeName> für mich<lb/>
+                seÿen was Sie in <placeName key="ort2">Frankfort</placeName> waren –<lb/>
+                von <persName key="person5">Herder</persName> wissen Sie, was ich sagte<lb/>
+                als ich nur <persName key="person6">Wielands</persName> Garten besuchen woll=<lb/>
+                te –<lb/>
+                <persName key="person5"><hi rend="underline" n="1">Herder</hi></persName> einmal sehen – und seine mir<lb/>
+                von dem ersten Moment für Ewig wer=<lb/>
+                the <persName key="person20">Frau</persName>, noch einmal zu umarmen –<lb/>
+                dieß war alles was ich damals wollte,<lb/>
+                als ich <persName key="person6">Wieland</persName> gleichgültig für mich dach=<lb/>
+                te – nun ist alles anders, vor dem aug<lb/>
+                meiner Seele – denn ich sehe nun <persName key="person6"><hi rend="underline" n="1">Wie=<lb/>
+                land</hi></persName> als ältesten besten meiner Freun=<lb/>
+                de – Sehe Güte, daß Genius von <placeName key="ort8">Weimar</placeName><lb/>
+                vor mir – und a ich möchte mich so gern<lb/>
+                von meiner Enklin <persName key="person1">Sophie</persName> – hinführen<lb/>
+                lassen – wenn es die Umstände er=<lb/>
+                lauben<lb/>
+                der Bott geht und ich mußte daß detail<lb/>
+                hören daß die Franz – ganz ganz an den<lb/>
+                Gränzen der Schweitz und Schwaben ge=<lb/>
+                schlagen sind – adieu bald das Gedicht von<lb/>
+                <persName key="person83">Senkenberg</persName> – –<lb/>
+                <lb/>
+                <hi rend="underline" n="1">La Roche</hi><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

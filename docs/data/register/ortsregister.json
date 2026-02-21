@@ -1,0 +1,137 @@
+{
+    "ort1": {
+        "name": "Offenbach",
+        "gnd": "https://explore.gnd.network/gnd/4043359-6",
+        "wikidata": "https://www.wikidata.org/wiki/Q3042"
+    },
+    "ort2": {
+        "name": "Frankfurt",
+        "gnd": "https://explore.gnd.network/gnd/4018118-2",
+        "wikidata": "https://www.wikidata.org/wiki/Q1794"
+    },
+    "ort3": {
+        "name": "Erlangen",
+        "gnd": "https://explore.gnd.network/gnd/4015299-6",
+        "wikidata": "https://www.wikidata.org/wiki/Q3126"
+    },
+    "ort4": {
+        "name": "Hanau",
+        "gnd": "https://explore.gnd.network/gnd/4023201-3",
+        "wikidata": "https://www.wikidata.org/wiki/Q3802"
+    },
+    "ort5": {
+        "name": "Büdingen",
+        "gnd": "https://explore.gnd.network/gnd/4132780-9",
+        "wikidata": "https://www.wikidata.org/wiki/Q382481"
+    },
+    "ort6": {
+        "name": "Erbach",
+        "gnd": "https://explore.gnd.network/gnd/4015092-6",
+        "wikidata": "https://www.wikidata.org/wiki/Q571748"
+    },
+    "ort7": {
+        "name": "Taunus",
+        "gnd": "https://explore.gnd.network/gnd/4059163-3",
+        "wikidata": "https://www.wikidata.org/wiki/Q158884"
+    },
+    "ort8": {
+        "name": "Weimar",
+        "gnd": "https://explore.gnd.network/gnd/4065105-8",
+        "wikidata": "https://www.wikidata.org/wiki/Q3955"
+    },
+    "ort9": {
+        "name": "Rastatt",
+        "gnd": "https://explore.gnd.network/gnd/4048445-2",
+        "wikidata": "https://www.wikidata.org/wiki/Q6874"
+    },
+    "ort10": {
+        "name": "Karlsruhe",
+        "gnd": "https://explore.gnd.network/gnd/4029713-5",
+        "wikidata": "https://www.wikidata.org/wiki/Q1040"
+    },
+    "ort11": {
+        "name": "Dieburg",
+        "gnd": "https://explore.gnd.network/gnd/4012145-8",
+        "wikidata": "https://www.wikidata.org/wiki/Q525493"
+    },
+    "ort12": {
+        "name": "Colmar",
+        "gnd": "https://explore.gnd.network/gnd/4010401-1",
+        "wikidata": "https://www.wikidata.org/wiki/Q130994"
+    },
+    "ort13": {
+        "name": "Bieberach",
+        "gnd": "https://explore.gnd.network/gnd/1065479638",
+        "wikidata": "https://www.wikidata.org/wiki/Q110234697"
+    },
+    "ort14": {
+        "name": "Oßmannstedt",
+        "gnd": "https://explore.gnd.network/gnd/1203836368",
+        "wikidata": "https://www.wikidata.org/wiki/Q650950"
+    },
+    "ort15": {
+        "name": "Eisleben",
+        "gnd": "https://explore.gnd.network/gnd/4092450-6",
+        "wikidata": "https://www.wikidata.org/wiki/Q484870"
+    },
+    "ort16": {
+        "name": "Schönebeck (Elbe)",
+        "gnd": "https://explore.gnd.network/gnd/4303569-3",
+        "wikidata": "https://www.wikidata.org/wiki/Q16020"
+    },
+    "ort17": {
+        "name": "Leipzig",
+        "gnd": "https://explore.gnd.network/gnd/4035206-7",
+        "wikidata": "https://www.wikidata.org/wiki/Q2079"
+    },
+    "ort18": {
+        "name": "Eutin",
+        "gnd": "https://explore.gnd.network/gnd/4015796-9",
+        "wikidata": "https://www.wikidata.org/wiki/Q490445"
+    },
+    "ort19": {
+        "name": "Sachsen",
+        "gnd": "https://explore.gnd.network/gnd/4051176-5",
+        "wikidata": "https://www.wikidata.org/wiki/Q1202"
+    },
+    "ort20": {
+        "name": "Jena",
+        "gnd": "https://explore.gnd.network/gnd/4028557-1",
+        "wikidata": "https://www.wikidata.org/wiki/Q3150"
+    },
+    "ort21": {
+        "name": "Mainz",
+        "gnd": "https://explore.gnd.network/gnd/4037124-4",
+        "wikidata": "https://www.wikidata.org/wiki/Q1720"
+    },
+    "ort22": {
+        "name": "Stuttgart",
+        "gnd": "https://explore.gnd.network/gnd/040582825",
+        "wikidata": "https://www.wikidata.org/wiki/Q1022"
+    },
+    "ort23": {
+        "name": "Neapel",
+        "gnd": "https://explore.gnd.network/gnd/4041476-0",
+        "wikidata": "https://www.wikidata.org/wiki/Q2634"
+    },
+    "ort24": {
+        "name": "Paris",
+        "gnd": "https://explore.gnd.network/gnd/4044660-8",
+        "wikidata": "https://www.wikidata.org/wiki/Q90"
+    },
+    "ort25": {
+        "name": "Neuburg",
+        "gnd": "https://explore.gnd.network/gnd/4041719-0",
+        "wikidata": "https://www.wikidata.org/wiki/Q125652"
+    },
+    "ort26": {
+        "name": "Wien",
+        "gnd": "https://explore.gnd.network/gnd/4066009-6",
+        "wikidata": "https://www.wikidata.org/wiki/Q1741"
+    },
+    "ort27": {
+        "name": "Rom",
+        "gnd": "https://explore.gnd.network/gnd/4050471-2",
+        "wikidata": "https://www.wikidata.org/wiki/Q220"
+    }
+}

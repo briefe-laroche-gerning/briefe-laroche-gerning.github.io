@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4744</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1800-08-14">14.08.1800</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1800-08-14">14.08.1800</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Dank</term>
+                    <term>Bekanntschaften</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Missbilligung</term>
+                    <term>Trübsinnigkeit</term>
+                    <term>Bitte um Besorgung von Büchern</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                <placeName key="ort1">offenbach</placeName> den 14 august 1800<lb/>
+                <lb/>
+                nur wenige zeilen weil ich wenig<lb/>
+                zeit habe – <hi rend="underline" n="1">aber danken muß ich<lb/>
+                meinem theuren Neffen Gerning!<lb/>
+                für die liebe, meinem Geist und<lb/>
+                Hertzen so schätzbare bekantschaft<lb/>
+                des <persName key="person65">Vaters</persName>, und der <persName ref="person66 person67">töchter Rousseau</persName>.<lb/>
+                ach wie wenig kann ich Ihnen übel<lb/>
+                nehmen, daß Sie <placeName key="ort19">Sachsen</placeName> lieben – und<lb/>
+                wie sehr wünsche ich, daß wir <placeName key="ort19">Sachsen</placeName><lb/>
+                ähnlich werden mögen</hi> –<lb/>
+                gestern abend sah ich, die <name type="work" key="werk22">seltsame<lb/>
+                bläther</name>, von <persName key="person68">Clemens B.</persName> – – der Himmel<lb/>
+                gebe, daß <placeName key="ort20"><hi rend="underline" n="1">Jena</hi></placeName> keinen andren jungen<lb/>
+                Mann, so werden lasse, wie dießer ist<lb/>
+                ich mag in keine außeinandersetzung<lb/>
+                eingehen – es macht mich traurig – aber<lb/>
+                ich hoffe <persName key="person69">Kozebue</persName> – Sie u andre werden die<lb/>
+                büberey verachten – möge ein erquiken<lb/>
+                =der regen, der Erde bald wohlthun, und<lb/>
+                meinen Neffen wieder zu mir bringen<lb/>
+                mich reute<lb/>
+                </div>
+                <div>
+                [2]
+                sehr – <hi rend="underline" n="1">daß ich</hi> &lt;der lieben&gt; <hi rend="underline" n="1"><persName key="person66">Schlichtegroll</persName> – nicht<lb/>
+                einen brief an <persName key="person70">Petersen</persName> mitgaab –<lb/>
+                Er würde glüklich geweßen seyn<lb/>
+                wie die Holde Frau mich machte –<lb/>
+                ach wen sie einen andren tag noch<lb/>
+                sehen könnte –</hi><lb/>
+                <hi rend="latintype">adieu</hi> – ich binn nicht ganz heiter, und<lb/>
+                <hi rend="underline" n="1">daß dürre laub meiner armen<lb/>
+                lieben Bäume schmerzt mich durch<lb/>
+                sein rauschen</hi> – wie viel wünschte<lb/>
+                von Ihnen zu hören – und von Ihnen<lb/>
+                gefragt zu werden, wäre es auch<lb/>
+                <hi rend="underline" n="1">Politischer</hi> weiße ––<lb/>
+                ich bitte um <name type="work" key="werk23"><hi rend="latintype">Caligone</hi></name> so bald Sie –<lb/>
+                sie haben – <hi rend="latintype">adieu</hi> verwirrt u in<lb/>
+                Eile – aber stets ergebene tante<lb/>
+                LaRoche –<lb/>
+                <lb/>
+                taußend Schöns an unschätzbaren<lb/>
+                Freund <persName key="person45">Hüsgen</persName> – <lb/>
+                [3]
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offenbach</placeName><lb/>
+                15<hi rend="sup">ter</hi> aug. 1800.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. gl.<lb/>
+                b <unclear>x.</unclear> 16ten</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

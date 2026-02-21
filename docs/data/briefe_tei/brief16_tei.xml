@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4739</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1798-08-14">14.08.1798</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1798-08-15">15.08.1798</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Rückgabe geliehener Literatur</term>
+                    <term>Sendung Brief</term>
+                    <term>Freude</term>
+                    <term>Geschäfte/Verkauf</term>
+                    <term>Inhalt eigener Werke</term>
+                    <term>Freundschaft</term>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Brief</term>
+                    <term>Reisen</term>
+                    <term>Taunus</term>
+                    <term>Natur</term>
+                    <term>Ausflug</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Zitat Gedicht</term>
+                    <term>Antike griechische Schriftsteller</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 14 august<lb/>
+                <lb/>
+                da mein theurer guter Neffe! das<lb/>
+                Liebe Liebe buch zurük – was für eine<lb/>
+                verdopelte freude ich dadurch genoß<lb/>
+                glauben Sie mir –<lb/>
+                das buch selbst – Ihre güte es mir zu<lb/>
+                leihen – u ähnlichkeit meiner idèe<lb/>
+                mit einer von <persName key="person42">Denis</persName> – denken <hi rend="underline" n="1">Sie</hi> das<lb/>
+                alle – und nun Ihre Zufriedenheit<lb/>
+                mit meinen letzten blättern – und die<lb/>
+                aussicht, daß wir <persName key="person47"><hi rend="underline" n="1">Schlosser</hi></persName> zu uns bekommen<lb/>
+                <hi rend="latintype">O Gerning</hi>! wie schön –<lb/>
+                hier auch einen Brief aus der Ferne<lb/>
+                helfen Sie mir Lieber! zu einem mode<lb/>
+                von den spar öfen, u spar heerden<lb/>
+                der <persName key="person77">Brunn</persName> ist reich er zalt es gerne<lb/>
+                der Himmel Seegne jeden othemzug in Hauße<lb/>
+                zu Ruhe des gemüths, u gesundheit des Cörpers<lb/>
+                </div>
+                <div>
+                [2]
+                für Sie – und Freund <persName key="person45">Hüsgen</persName> –<lb/>
+                es wird schön seyn, mit Ihnen nach <placeName key="ort11">Dieburg</placeName><lb/>
+                zu gehen – schön <persName key="person26">Münchhaußen</persName> zu sehen<lb/>
+                und zu hören – <hi rend="latintype">O Gerning</hi>! Gott lasse<lb/>
+                Sie den hohen werth des besitzes der<lb/>
+                unabhängigkeit, und des schönen glüks<lb/>
+                fühlen das <persName key="person49">Horaz</persName> sich wünschte als er<lb/>
+                sagte –<lb/>
+                <lg type="stanza">
+                <l>gieb mir O Sohn der Leto</l>
+                <l>bey leibes Kraft u bey gesunder Seele</l>
+                <l>zufriednen genuß der nothdurft, und</l>
+                <l>ein alter nicht ohne laute –</l>
+                </lg>
+                haben Sie je die <name type="work" key="werk17">briefe von Pope <hi rend="underline" n="1">u</hi> seinen<lb/>
+                Freunde</name> geleßen – O wie interessant sind dieße<lb/>
+                gestern bin mit <persName key="person50">andrè</persName> zwischen Römischen<lb/>
+                Grabhüglen herum gefahren – die Sonne<lb/>
+                gieng hinter dem <placeName key="ort7">taunus</placeName> unter in voller<lb/>
+                pracht – u zwischen den bäumen des kleinen<lb/>
+                waldes fielen noch<lb/>
+                </div>
+                <div>
+                [3]
+                von ihren Stralen auf dieße Hügel, der<lb/>
+                abend wind, war kühl, als die luft, vor<lb/>
+                der wohnung des kalten todes seyn soll,<lb/>
+                weit umher keine lebende Seele kein<lb/>
+                Hauß nah u fern zu sehen – der Kutscher<lb/>
+                ich – <persName key="person50">andrè</persName>, alt hinfällig nur die Pferdhe<lb/>
+                jung u wach – O ich hätte einen <persName key="person51" cert="low"><hi rend="latintype">Osian</hi></persName><lb/>
+                gewünscht, wie bey dem heimfahren, die<lb/>
+                Hügel mit blauem nebel bedekt wur<lb/>
+                =den, und der wilde thymian auf ihnen von<lb/>
+                der luft hin u her gewiegt wurde –<lb/>
+                hätte ich der <persName key="person34">frau v. Bethmann</persName> geld, der<lb/>
+                <persName key="person14">Mann von <hi rend="latintype">Colmar</hi></persName> müßte kommen u abends<lb/>
+                in einer solchen stunde da gehen – und<lb/>
+                sagen, was für gestalten Er sehe – da<lb/>
+                Er immer sagen kann, da liegt ein Mann –<lb/>
+                hier eine Frau – die gestalt ist nur einen<lb/>
+                schritt von Ihnen – – – – adieu in Eile –<lb/>
+                alt ergeben tante Laroche<lb/>
+                </div>
+                <div>
+                [4]
+                <note type="annotation" resp="recipient"><placeName key="ort1">offb</placeName> 14<hi rend="sup">ter</hi><lb/>
+                aug. 1798.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. 15<hi rend="sup">ten</hi><lb/>
+                b <unclear>x</unclear> 18<hi rend="sup">ten</hi>.</hi></note><lb/>
+                [5]
+                186<lb/>
+                wie schön – wie edel glüklich, waren die Stunden und tage<lb/>
+                dießes gesangs – für welchen ich – wär ich urania<lb/>
+                einen Stern Kranz – mit unsterblichen Roßen, und<lb/>
+                <hi rend="latintype">Myrthen</hi> gemischt zur Crone bestimmte –<lb/>
+                <hi rend="latintype">Sophie la Roche</hi><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

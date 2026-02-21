@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4730</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1796-06-04">04.06.1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1796-06-04">04.06.1796</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Verliebtheit Gernings</term>
+                    <term>Ratschlag</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Sophie von La Roches Enkel*innen</term>
+                    <term>Freundschaft</term>
+                    <term>Reisen</term>
+                    <term>Deutschland (Reisen)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                offenbach d 4 Juny 1796<lb/>
+                <lb/>
+                auch ungebetten und ungewünscht – hätte ich meinem<lb/>
+                Schätzbaren Kranken Neffen geschrieben – Krank ist Er<lb/>
+                und der letzte fieber anfall, dünkt mich stärker<lb/>
+                als ersterer, weil, Er auf 2 Conten geschriebene Züge<lb/>
+                und arangirte worte – für aussichten auf glük und für<lb/>
+                wahrheit hält ––– theurer – theurer Neffe! für was<lb/>
+                hielten Sie wohl ein paar briefe welche ich Ihnen<lb/>
+                ohngefähr vor 3 monaten schrieb – wo ich sagte wie<lb/>
+                <name type="work" key="werk25">Jorik zu Elisa</name> – Ehre dich Selbst – wo ich schrieb<lb/>
+                Sey großmüthig – Kein Neid – Keine rache – aber<lb/>
+                auch keine Trauer ––– glaubten Sie ich träumte?<lb/>
+                Nun Lieber – Sie wissen das ich nach Ihrem wunsch<lb/>
+                fragte – ich meldete Ihnen die erhaltene antwort<lb/>
+                und Sie schrieben mir Ihren letzten brief –––<lb/>
+                theurer Gerning! Sie Zogen also die binde der liebe<lb/>
+                freywillig, über Ihre klar sehende augen – was kann<lb/>
+                ich thun für den edlen jungen Mann, der nicht<lb/>
+                sehen will was ist – sondern was er wünscht –<lb/>
+                ich habe nun noch ein Histörchen zu erzählen wo<lb/>
+                <hi rend="underline" n="1">Sie</hi> erschienen –<lb/>
+                </div>
+                <div>
+                [2]
+                vorgestern donnerstag d 2 Juny – kam morgens<lb/>
+                halb 10 uhr der grüne wagen mit <persName key="person1" cert="low">Sophie</persName> <hi rend="underline" n="1">u</hi> <persName key="person15">Jenny</persName><lb/>
+                die mich besuchen, und bey mir bleiben wolten<lb/>
+                sprachen von ankunft <hi rend="underline" n="1">u</hi> abreiße des <persName key="person16">H v Dalberg</persName><lb/>
+                und andren dingen – 1 1/2 stund nachher kommt<lb/>
+                eine zartguthe mit <persName key="person16">Dalberg</persName> mich noch zu sprechen<lb/>
+                <hi rend="underline" n="1">u</hi> großes staunen sich noch zu sehen – – – man<lb/>
+                ißt bey mir – man sprach, und blickte viel im<lb/>
+                Garten – Stube – Bibliolek <hi rend="underline" n="1">u</hi>u Sallon – – – – – –<lb/>
+                ich fand eine 4<hi rend="sup">tl</hi> Stunde zu fragen – warum<lb/>
+                so gerne leute plagen? und dann Sagen Sie!<lb/>
+                bleiben Sie dann für meinen guten schätzbaren<lb/>
+                Neffen gesunt wie Sie letzt mir sagten?<lb/>
+                ja ich sagte es ihm selbst, das er <hi rend="underline" n="1">nie mehr</hi>, mir<lb/>
+                von liebe – oder anträgen, <hi rend="underline" n="1">mündlich</hi> oder <hi rend="underline" n="1">schriftlich</hi><lb/>
+                oder durch <hi rend="underline" n="1">andre</hi> sprechen solle – indem alles ver<lb/>
+                geblich seyn würde – und die Sache unmöglich seyn<lb/>
+                kann – oder seyn wird – – – –<lb/>
+                Gerning! dießes wurde mir d 2 Juny 10 uhr morgens<lb/>
+                gesagt eh <persName key="person16">dalberg</persName> kam<lb/>
+                </div>
+                <div>
+                [3]
+                und noch Honig schlürfte – – – – – – Sie scheinen<lb/>
+                auch sehr begierig darnach, weil sie sorgfältig<lb/>
+                das läpgen papier ablößten das reissen bedaurten,<lb/>
+                vielleicht die alte Tante einer profanation anklag=<lb/>
+                ten – – – da haben Sie alle stükchen der Epistel<lb/>
+                Ihre andacht wird wohl eine <hi rend="latintype">Reliquie</hi> daraus machen<lb/>
+                und in dem Zusamen papen eine glükseeligkeit<lb/>
+                Genießen – <hi rend="latintype">grand bien vous fasse</hi> ––– aber, O! wie<lb/>
+                wird es Sie reuen, mir nicht vor 3 monat geglaubt –<lb/>
+                mich für eine alte Träumerinn – und denn nun<lb/>
+                sich für einen Seher gehalten zu haben –<lb/>
+                Guter Edler Gerning! Sey Mann!<lb/>
+                die mit Italienischen Zauber <hi rend="latintype">caracteren</hi><lb/>
+                beschriebene Binde vom aug – und daß so<lb/>
+                schöne gespräch – und die <hi rend="latintype">Elegie</hi>, in die Schieblade<lb/>
+                Seegen auf Reißen nach Hanau – Büdingen u<lb/>
+                Erbach – – – möge zerstreuung Ihnen wohlthun<lb/>
+                und stärke geben wahrheit zu sehen, und zu lieben<lb/>
+                adieu guter Schätzbarer Neffe! wie gerne möchte<lb/>
+                tante Sie sprechen<lb/>
+                La Roche<lb/>
+                </div>
+                <div>
+                [4]
+                Sagen Sie der würdigen <persName key="person8">Mutter</persName>, die ich liebe<lb/>
+                und Ehre, das es unmöglich war, in Ihr Haus<lb/>
+                Zu kommen – aber ich bitte Sie einmal unvorge<lb/>
+                -sehen – mich auf einen Tag aufzunehmen –<lb/>
+                <lb/>
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offenbach</placeName> <unclear>x</unclear> 4<hi rend="sup">ter</hi> Juny<lb/>
+                1796.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. gl.<lb/>
+                b. <unclear>x</unclear> 7ten</hi><lb/></note>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

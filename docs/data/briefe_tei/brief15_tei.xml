@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4738</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1798-07-28">28.07.1798</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1798-07-29">29.07.1798</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Dank</term>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Inhalt eigener Werke</term>
+                    <term>Haus und Garten</term>
+                    <term>Zitat Gedicht</term>
+                    <term>Bekanntschaften</term>
+                    <term>Lob</term>
+                    <term>Geschäfte/Verkauf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 28 Jully 1798<lb/>
+                <lb/>
+                dank unendlichen dank! theurer Schätzbarer<lb/>
+                Neffe! für die mitheilung der 7 Stüke welche<lb/>
+                meinem geist wirklich erquikend waren.<lb/>
+                der Himmel lohne <hi rend="underline" n="1">Sie</hi> für die edle Freude<lb/>
+                welche Sie mir damit schenkten –<lb/>
+                ich wollte die lieben papiere nicht lang behalten<lb/>
+                damit Sie wenigstens das vergnügen haben<lb/>
+                mögen, sie auf Ihrem schreibtisch liegen zu sehen<lb/>
+                wie innig müssen Sie den Fleiß der tage Seegnen<lb/>
+                in welchen Sie sich den geist und die sprache<lb/>
+                der alten so Eigen machten – daß die beste<lb/>
+                der neuen – so viel vergnügen in Ihrer<lb/>
+                freundschaft geniessen – der Himmel erhalte<lb/>
+                den schönen Cirkel lange ungetrennt in<lb/>
+                welchem der geist der Kentnis und Liebe des<lb/>
+                Schönen – meinen edel blühenden Neffen<lb/>
+                führte =<lb/>
+                wie gütig schmeichlend ist die anwendung<lb/>
+                der idèe des Ehrwürdigen <persName key="person42">Denis</persName> <hi rend="underline" n="1">Rükerinner<lb/>
+                =ungen</hi> auf meine <hi rend="latintype">Phantasie</hi> mit dem Schreib-<lb/>
+                =tisch – <hi rend="latintype">O Gerning</hi>! es ist mir belohnung für<lb/>
+                das mitleiden<lb/>
+                </div>
+                <div>
+                [2]
+                mit welchem ich einen alten Feldroßen<lb/>
+                =stok, in meinem Garten rettete – welchen<lb/>
+                mein gärtner aus raufen wollte – weil er<lb/>
+                nicht verdiene, neben den prächtigen taußend<lb/>
+                bläter zu stehen –<lb/>
+                Sie erlauben also auch wohl das <persName key="person42">Denis</persName> noch<lb/>
+                ein paar tage, neben dem aufsatz meines schreib<lb/>
+                =tisch bleibe –<lb/>
+                ich möchte allen den guten Männern Sagen<lb/>
+                Ich verehrte Sie bißher wegen Ihren er-<lb/>
+                worbenen verdiensten – aber jetzo auch<lb/>
+                wegen der gerechtigkeit welche Sie meinem<lb/>
+                Neffen Gerning erweißen –<lb/>
+                ich bemerke auch, daß die erfahrne Menschen<lb/>
+                Kenner, auch sehr genaue erinnerung, von<lb/>
+                der güte Ihres Hertzens, und von Ihrer bereit-<lb/>
+                =willigkeit haben, Gefälligkeiten zu erweißen<lb/>
+                denn es ist nicht einer, der nicht bey dießer<lb/>
+                Seite Ihres Caracters anrufte – Kl. dünkt<lb/>
+                mich der edelste darunter zu seyn –<lb/>
+                vertzeyhen Sie der alten alten tante – und<lb/>
+                Sagen den leuten nichts davon –<lb/>
+                hier sonderbare Verse<lb/>
+                </div>
+                <div>
+                [3]
+                die Sie vielleicht nicht kennen – und die<lb/>
+                abschrift eines impromtu von <persName key="person43">Lavater</persName> –<lb/>
+                <lg type="stanza">
+                <l>die freyheit, ach wohin ich seh</l>
+                <l>ach seh ich nur im traume</l>
+                <l>ich sehe – in Effigiè</l>
+                <l>hängt Sie am freyheits Baume</l>
+                <l>zwar <hi rend="underline" n="1">freyheit</hi> – <hi rend="underline" n="1">gleichheit</hi> – <hi rend="underline" n="1">Menschenrecht</hi></l>
+                <l>ist aufschrift der decrete</l>
+                <l>und doch ist nichts so ungerecht</l>
+                <l>das man uns nicht geböte.</l>
+                <l>da wo die freyheits Fahne wehn</l>
+                <l>wo drohend stoltze Heere stehn</l>
+                <l>ist keine spur von ihr zu sehen</l>
+                <l>ist nichts von ihr zu ahnen</l>
+                <l>wir schmachten alle &lt;hin&gt; nach ihr</l>
+                <l>umsonst gehorchen müssen wir</l>
+                <l>despoten, und Satanen /</l>
+                </lg>
+                <lb/>
+                wer ist Frau von <hi rend="latintype">Gromer</hi> von der Ll. schreibt?<lb/>
+                adieu in Eile tante LaRoche /<lb/>
+                </div>
+                <div>
+                [4]
+                / noch ein wort –<lb/>
+                hätten Sie <hi rend="latintype">Enthousiamus</hi> genug<lb/>
+                für <persName key="person44">Gibbons</persName> andenken, seine goldne<lb/>
+                uhr zu kauffen, die der Zufall<lb/>
+                zu mir führte – oder wissen Sie<lb/>
+                so jemand?<lb/>
+                viel schöns an Hüsgen den unendlich<lb/>
+                schätze adieu<lb/>
+                <lb/>
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenb</placeName> 28ten<lb/>
+                July 1798.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. 29ten<lb/>
+                b <unclear>x</unclear> 3<hi rend="sup">ten</hi> aug.</hi></note><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

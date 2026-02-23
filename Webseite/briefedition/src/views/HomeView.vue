@@ -52,7 +52,9 @@
           </div> <!-- Carousel schließen -->
         </div>
         <!-- Button zu den Briefen-->
-        <a class="btn btn-dark btn-lg button" href="/briefe" role="button">Zu den Briefen</a>
+        <router-link class="btn btn-dark btn-lg button" :to="{name: 'briefe'}" role="button">
+          Zu den Briefen
+        </router-link>
       </div> <!-- col schließen -->
     
       <!-- Bild von Johann Isaak von Gerning -->

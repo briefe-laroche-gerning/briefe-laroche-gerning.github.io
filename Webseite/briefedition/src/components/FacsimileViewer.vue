@@ -24,11 +24,11 @@
 
     <!-- Rotation, Zoom und Reset der Ansicht -->
     <div class="mt-2 d-flex justify-content-center gap-2">
-      <button class="btn btn-secondary" @click="rotateImage(-90)">⟲ Drehen</button>
-      <button class="btn btn-secondary" @click="rotateImage(90)">⟳ Drehen</button>
-      <button class="btn btn-secondary" @click="zoomImage(1.2)">＋ Zoom</button>
-      <button class="btn btn-secondary" @click="zoomImage(0.8)">− Zoom</button>
-      <button class="btn btn-secondary" @click="resetTransform">Reset</button>
+      <button class="btn btn-dark button" @click="rotateImage(-90)">⟲ Drehen</button>
+      <button class="btn btn-dark button" @click="rotateImage(90)">⟳ Drehen</button>
+      <button class="btn btn-dark button" @click="zoomImage(1.2)">＋ Zoom</button>
+      <button class="btn btn-dark button" @click="zoomImage(0.8)">− Zoom</button>
+      <button class="btn btn-dark button" @click="resetTransform">Reset</button>
     </div>
   </div>
 </template>
@@ -201,5 +201,9 @@ watch(currentImageIndex, resetTransform);
   height: 1.5rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.button {
+  background-color: var(--primary-blue) !important;
 }
 </style>

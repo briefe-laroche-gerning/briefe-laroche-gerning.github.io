@@ -19,6 +19,7 @@
         <a :href="`/data/briefe_tei/brief${nr}_tei.xml`" target="_blank">TEI-Download</a>
         <a style="margin-left: 10px;" :href="`/data/briefe_txt/brief${nr}.txt`" target="_blank">TXT-Download</a>
       </p>
+      <br>
     </div>
   </div>
   <div class="row justify-content-center">

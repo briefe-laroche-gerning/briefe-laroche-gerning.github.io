@@ -1,9 +1,14 @@
 <template>
 <!-- HINWEIS: Der Inhalt des <script>-Blocks dieser Datei wurde Schritt für Schritt mithilfe von GPT-5 generiert und anschließend überarbeitet und kommentiert. -->
-  
+
   <div class="letters-overview container">
 
     <h1>Briefübersicht</h1>
+
+    <div v-if="selectedEntityId" class="alert alert-info">
+      Gefiltert nach Registerentität.
+      <button class="btn btn-dark btn-sm button" @click="clearEntityFilter">Filter entfernen</button>
+    </div>
 
     <!-- Filter (nach Metadaten) -->
     <div class="filters row mb-4">
@@ -112,7 +117,9 @@ export default {
       selectedRecipientLocation: "",
       selectedManuscriptType: "",
       selectedKeywords: [],
-      selectedCategories: []            //Durch Schlagwort-Filter ausgewählte Oberkategorien
+      selectedCategories: [],          //Durch Schlagwort-Filter ausgewählte Oberkategorien
+      selectedEntityType: "",         // Für Filter nach Registerentitäten: person, place oder work
+      selectedEntityId: ""            // ID der Registerentität, nach der gefiltert wird
     };
   },
 
@@ -120,6 +127,12 @@ export default {
   async mounted() {
     const res = await fetch("/data/briefe_json/alle_briefe.json");
     this.letters = await res.json();
+
+    // Query-Parameter übernehmen (für Filter nach Registerentitäten)
+    if (this.$route.query.entityType && this.$route.query.entityId) {
+      this.selectedEntityType = this.$route.query.entityType;
+      this.selectedEntityId = this.$route.query.entityId;
+    }
   },
 
   computed: {
@@ -167,6 +180,28 @@ export default {
     // Gefilterte Briefe
     filteredLetters() {
       return this.letters.filter(letter => {
+      
+      // Entitäten-Filter (vom Register)
+      if (this.selectedEntityId) {
+        if (this.selectedEntityType === "person") {
+          if (!letter.register_entities?.persons?.includes(this.selectedEntityId)) {
+            return false;
+          }
+        }
+
+        if (this.selectedEntityType === "place") {
+          if (!letter.register_entities?.places?.includes(this.selectedEntityId)) {
+            return false;
+          }
+        }
+
+        if (this.selectedEntityType === "work") {
+          if (!letter.register_entities?.works?.includes(this.selectedEntityId)) {
+            return false;
+          }
+        }
+      }
+
       // Filter nach Jahr
       if (this.selectedYear) {
         const year = this.extractYear(letter.date);
@@ -191,6 +226,7 @@ export default {
           return false;
         }
       }
+
       // Filter nach Keywords (rekursiv: auch Unterkategorien werden gezählt, wenn nach ihrer Oberkategorie gefiltert wird)
       if (this.selectedKeywords.length) {
         const letterKeywordLabels = letter.keywords?.map(k => k.label) || [];
@@ -262,6 +298,13 @@ export default {
     // Gibt Schlagwort-Kategorien zurück (nur Kategorien)
     keywordCategory(label) {
       return KEYWORD_CATEGORIES[label] || "default";
+    },
+
+    // Setzt filter nach Register-Entität zurück
+    clearEntityFilter() {
+      this.selectedEntityId = "";
+      this.selectedEntityType = "";
+      this.$router.replace({ query: {} });
     }
   }
 };
@@ -338,6 +381,12 @@ export default {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+}
+
+/* Button für Zurücksetzen des Entitäten-Filters (Register) */
+.button {
+  background-color: var(--primary-blue) !important;
+  margin-left: 1em;
 }
 
 /* Keyword-Kategorien: Oberkategorien sind dunkler/gesättigter eingefärbt als Unterkategorien */

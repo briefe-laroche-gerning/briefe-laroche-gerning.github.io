@@ -1,5 +1,5 @@
 <template>
-  <!-- HINWEIS: Der Inhalt von compareEntries(a, b){...}, sowie async mounted(){...} wurde mithilfe von GPT-5 generiert und anschließend überarbeitet. -->
+  <!-- HINWEIS: Der Inhalt von compareEntries(a, b){...}, countLettersForEntry(entryId){...}, sowie async mounted(){...} wurde mithilfe von GPT-5 generiert und anschließend überarbeitet. -->
   
   <!--  Dieses Template generiert alle drei Registerseiten (Personen, Orte, Werke). Es ändert sich je nach übergebenen Daten.  -->
   <div>
@@ -31,6 +31,12 @@
                 <a v-if="entry.wikidata" :href="entry.wikidata" target="_blank">Wikidata</a>
                 <span v-else class="placeholder">Wikidata</span>
               </span>
+              <span>
+                <router-link :to="{name: 'briefe', query: {entityType: type, entityId: entry.id}}" class="btn btn-dark btn-sm button"> <!-- Link zur Briefübersichtsseite mit Filter -->
+                  <i class="bi bi-search"></i>
+                  Briefe ({{ countLettersForEntry(entry.id) }})
+                </router-link>
+              </span>
             </div>
 
             <!-- Werk: GND- und Wikidata-Link, Link zu Digitalisat, Link zu Volltext -->
@@ -54,6 +60,12 @@
                 <a v-if="entry.volltext" :href="entry.volltext" target="_blank">Volltext</a>
                 <span v-else class="placeholder">Volltext</span>
               </span>
+              <span>
+              <router-link :to="{name: 'briefe', query: {entityType: type, entityId: entry.id}}" class="btn btn-dark btn-sm button"> <!-- Link zur Briefübersichtsseite mit Filter -->
+                <i class="bi bi-search"></i>
+                Briefe ({{ countLettersForEntry(entry.id) }})
+              </router-link>
+            </span>
             </div>
 
           </li>
@@ -73,14 +85,19 @@ export default {
   },
   data() {
     return {
-      entries: []
+      entries: [],
+      letters: []   // Alle Briefe: Wird für Filter nach Entitäten gebraucht
     };
   },
 async mounted() {
   try {
-    // Laden der Daten
+    // Laden der Registerdaten
     const response = await fetch(this.url);
     const data = await response.json();
+
+    // Laden der Briefe (für Filter nach Entitäten)
+    const lettersRes = await fetch("/data/briefe_json/alle_briefe.json");
+    this.letters = await lettersRes.json();
 
     this.entries = Object.entries(data)
       // Umstrukturierung des JSON-Objekts
@@ -117,6 +134,26 @@ methods: {
 
     // Orte & Werke: Name
     return collator.compare(a.name, b.name);
+  },
+
+  // Zum Zählen der Briefe, die die jeweilige Person, den Ort oder das Werk enthalten
+  countLettersForEntry(entryId) {
+    return this.letters.filter(letter => {
+
+      if (this.type === "person") {
+        return letter.register_entities?.persons?.includes(entryId);
+      }
+
+      if (this.type === "place") {
+        return letter.register_entities?.places?.includes(entryId);
+      }
+
+      if (this.type === "work") {
+        return letter.register_entities?.works?.includes(entryId);
+      }
+
+      return false;
+    }).length;
   }
   }
 };
@@ -153,5 +190,11 @@ li div a {
 .placeholder {
   color: rgb(50, 46, 46);
   background: none;
+}
+
+/* Button mit Link zu Briefübersicht */
+.button {
+  background-color: var(--primary-blue) !important;
+  margin-left: 1em;
 }
 </style>

@@ -64,12 +64,6 @@
   </li>
   </ul>
 
-        <!-- Suche -->
-        <form class="d-flex" @submit.prevent="search">
-          <input class="form-control me-2" type="search" placeholder="Suche..." v-model="query">
-          <button class="btn btn-outline-light" type="submit">Suchen</button>
-        </form>
-
       </div>
     </div>
   </nav>

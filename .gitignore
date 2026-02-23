@@ -1,5 +1,11 @@
 env/
-Semantische_Erschließung_Tests/data/output
+
+# Output-Ordner, die nicht relevant für Endergebnis sind
+Semantische_Erschließung_Tests/data/output/LLM_keywords/output_llama3.3_70b
+Semantische_Erschließung_Tests/data/output/LLM_keywords/output_qwen32_10maxKeywords_1
+Semantische_Erschließung_Tests/data/output/LLM_keywords/output_qwen32_10maxKeywords_2
+Semantische_Erschließung_Tests/data/output/LLM_keywords/output_qwen72_10maxKeywords
+Semantische_Erschließung_Tests/data/output/topics
 
 
 # Webseite

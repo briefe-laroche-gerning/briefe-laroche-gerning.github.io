@@ -1,8 +1,6 @@
 [
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "20.07.1795",
     "sender": {
       "name": "Sophie von La Roche",
@@ -39,12 +37,21 @@
         "label": "Bitte um Besorgung"
       }
     ],
-    "nr": 1
+    "nr": 1,
+    "register_entities": {
+      "persons": [
+        "person1"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk1"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "06.02.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -96,12 +103,37 @@
         "label": "Freundschaft"
       }
     ],
-    "nr": 2
+    "nr": 2,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person2",
+        "person3",
+        "person4",
+        "person5",
+        "person6",
+        "person68",
+        "person7",
+        "person8",
+        "person85"
+      ],
+      "places": [
+        "ort1",
+        "ort2",
+        "ort22"
+      ],
+      "works": [
+        "werk1",
+        "werk14",
+        "werk2",
+        "werk3",
+        "werk4",
+        "werk5"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "08.02.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -147,12 +179,27 @@
         "label": "Bitte um Besorgung von Büchern"
       }
     ],
-    "nr": 3
+    "nr": 3,
+    "register_entities": {
+      "persons": [
+        "person10",
+        "person11",
+        "person12",
+        "person3",
+        "person8",
+        "person80",
+        "person9"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk7"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "10./11.02.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -195,12 +242,20 @@
         "label": "Ratschlag"
       }
     ],
-    "nr": 4
+    "nr": 4,
+    "register_entities": {
+      "persons": [
+        "person13",
+        "person9"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "12.05.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -240,12 +295,22 @@
         "label": "Dank"
       }
     ],
-    "nr": 5
+    "nr": 5,
+    "register_entities": {
+      "persons": [
+        "person13",
+        "person14"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk8"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "04.06.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -291,12 +356,24 @@
         "label": "Deutschland (Reisen)"
       }
     ],
-    "nr": 6
+    "nr": 6,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person15",
+        "person16",
+        "person8"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk25"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "15.08.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -333,12 +410,22 @@
         "label": "Kondolenz"
       }
     ],
-    "nr": 7
+    "nr": 7,
+    "register_entities": {
+      "persons": [
+        "person17",
+        "person8"
+      ],
+      "places": [
+        "ort1",
+        "ort2",
+        "ort23"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "27.08.1796",
     "sender": {
       "name": "Sophie von La Roche",
@@ -390,12 +477,30 @@
         "label": "Bekanntschaften"
       }
     ],
-    "nr": 8
+    "nr": 8,
+    "register_entities": {
+      "persons": [
+        "person18",
+        "person19",
+        "person20",
+        "person21",
+        "person22",
+        "person23",
+        "person3",
+        "person5",
+        "person92"
+      ],
+      "places": [
+        "ort7"
+      ],
+      "works": [
+        "werk11",
+        "werk2"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "11.01.1797",
     "sender": {
       "name": "Sophie von La Roche",
@@ -435,12 +540,25 @@
         "label": "Schriftsteller-/Dichterkreis"
       }
     ],
-    "nr": 9
+    "nr": 9,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person13",
+        "person19",
+        "person24",
+        "person25",
+        "person26",
+        "person86",
+        "person87",
+        "person9"
+      ],
+      "places": [],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "12.01.1797",
     "sender": {
       "name": "Sophie von La Roche",
@@ -480,12 +598,24 @@
         "label": "Bitte"
       }
     ],
-    "nr": 10
+    "nr": 10,
+    "register_entities": {
+      "persons": [
+        "person26",
+        "person27",
+        "person28"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk12",
+        "werk13"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "18.01.1797",
     "sender": {
       "name": "Sophie von La Roche",
@@ -528,12 +658,24 @@
         "label": "Antike griechische Schriftsteller"
       }
     ],
-    "nr": 11
+    "nr": 11,
+    "register_entities": {
+      "persons": [
+        "person30",
+        "person31",
+        "person32",
+        "person79"
+      ],
+      "places": [
+        "ort1",
+        "ort2",
+        "ort23"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "30.05.1797",
     "sender": {
       "name": "Sophie von La Roche",
@@ -570,12 +712,19 @@
         "label": "Freude"
       }
     ],
-    "nr": 12
+    "nr": 12,
+    "register_entities": {
+      "persons": [
+        "person82"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "17.10.[1797]",
     "sender": {
       "name": "Sophie von La Roche",
@@ -618,12 +767,32 @@
         "label": "Antike griechische Schriftsteller"
       }
     ],
-    "nr": 13
+    "nr": 13,
+    "register_entities": {
+      "persons": [
+        "person13",
+        "person33",
+        "person34",
+        "person35",
+        "person36",
+        "person37",
+        "person38",
+        "person6",
+        "person8",
+        "person87"
+      ],
+      "places": [
+        "ort8"
+      ],
+      "works": [
+        "werk14",
+        "werk15",
+        "werk16"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "29.03.1798",
     "sender": {
       "name": "Sophie von La Roche",
@@ -669,12 +838,24 @@
         "label": "Revolution"
       }
     ],
-    "nr": 14
+    "nr": 14,
+    "register_entities": {
+      "persons": [
+        "person39",
+        "person40",
+        "person41"
+      ],
+      "places": [
+        "ort1",
+        "ort10",
+        "ort23",
+        "ort9"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "28.07.1798",
     "sender": {
       "name": "Sophie von La Roche",
@@ -723,12 +904,21 @@
         "label": "Geschäfte/Verkauf"
       }
     ],
-    "nr": 15
+    "nr": 15,
+    "register_entities": {
+      "persons": [
+        "person42",
+        "person43",
+        "person44"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "14.08.1798",
     "sender": {
       "name": "Sophie von La Roche",
@@ -798,12 +988,32 @@
         "label": "Antike griechische Schriftsteller"
       }
     ],
-    "nr": 16
+    "nr": 16,
+    "register_entities": {
+      "persons": [
+        "person14",
+        "person26",
+        "person34",
+        "person42",
+        "person45",
+        "person47",
+        "person49",
+        "person50",
+        "person51",
+        "person77"
+      ],
+      "places": [
+        "ort1",
+        "ort11",
+        "ort7"
+      ],
+      "works": [
+        "werk17"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "10.09.1798",
     "sender": {
       "name": "Sophie von La Roche",
@@ -855,12 +1065,25 @@
         "label": "Zitat philosophischer Text"
       }
     ],
-    "nr": 17
+    "nr": 17,
+    "register_entities": {
+      "persons": [
+        "person26",
+        "person52",
+        "person53",
+        "person54",
+        "person6"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk26"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "05.10.1798",
     "sender": {
       "name": "Sophie von La Roche",
@@ -903,12 +1126,22 @@
         "label": "Bekanntschaften"
       }
     ],
-    "nr": 18
+    "nr": 18,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person9"
+      ],
+      "places": [
+        "ort1"
+      ],
+      "works": [
+        "werk18"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "31.12.1798",
     "sender": {
       "name": "Sophie von La Roche",
@@ -954,12 +1187,29 @@
         "label": "Freundschaft"
       }
     ],
-    "nr": 19
+    "nr": 19,
+    "register_entities": {
+      "persons": [
+        "person2",
+        "person24",
+        "person33",
+        "person5",
+        "person6",
+        "person88",
+        "person89",
+        "person90"
+      ],
+      "places": [
+        "ort1",
+        "ort14",
+        "ort25",
+        "ort8"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "19.03.1799",
     "sender": {
       "name": "Sophie von La Roche",
@@ -1017,12 +1267,24 @@
         "label": "Sophie von La Roches Enkel*innen"
       }
     ],
-    "nr": 20
+    "nr": 20,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person20",
+        "person5",
+        "person6",
+        "person83"
+      ],
+      "places": [
+        "ort2",
+        "ort8"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "29.08.1799",
     "sender": {
       "name": "Sophie von La Roche",
@@ -1068,12 +1330,36 @@
         "label": "Sophie von La Roches Kinder"
       }
     ],
-    "nr": 21
+    "nr": 21,
+    "register_entities": {
+      "persons": [
+        "person33",
+        "person49",
+        "person5",
+        "person55",
+        "person56",
+        "person57",
+        "person6",
+        "person78",
+        "person91"
+      ],
+      "places": [
+        "ort1",
+        "ort14",
+        "ort15",
+        "ort16",
+        "ort17",
+        "ort2",
+        "ort8",
+        "person16",
+        "person23",
+        "person8"
+      ],
+      "works": []
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "19.02.1800",
     "sender": {
       "name": "Sophie von La Roche",
@@ -1122,12 +1408,41 @@
         "label": "Bitte um Besorgung von Büchern"
       }
     ],
-    "nr": 22
+    "nr": 22,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person47",
+        "person48",
+        "person5",
+        "person58",
+        "person59",
+        "person6",
+        "person60",
+        "person61",
+        "person62",
+        "person63",
+        "person64",
+        "person84"
+      ],
+      "places": [
+        "ort1",
+        "ort17",
+        "ort18",
+        "ort23",
+        "ort26",
+        "ort27",
+        "ort8"
+      ],
+      "works": [
+        "werk19",
+        "werk20",
+        "werk21"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "14.08.1800",
     "sender": {
       "name": "Sophie von La Roche",
@@ -1170,12 +1485,30 @@
         "label": "Bitte um Besorgung von Büchern"
       }
     ],
-    "nr": 23
+    "nr": 23,
+    "register_entities": {
+      "persons": [
+        "person45",
+        "person65",
+        "person66",
+        "person67",
+        "person68",
+        "person69",
+        "person70"
+      ],
+      "places": [
+        "ort1",
+        "ort19",
+        "ort20"
+      ],
+      "works": [
+        "werk22",
+        "werk23"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "18.08.1800",
     "sender": {
       "name": "Sophie von La Roche",
@@ -1224,12 +1557,35 @@
         "label": "Johann Isaak von Gernings Dichtung"
       }
     ],
-    "nr": 24
+    "nr": 24,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person16",
+        "person27",
+        "person58",
+        "person65",
+        "person66",
+        "person67",
+        "person71",
+        "person72",
+        "person73"
+      ],
+      "places": [
+        "ort1",
+        "ort14",
+        "ort19",
+        "ort8"
+      ],
+      "works": [
+        "werk14",
+        "werk22",
+        "werk24"
+      ]
+    }
   },
   {
     "title": "Sophie von La Roche an Johann Isaak von Gerning",
-    "editor": "Rachel Aimee Georg",
-    "edition": "Digitale Edition, entstanden im Rahmen der Masterarbeit \"Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung\" an der Universität Trier",
     "date": "16.09.1800",
     "sender": {
       "name": "Sophie von La Roche",
@@ -1266,6 +1622,21 @@
         "label": "Religion"
       }
     ],
-    "nr": 25
+    "nr": 25,
+    "register_entities": {
+      "persons": [
+        "person1",
+        "person16",
+        "person74",
+        "person75",
+        "person76"
+      ],
+      "places": [
+        "ort1",
+        "ort14",
+        "prt8"
+      ],
+      "works": []
+    }
   }
 ]

@@ -28,11 +28,6 @@
   <xsl:template match="/tei:TEI">
 {
   "title": "<xsl:value-of select="normalize-space(tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title)"/>",
-  "editor": "<xsl:value-of select="normalize-space(tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor)"/>",
-  "edition": "<xsl:call-template name='escape-quotes'>
-                <xsl:with-param name='text'
-                  select="normalize-space(tei:teiHeader/tei:fileDesc/tei:editionStmt)"/>
-              </xsl:call-template>",
   "date": "<xsl:value-of select="normalize-space(tei:teiHeader//tei:correspAction[@type='sent']/tei:date)"/>",
 
   "sender": {

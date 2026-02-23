@@ -22,8 +22,29 @@ for i in range(1, 26):
 # -------------------------
 for i in range(1, 26):
     xml = etree.parse(f"brief{i}_tei.xml")
-    xsl = etree.parse("transform_tei_header.xsl")
+    ns = {"tei": "http://www.tei-c.org/ns/1.0"}
 
+    # Register-Entitäten extrahieren
+    persons = set() # Duplikate verhindern
+    for el in xml.xpath("//tei:persName", namespaces=ns):
+        if el.get("key"):
+            persons.add(el.get("key"))
+        if el.get("ref"):
+            for token in el.get("ref").split():
+                if token.startswith("person"):          # Nur Personen-Nummern übernehmen, nicht GND-Links aus dem Header
+                    persons.add(token)
+
+    places = {
+        el.get("key")
+        for el in xml.xpath("//tei:placeName[@key]", namespaces=ns)
+    }
+
+    works = {
+        el.get("key")
+        for el in xml.xpath("//tei:name[@type='work'][@key]", namespaces=ns)
+    }
+
+    xsl = etree.parse("transform_tei_header.xsl")
     transform = etree.XSLT(xsl)
     result = transform(xml)
 
@@ -31,6 +52,13 @@ for i in range(1, 26):
     data = json.loads(json_string)
 
     data["nr"] = i
+
+    # Entitäten hinzufügen
+    data["register_entities"] = {
+        "persons": sorted(persons),
+        "places": sorted(places),
+        "works": sorted(works)
+    }
 
     # einzelnes JSON schreiben
     with open(f"../briefe_json/brief{i}.json", "w", encoding="utf-8") as f:

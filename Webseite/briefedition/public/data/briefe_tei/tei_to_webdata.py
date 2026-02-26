@@ -39,10 +39,14 @@ for i in range(1, 26):
         for el in xml.xpath("//tei:placeName[@key]", namespaces=ns)
     }
 
-    works = {
-        el.get("key")
-        for el in xml.xpath("//tei:name[@type='work'][@key]", namespaces=ns)
-    }
+    works = set()
+    for el in xml.xpath("//tei:name[@type='work']", namespaces=ns):
+        if el.get("key"):
+            works.add(el.get("key"))
+        if el.get("ref"):
+            for token in el.get("ref").split():
+                works.add(token)
+
 
     xsl = etree.parse("transform_tei_header.xsl")
     transform = etree.XSLT(xsl)
@@ -60,7 +64,7 @@ for i in range(1, 26):
         "works": sorted(works)
     }
 
-    # einzelnes JSON schreiben
+    # Einzelnes JSON erstellen
     with open(f"../briefe_json/brief{i}.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

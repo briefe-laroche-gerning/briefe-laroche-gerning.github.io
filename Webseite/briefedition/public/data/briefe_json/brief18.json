@@ -45,7 +45,6 @@
   "nr": 18,
   "register_entities": {
     "persons": [
-      "person1",
       "person9"
     ],
     "places": [

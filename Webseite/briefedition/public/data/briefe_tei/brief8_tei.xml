@@ -91,12 +91,12 @@
                 [2]
                 auch das die <hi rend="underline" n="1">Edle große <persName key="person20">Caroline</persName></hi> – in dem<lb/>
                 Werk von <persName key="person92"><hi rend="underline" n="1"><hi rend="latintype">Grasset St Sauveur</hi></hi></persName> –<lb/>
-                / <name key="werk9"><hi rend="latintype"><hi rend="underline" n="1">L'antique Rome ornè de 50 Tableaux</hi><lb/>
+                / <name type="work" key="werk9"><hi rend="latintype"><hi rend="underline" n="1">L'antique Rome ornè de 50 Tableaux</hi><lb/>
                 Paris chez Leroy</hi></name> –<lb/>
                 etwas von ihrem wunsch der wirkung u des<lb/>
                 fortganges der wissenschaften durch revolution<lb/>
                 erfüllt finden könte – wie auch<lb/>
-                <name key="werk10"><hi rend="latintype"><hi rend="underline" n="1">les Souvenirs de George III – pendant ses voyages<lb/>
+                <name type="work" key="werk10"><hi rend="latintype"><hi rend="underline" n="1">les Souvenirs de George III – pendant ses voyages<lb/>
                 à Cheltenham – Glocester – et Worchester – traduit<lb/>
                 de l'anglais</hi> – Paris chez Beaupoil</hi></name> – gewiß<lb/>
                 etwas davon hatt –<lb/>
@@ -119,7 +119,7 @@
                 O wünschen Sie beyde den 3 band der<lb/>
                 <name type="work" key="werk2">briefe an Lina</name> eine glükliche Reiße<lb/>
                 ich habe mir 3 Ex. – auf Holländ papier aus<lb/>
-                gebetten, um an Carolina zu geben –<lb/>
+                gebetten, um an <persName key="person20">Carolina</persName> zu geben –<lb/>
                 lange war ich traurig – niemand und zu haben<lb/>
                 der meine papiere mit mir läße ehe sie<lb/>
                 gedrukt werden – jetzo bin ich es nicht<lb/>

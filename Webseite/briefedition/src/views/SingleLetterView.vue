@@ -241,10 +241,10 @@ export default {
     const spans = container.querySelectorAll("span.entity");
     spans.forEach(span => {
       let keys = [];
-      if (span.classList.contains("person")) {
+      if (span.classList.contains("person") || span.classList.contains("work")) {
         // Personen haben data-keys als JSON-Array (es können mehrere Personen markiert/gemeint sein)
         keys = JSON.parse(span.dataset.keys || "[]");
-      } else if (span.classList.contains("place") || span.classList.contains("work")) {
+      } else if (span.classList.contains("place")) {
         // Orte / Werke haben nur einen string in data-key
         if (span.dataset.key) keys = [span.dataset.key];
       }

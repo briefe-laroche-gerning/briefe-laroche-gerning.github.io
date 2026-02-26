@@ -113,26 +113,11 @@
     </div>
   </xsl:template>
 
-  
-  
+
   <!-- Registereinträge: Personen / Orte / Werke -->
   
-  <!-- Ort -->
-  <xsl:template match="tei:placeName">
-    <span class="entity place" data-key="{@key}">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-  
-  <!-- Werk -->
-  <xsl:template match="tei:name[@type='work']">
-    <span class="entity work" data-key="{@key}">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
-  
   <!-- Person -->
-  <!-- Hilfstemplate für Personen (Werte von key und ref zu array umwandeln) -->
+  <!-- Hilfstemplate (Werte von key und ref zu array umwandeln) -->
   
   <xsl:template name="json-array">
     <xsl:param name="list"/> <!-- z.B. "person1 person2" -->
@@ -218,6 +203,55 @@
     </span>
   </xsl:template>
 
+  <!-- Ort -->
+  <xsl:template match="tei:placeName">
+    <span class="entity place" data-key="{@key}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  <!-- Werk -->
+  <xsl:template match="tei:name[@type='work']">
+  <span>
+    
+    <!-- class -->
+    <xsl:attribute name="class">
+      <xsl:text>entity work</xsl:text>
+    </xsl:attribute>
+
+    <!-- JSON-Array mit Werk-IDs -->
+    <xsl:attribute name="data-keys">
+      <xsl:text>[</xsl:text>
+
+      <xsl:choose>
+        
+        <!-- Mehrfach-Referenz über @ref -->
+        <xsl:when test="@ref">
+          <xsl:call-template name="json-array">
+            <xsl:with-param name="list" select="@ref"/>
+          </xsl:call-template>
+        </xsl:when>
+        
+        <!-- Einzelwert über @key -->
+        <xsl:when test="@key">
+          <xsl:text>"</xsl:text>
+          <xsl:value-of select="@key"/>
+          <xsl:text>"</xsl:text>
+        </xsl:when>
+        
+        <!-- weder noch → leeres Array -->
+        <xsl:otherwise/>
+        
+      </xsl:choose>
+
+      <xsl:text>]</xsl:text>
+    </xsl:attribute>
+
+    <!-- Textinhalt -->
+    <xsl:apply-templates/>
+
+  </span>
+  </xsl:template>
   
   
   <!-- Fallback für sonstige Elemente -->

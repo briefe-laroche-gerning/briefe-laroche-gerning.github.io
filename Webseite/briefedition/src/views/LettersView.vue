@@ -54,7 +54,12 @@
     </div>
   
     <!-- Schlagwort-Filter (Buttons) -->
-    <h5>Keywords</h5>
+    <div class="d-flex align-items-center gap-2 mb-2">
+      <h5 >Schlagworte</h5>
+      <span class="text-muted">
+        Schlagwort auswählen, um danach zu Filtern. Erneut anklicken, um den Filter zu entfernen.
+      </span>
+    </div>
     <div class="keyword-filter">
       <div v-for="(group, groupKey) in keywordGroups" :key="groupKey" class="keyword-group">
         <span v-for="kw in group" :key="kw.label" class="keyword-badge"
@@ -80,19 +85,21 @@
 
         <!-- Datum, Absendeort, Empfangsort -->
         <div class="col-sm-3 meta">
-          <div class="date">
-            Datum: {{ letter.date }}
-          </div>
-          <div class="places">
-            Absendeort: {{ letter.sender.place }}<br>
-            Empfangsort: {{ letter.recipient.place || 'Keine Angabe' }}
-          </div>
+          <router-link :to="{ name: 'brief', params: { nr: letter.nr } }" class="letter-link text-decoration-none text-dark">
+            <div class="date">
+              Datum: {{ letter.date }}
+            </div>
+            <div class="places">
+              Absendeort: {{ letter.sender.place }}<br>
+              Empfangsort: {{ letter.recipient.place || 'Keine Angabe' }}
+            </div>
+          </router-link>
         </div>
 
         <!-- Keywords -->
         <div class="col-sm-7">
           <div class="keywords"> <!-- Klasse für wird dynamisch erstellt (Schlagworthierarchie gibt Tiefe des Farbtons an) -->
-            <span v-for="kw in letter.keywords" :key="kw.label" class="keyword-badge" :class="'kw-' + keywordCategory(kw.label)">
+            <span v-for="kw in letter.keywords" :key="kw.label" class="keyword-badge unclickable" :class="'kw-' + keywordCategory(kw.label)">
               {{ kw.label }}
             </span>
           </div>
@@ -341,7 +348,7 @@ export default {
   flex-wrap: wrap;
   gap: 0.4rem;
 }
-.h5 {
+h5 {
   font-weight: bold;
 }
 
@@ -377,6 +384,10 @@ export default {
   color: white;
 }
 
+.unclickable {
+  cursor: default;   /* normaler Pfeil für keywords in der Briefauflistung */
+}
+
 /* Filter */
 .keyword-filter {
   display: flex;
@@ -387,7 +398,7 @@ export default {
 /* Button für Zurücksetzen des Entitäten-Filters (Register) */
 .button {
   background-color: var(--primary-blue) !important;
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 /* Keyword-Kategorien: Oberkategorien sind dunkler/gesättigter eingefärbt als Unterkategorien */

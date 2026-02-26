@@ -348,7 +348,8 @@ export default {
 /* Schlagwort-Badges */
 .keyword-filter {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */ /* Zwei Spalten (Keywords Badges füllen Zeilen auf) */
+  flex-direction: column;
   gap: 1rem 2rem;
 }
 

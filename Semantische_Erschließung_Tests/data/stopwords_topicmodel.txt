@@ -75,6 +75,7 @@ daraus
 darf
 darfst
 darin
+darinn
 darüber
 darum
 darunter
@@ -598,6 +599,7 @@ wollten
 worden
 wurde
 würde
+würdest
 wurden
 würden
 x
@@ -680,6 +682,7 @@ winckelmann
 böhmer
 fiorillo
 bialo
+fritz
 fritze
 fritzen
 vil
@@ -717,6 +720,7 @@ dreßden
 ruhr
 harburg
 hamburg
+moringen
 pirmont
 pyrmont
 osnabrück
@@ -727,7 +731,10 @@ markard
 münter
 heloise
 schwartzkopf
+miller
 caroline
+langenhagen
+götting
 brunen
 bremen
 göttingen
@@ -738,6 +745,7 @@ clausthal
 amsterdam
 etwan
 ees
+ew
 et
 he
 eer
@@ -763,3 +771,4 @@ sohn
 fast
 voraus
 zumahl
+100

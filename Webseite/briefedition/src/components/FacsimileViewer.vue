@@ -205,5 +205,6 @@ watch(currentImageIndex, resetTransform);
 
 .button {
   background-color: var(--primary-blue) !important;
+  padding: 0.5rem 0.5rem; /* kleineres Padding */
 }
 </style>

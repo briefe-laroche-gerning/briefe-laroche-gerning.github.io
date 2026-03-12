@@ -12,7 +12,7 @@
 
     <!-- Filter (nach Metadaten) -->
     <div class="filters row mb-4">
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h5>Jahr</h5>
         <select v-model="selectedYear" class="form-select">
           <option value="">Alle</option>
@@ -22,7 +22,7 @@
         </select>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h5>Absendeort</h5>
         <select v-model="selectedSenderLocation" class="form-select">
           <option value="">Alle</option>
@@ -32,7 +32,7 @@
         </select>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h5>Empfangsort</h5>
         <select v-model="selectedRecipientLocation" class="form-select">
           <option value="">Alle</option>
@@ -42,7 +42,7 @@
         </select>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h5>Typ</h5>
         <select v-model="selectedManuscriptType" class="form-select">
           <option value="">Alle</option>
@@ -51,13 +51,18 @@
           </option>
         </select>
       </div>
+
+      <div class="col-md-2 d-flex align-items-end">
+        <button class="btn btn-dark btn-sm button" @click="clearAllFilters">Alle Filter zurücksetzen</button>
+      </div>
+      
     </div>
   
     <!-- Schlagwort-Filter (Buttons) -->
-    <div class="d-flex align-items-center gap-2 mb-2">
-      <h5 >Schlagworte</h5>
+    <div class="d-flex align-items-baseline gap-2 mb-2">
+      <h5 class="mb-0">Schlagworte</h5>
       <span class="text-muted">
-        Schlagwort auswählen, um danach zu Filtern. Erneut anklicken, um den Filter zu entfernen.
+        Schlagwort auswählen, um nach ihnen zu Filtern. Erneut anklicken, um den Filter zu entfernen.
       </span>
     </div>
     <div class="keyword-filter">
@@ -307,8 +312,21 @@ export default {
       return KEYWORD_CATEGORIES[label] || "default";
     },
 
-    // Setzt filter nach Register-Entität zurück
+    // Setzt Filter nach Register-Entität zurück
     clearEntityFilter() {
+      this.selectedEntityId = "";
+      this.selectedEntityType = "";
+      this.$router.replace({ query: {} });
+    },
+
+    // Setzt alle Filter zurück
+    clearAllFilters() {
+      this.selectedYear = "",
+      this.selectedSenderLocation = "",
+      this.selectedRecipientLocation = "",
+      this.selectedManuscriptType = "",
+      this.selectedKeywords = [],
+      this.selectedCategories = [], 
       this.selectedEntityId = "";
       this.selectedEntityType = "";
       this.$router.replace({ query: {} });

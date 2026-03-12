@@ -7,9 +7,14 @@
   <div class="row justify-content-center">
     <div class="col-sm-10">
       <h3>Sophie von La Roche an Johann Isaak von Gerning am {{ metadata?.date || '' }}</h3>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-5">
       <p>
         <b>Bestandshaltende Institution:</b> {{ metadata?.identifier?.institution || '' }}
-        <b style="margin-left: 10px;">Signatur:</b> {{ metadata?.identifier?.signature || '' }}
+      </p>
+      <p>
+        <b>Signatur:</b> {{ metadata?.identifier?.signature || '' }}
       </p>
       <p>
         <b>Absendeort:</b> {{ metadata?.sender.place || 'Keine Angabe' }}
@@ -20,6 +25,15 @@
         <a style="margin-left: 10px;" :href="`/data/briefe_txt/brief${nr}.txt`" target="_blank">TXT-Download</a>
       </p>
       <br>
+      </div>
+      <!-- Keywords -->
+      <div class="col-md-5">
+        <div class="keywords"> <!-- Klasse für wird dynamisch erstellt (Schlagworthierarchie gibt Tiefe des Farbtons an) -->
+          <span v-for="kw in metadata?.keywords" :key="kw.label" class="keyword-badge unclickable" :class="'kw-' + keywordCategory(kw.label)">
+            {{ kw.label }}
+          </span>
+        </div>
+      </div>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -29,7 +43,7 @@
     </div>
     <!-- Transkript -->
     <div class="col-sm-3">
-      <div v-if="loading">Lade Inhalt …</div>
+      <div v-if="loading">Lade Inhalt…</div>
       <div v-else ref="letterContent" class="letter-content" v-html="content"></div>
     </div>
 
@@ -72,6 +86,7 @@ import { nextTick } from 'vue';
 import { Tooltip } from "bootstrap";
 
 import FacsimileViewer from '@/components/FacsimileViewer.vue';
+import { KEYWORD_CATEGORIES } from "./keyword_categories.js";
 
 export default {
   components: {
@@ -227,6 +242,10 @@ export default {
 
       this.currentImageIndex = 0;
     },
+    // Gib Schlagwort-Kategorien zurück (nur Kategorien)
+  keywordCategory(label) {
+      return KEYWORD_CATEGORIES[label] || "default";
+    },
     // Verlinke erwähnte Entitäten im Transkript mit Register-Seite
    linkEntitiesInHtml() {
     // Sets zurücksetzen
@@ -280,6 +299,7 @@ export default {
     });
     a.classList.add("entity-link", type);
     a.style.cursor = "pointer";
+  
 
     // Tooltip-Inhalt zusammenbauen
     let tooltipLines = [];
@@ -410,11 +430,150 @@ async initTooltips() {
 }
 
 /* Metadaten (Kopf der Seite) */
-.single-letter-page .col-sm-10 p {
+.single-letter-page .col-md-5 p {
   margin: 0;
 }
-.single-letter-page .col-sm-10 h3 {
+.single-letter-page .col-md-5 h3 {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
+}
+
+/* Keywords (eingefärbte Badges) */
+
+.keywords {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.keyword-badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  cursor: default;
+  white-space: nowrap; /* Verhindert, dass der Text umbricht */
+}
+.keyword-badge.oberkategorie {
+  font-weight: bold;
+  margin-right: 0.5rem; /* Abstand zu Unterkeywords */
+}
+
+/* Keyword-Kategorien: Oberkategorien sind dunkler/gesättigter eingefärbt als Unterkategorien */
+.kw-literatur_1 {
+  background-color: #ad2601;
+  color: #ffffff;
+}
+
+.kw-literatur_2 {
+  background-color: #ca0707ae;
+}
+
+.kw-literatur_3 {
+  background-color: #ca07076d;
+}
+
+.kw-beziehungen_1 {
+  background-color: #f98800;
+  color: #ffffff;
+}
+
+.kw-beziehungen_2 {
+  background-color: #ff8c00c6;
+}
+
+.kw-beziehungen_3 {
+  background-color: #ff8c0081;
+}
+
+.kw-persoenliches_1 {
+  background-color: #044b8b;
+  color: #ffffff;
+}
+
+.kw-persoenliches_2 {
+  background-color: #044c8b88;
+}
+
+.kw-politik_1 {
+  background-color: #6b0f7c;
+  color: #ffffff;
+}
+
+.kw-politik_2 {
+  background-color: #6c0f7c82;
+}
+
+.kw-politik_3 {
+  background-color: #6c0f7c43;
+}
+
+.kw-reisen_1 {
+  background-color: #3ea06d;
+  color: #ffffff;
+}
+
+.kw-reisen_2 {
+  background-color: #3ea06da6;
+}
+
+.kw-reisen_3 {
+  background-color: #3ea06d4a;
+}
+
+.kw-emotion_1 {
+  background-color: #03717bb5;
+  color: #ffffff;
+}
+
+.kw-emotion_2 {
+  background-color: #2cafbb6e;
+}
+
+.kw-sprechakt_1 {
+  background-color: #e7b100;
+  color: #ffffff;
+}
+
+.kw-sprechakt_2 {
+  background-color: #f9bf00a1;
+}
+
+.kw-sprechakt_3 {
+  background-color: #f9bf0065;
+}
+
+.kw-sprechakt_4 {
+  background-color: #f9bf003b;
+}
+
+.kw-warensendung_1 {
+  background-color: #e20372;
+  color: #ffffff;
+}
+
+.kw-warensendung_2 {
+  background-color: #e2037288;
+}
+
+.kw-zitat_1 {
+  background-color: #753b08;
+  color: #ffffff;
+}
+
+.kw-zitat_2 {
+  background-color: #753b0896;
+}
+
+.kw-andere_1 {
+  background-color: gray;
+  color: #ffffff;
+}
+
+/* Links zum Register */
+.col-sm-3 ul li a {
+  text-decoration: none;
+}
+.entity-link {
+  text-decoration: none;
 }
 </style>

@@ -25,6 +25,7 @@
             <button type="button" data-bs-target="#carouselText" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselText" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselText" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselText" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner text-center">
             <div class="carousel-item active">
@@ -45,6 +46,13 @@
               <div class="d-flex justify-content-center align-items-center" style="height: 250px;">
                 <div>
                   <p>&bdquo;O mein Freund! was ist für eine zerstörende Moralische Lava, aus der revolution von Paris außgeströmt&ldquo;</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center align-items-center" style="height: 250px;">
+                <div>
+                  <p>&bdquo;ich bekenne Ihnen – das ich den verfasser aus einer art weiblichkeit verschwieg indem ich sagte – wenn Männer es tadlen, das eine frau von Erziehung schreibt –– so sag ich – Es war ein mann und nenne ihn –&ldquo;</p>
                 </div>
               </div>
             </div>

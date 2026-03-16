@@ -3,53 +3,54 @@
   <div class="row justify-content-center">
   <div class="col-9">
     <h1>Über diese Edition</h1>
+    <h3>Sophie von La Roche</h3>
     <p>
-      Diese Edition entstand im Rahmen der Masterarbeit 
-      "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795-1800): Möglichkeiten der semantischen Erschließung" 
-      an der Universität Trier.
-      Das zugehörige Github-Repository ist abrufbar unter folgendem <a href="https://github.com/briefe-laroche-gerning/briefe-laroche-gerning.github.io" target="_blank">Link</a>.
+    Sophie von La Roche (1730-1807) zählt zu den bedeutendsten deutschsprachigen Autorinnen der Empfindsamkeit
+    und gilt als erste Schriftstellerin Deutschlands, die Geld mit dem Schreiben verdiente.
+    Ihr 1771 veröffentlichter Roman „Die Geschichte des Fräuleins von Sternheim“ machte sie zur wohl bekanntesten
+    Schriftstellerin Deutschlands in der zweiten Hälfte des 18. Jahrhunderts. Mit ihren Romanen sowie ihrer Monatszeitschrift
+    "Pomona" widmete sie sich vor allem der Bildung und Erziehung von Frauen und Mädchen, wobei der Brief eine wichtige Bedutung
+    in ihren Texten hat.
+    Außerdem verfügte sie über ein ausgeprägtes Briefnetzwerk. In ihren Briefen verknüpft Sophie von La Roche rapide 
+    unterschiedlichste Themen in einer sprunghafte Gedankenführung. 
+    Zur Zeit der Briefe an Johann Isaak von Gerning lebte Sophie von La Roche in der Domstraße Offenbach. Zu ihren
+    späten Werken aus dieser Zeit zählen die zeitgeschichtlichen Romane „Schönes Bild der Resignation“,
+    „Erscheinungen am See Oneida“, „Mein Schreibetisch“ und „Reise von Offenbach nach Weimar und Schönebeck im Jahr 1799“.
     </p>
-    <h3>Transkriptionsrichtlinien</h3>
+    <h3>Johann Isaak von Gerning</h3>
     <p>
-      Die Wiedergabe der Briefe in der Edition erfolgt in einer diplomatischen Transkription,
-      es werden also alle individuellen bzw. historischen
-      Schreibweisen originalgetreu wiedergegeben. Orthographie und Zeichensetzung werden
-      nicht normiert, Schreibfehler nicht verbessert.<br>
-      Der Zeilenfall wird wie im originalen Brief wiedergegeben. Dies erleichtert zum einen den Vergleich mit dem Digitalisat und trägt
-      zum anderen zur Leserlichkeit bei, da Sophie von La Roche Sätze oft am Zeilenende ohne
-      das Hinzufügen eines Satzzeichens oder durch die Verwendung eines Gedankenstriches
-      beendet. Auf die Abbildung von Einrückungen oder die exakte Positionierung einzelner
-      Zeilen wird allerdings verzichtet, da diese im Digitalisat einsehbar sind. Lediglich klar getrennte
-      Absätze werden auch in der Transkription durch Leerzeilen getrennt.<br>
-      Die Seiten der Handschrift werden nummeriert und in eckigen Klammern in den Text eingefügt.
-      Geminationsstriche auf dem Buchstaben „m“ („m&#x0305;“) und Verdopplungsstriche auf „n“
-      („n&#x0305;“) werden zu „mm“ bzw. „nn“ aufgelöst. Abkürzungen mit Punkt oder Doppelpunkt
-      werden als solche wiedergegeben. Endverschleifungen werden aufgelöst. Einfache und
-      doppelte Unterstreichungen und hochgestellter Text wird genau so wiedergegeben. Gedankenstriche
-      werden, unabhängig von ihrer Länge oder Form, als solche wiedergegeben.
-      Streichungen Sophie von La Roches werden in geschweiften Klammern („{“, „}“) angegeben,
-      Hinzufügungen, die über, unter oder neben der Zeile stehen in spitzen Klammern
-      („<“, „>“).<br>
-      Nicht lesbare Textstellen werden mit einem roten „x“ pro Buchstabe dargestellt. Ist
-      die Anzahl der Buchstaben nicht zu erkennen, wird „xxx“ verwendet. Zusätzlich wird
-      im Mouseover „Nicht entziffert“ angegeben. Notizen Johann Isaak von Gernings auf den
-      Briefen werden durch das Mouseover „Notiz des Empfängers“ und eine graue Färbung
-      gekennzeichnet. Einzelne Wörter oder Textabschnitte in lateinischer Schrift unterscheiden
-      sich in der Darstellung von Text in der Kurrentschrift. Die Kurrentschrift wird mit der
-      Schriftart „Garamond“ dargestellt, lateinische Schrift in „Open Sans“.
+    Johann Isaak von Gerning (1767-1837) war Dichter und naturwissenschaftlich sowie künstlerisch interessierter Sammler.
+    Die von seinem Vater Johann Christian Gerning begonnene und von ihm weitergeführte Sammlung bildet heute die Grundlage der Ausstellung des Museums Wiesbaden.
+    Johann Isaak von Gerning schrieb eigene Lyrik, übersetzte aber auch Gedichte des von ihm bewunderten römischen Dichters Ovid ins Deutsche.
+    Außerdem veröffentlichte er Reisetagebücher über seine Österreich- und Italienreisen.
+    Besonders verbunden fühlte er sich mit dem Taunus. Er lebte viele Jahre in seinem „Taunium“, einem Landhaus in Kronberg,
+    und widmete dem Taunus Gedichte und andere Schriften. Daneben unterhielt er auch eine Wohnung in Frankfurt,
+    von der aus er Sophie von La Roche oft in Offenbach besuchte.
     </p>
-    <h3>Verwendete Quellen</h3>
+    <h3>Die Briefe</h3>
     <p>
-      Die Digitalisate wurden vom Freien Deutschen Hochstift (FDH) und der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB) 
-      zur Verfügung gestellt.<br>
-      Die einzelnen Briefe sind dabei mit der jeweiligen Institution, sowie ihrer Signatur im Bestand gekennzeichnet.
+    Thematisch erstrecken sich die Briefe Sophie von La Roches an Johann Isaak von Gerning
+    über Bekanntschaften und Freundschaften, Privatangelegenheiten, Politik, Literatur, Kunst,
+    Philosophie und das eigene literarische Schaffen. Dabei werden Meinungen zu Büchern, Lyrik,
+    Essays oder Kunstwerken zwischen Gerning und La Roche ausgetauscht. Oft sendet La
+    Roche ein ausgeliehenes Buch an Gerning zurück, empfiehlt ihm verschiedene Literatur oder
+    bittet ihn um die Besorgung von Büchern. Auch der Inhalt eigenerWerke ist in Sophie von La
+    Roches Briefen Thema. Es werden z. B. Gedankengänge erklärt, die Einfluss auf ihre Werke
+    genommen haben, oder Einblicke in den Schaffensprozess werden gewährt.
+    Außerdem sind politische Ereignisse, wie Schlachten gegen die französische Armee, oder
+    das Verhalten verschiedener Politiker oder Angehöriger europäischer Adelshäuser Thema
+    der Briefe. Daneben werden Grüße an Freunde und Bekannte ausgesprochen oder Geschehnisse
+    von Besuchen anderer Personen wiedergegeben. So geht es z.B. immer wieder um Johann Wolfgang
+    von Goethe, Christoph Martin Wieland und Johann Gottfried Herder,
+    zu denen Johann Isaak von Gerning in Weimar Kontakt hat.
+    Auch Sophie von La Roches Enkelinnen, vor allem Sophie Brentano, erscheinen in den Briefen.
+    Sophie von La Roche spricht den 37 Jahre jüngeren Johann Isaak von Gerning Meist in ihren Briefen
+    meist mit „theurer Neffe“ an und bezeichnte sich selbst als „alte Tante“ oder „Tante La Roche“.
+    In ihren Briefen gibt sie Gerning immer wieder Ratschläge zu verschiedenen Themen.
+    Dabei handelt es vor allem um private Angelegenheiten, wie z.B. Gernings Gefühle gegenüber einer Frau
+    oder seine Finanzen.
     </p>
-    <p>
-      Zum Erstellen dieser Webseite wurde das Vue-Framework, sowie Bootstrap verwendet.
-      Das Logo der Webseite ist eine Bearbeitung eines Logos von freepik.com (<a href="https://de.freepik.com/icon/vertrag_18954712#fromView=search&page=1&position=14&uuid=cf35f84a-7557-4961-ab1d-8d9633faad41" target="_blank">Link</a>).
-      Die Bilder auf der Startseite stammen von Wikimedia und sind gemeinfrei.
-    </p>
-    <p></p>
+
   </div>
   </div>
   </div>

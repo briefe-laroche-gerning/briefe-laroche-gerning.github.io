@@ -51,11 +51,25 @@
   </ul>
 </li>
 
-  <li class="nav-item">
-    <router-link to="/about" class="nav-link">
-      Über diese Edition
-    </router-link>
-  </li>
+ <li class="nav-item dropdown">
+  <a
+    class="nav-link dropdown-toggle"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Über diese Edition
+  </a>
+
+  <ul class="dropdown-menu">
+    <li>
+      <router-link class="dropdown-item" to="/transkriptionsrichtlinien">Transkriptionsrichtlinien</router-link>
+    </li>
+    <li>
+      <router-link class="dropdown-item" to="/about">Über die Briefe</router-link>
+    </li>
+  </ul>
+</li>
 
   <li class="nav-item">
     <router-link to="/impressum" class="nav-link">

@@ -39,7 +39,8 @@
   "nr": 1,
   "register_entities": {
     "persons": [
-      "person1"
+      "person1",
+      "person8"
     ],
     "places": [
       "ort1"

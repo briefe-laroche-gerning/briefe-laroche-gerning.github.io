@@ -40,7 +40,8 @@
     "nr": 1,
     "register_entities": {
       "persons": [
-        "person1"
+        "person1",
+        "person8"
       ],
       "places": [
         "ort1"
@@ -128,7 +129,8 @@
         "werk2",
         "werk3",
         "werk4",
-        "werk5"
+        "werk5",
+        "werk6"
       ]
     }
   },
@@ -191,7 +193,8 @@
         "person9"
       ],
       "places": [
-        "ort1"
+        "ort1",
+        "ort3"
       ],
       "works": [
         "werk7"
@@ -365,7 +368,10 @@
         "person8"
       ],
       "places": [
-        "ort1"
+        "ort1",
+        "ort4",
+        "ort5",
+        "ort6"
       ],
       "works": [
         "werk25"
@@ -494,8 +500,10 @@
         "ort7"
       ],
       "works": [
+        "werk10",
         "werk11",
-        "werk2"
+        "werk2",
+        "werk9"
       ]
     }
   },
@@ -849,6 +857,7 @@
         "ort1",
         "ort10",
         "ort23",
+        "ort24",
         "ort9"
       ],
       "works": []
@@ -909,7 +918,8 @@
       "persons": [
         "person42",
         "person43",
-        "person44"
+        "person44",
+        "person45"
       ],
       "places": [
         "ort1"
@@ -1005,6 +1015,7 @@
       "places": [
         "ort1",
         "ort11",
+        "ort12",
         "ort7"
       ],
       "works": [
@@ -1129,7 +1140,6 @@
     "nr": 18,
     "register_entities": {
       "persons": [
-        "person1",
         "person9"
       ],
       "places": [
@@ -1277,6 +1287,7 @@
         "person83"
       ],
       "places": [
+        "ort13",
         "ort2",
         "ort8"
       ],
@@ -1575,6 +1586,7 @@
         "ort1",
         "ort14",
         "ort19",
+        "ort21",
         "ort8"
       ],
       "works": [

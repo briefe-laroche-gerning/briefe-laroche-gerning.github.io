@@ -7,7 +7,7 @@
 
   <xsl:output method="text" encoding="UTF-8"/>
 
-  <!-- ===== Rekursives Template zum Escapen von " ===== -->
+  <!-- Rekursives Template zum Escapen von " -->
   <xsl:template name="escape-quotes">
     <xsl:param name="text"/>
     <xsl:choose>
@@ -24,9 +24,9 @@
     </xsl:choose>
   </xsl:template>
 
-  <!-- ===== Haupttemplate ===== -->
+  <!-- Haupttemplate -->
   <xsl:template match="/tei:TEI">
-{
+  {
   "title": "<xsl:value-of select="normalize-space(tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title)"/>",
   "date": "<xsl:value-of select="normalize-space(tei:teiHeader//tei:correspAction[@type='sent']/tei:date)"/>",
 

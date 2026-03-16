@@ -6,7 +6,7 @@
     <h1>Briefübersicht</h1>
 
     <div v-if="selectedEntityId" class="alert alert-info">
-      Gefiltert nach Registerentität.
+      Gefiltert nach <strong>{{ selectedEntityName }}</strong>.
       <button class="btn btn-dark btn-sm button" @click="clearEntityFilter">Filter entfernen</button>
     </div>
 
@@ -131,7 +131,12 @@ export default {
       selectedKeywords: [],
       selectedCategories: [],          //Durch Schlagwort-Filter ausgewählte Oberkategorien
       selectedEntityType: "",         // Für Filter nach Registerentitäten: person, place oder work
-      selectedEntityId: ""            // ID der Registerentität, nach der gefiltert wird
+      selectedEntityId: "",           // ID der Registerentität, nach der gefiltert wird
+
+      // Die Register-Dateien
+      personenRegister: {},
+      ortsRegister: {},
+      werkRegister: {},
     };
   },
 
@@ -139,6 +144,14 @@ export default {
   async mounted() {
     const res = await fetch("/data/briefe_json/alle_briefe.json");
     this.letters = await res.json();
+
+    // Registerdateien laden
+    const resPersonen = await fetch('/data/register/personenregister.json');
+    this.personenRegister = await resPersonen.json();
+    const resOrte = await fetch('/data/register/ortsregister.json');
+    this.ortsRegister = await resOrte.json();
+    const resWerke = await fetch('/data/register/werkregister.json');
+    this.werkRegister = await resWerke.json();
 
     // Query-Parameter übernehmen (für Filter nach Registerentitäten)
     if (this.$route.query.entityType && this.$route.query.entityId) {
@@ -260,6 +273,30 @@ export default {
       }
       return true;
       });
+    },
+    selectedEntityName() {
+      if (!this.selectedEntityId || !this.selectedEntityType) return "";
+      let entry = null;
+
+      if (this.selectedEntityType === "person") {
+        entry = this.personenRegister[this.selectedEntityId];
+        if (entry) {
+          return `${entry.firstname ? entry.firstname + " " : ""}${entry.name}`;
+        }
+      }
+      if (this.selectedEntityType === "place") {
+        entry = this.ortsRegister[this.selectedEntityId];
+        if (entry) {
+          return entry.name;
+        }
+      }
+      if (this.selectedEntityType === "work") {
+        entry = this.werkRegister[this.selectedEntityId];
+        if (entry) {
+          return entry.name;
+        }
+      }
+      return "";
     }
   },
 

@@ -116,7 +116,7 @@ export default {
 
       metadata: null, // Die Meta-Daten aus brief{i}.json
 
-      // Die gesamten Register-Dateien
+      // Die Register-Dateien
       personenRegister: {},
       ortsRegister: {},
       werkRegister: {},

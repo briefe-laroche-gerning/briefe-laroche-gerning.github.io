@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4736</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                            <ab type ="note">Absendeort erschlossen, Datum (Jahr) durch Archiv erschlossen</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">[Offenbach]</placeName>
+                    <date when="1797-10-17">17.10.[1797]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)</term>
+                    <term>Freundschaft</term>
+                    <term>Politik</term>
+                    <term>Frankreich (Politik)</term>
+                    <term>Ästhetischer Sprachgebrauch</term>
+                    <term>Antike griechische Schriftsteller</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 17 8br<lb/>
+                <lb/>
+                verzeyhen Sie Lieber guter Neffe<lb/>
+                das ich zwey Billets von Ihnen erst<lb/>
+                heute beantworte – haben Sie dank<lb/>
+                für beyde theurer <hi rend="latintype">Gerning</hi> –<lb/>
+                Ihre ungeheure <hi rend="latintype">Corespondentz</hi> nach <placeName key="ort8">Weimar</placeName><lb/>
+                mag wohl auf unkosten Ihres vorgehab-<lb/>
+                =ten besuchs bey mir – besorgt worden<lb/>
+                seyn – gut – möge nur meinem Nepoten<lb/>
+                vergnügen zurük kommen nach maaß des<lb/>
+                -sen so ich dadurch verlohr –<lb/>
+                was soll man für noten, zu der schön<lb/>
+                moralisch Politischen idèe machen, das<lb/>
+                der unbeschränkteste – beschränkt ist –<lb/>
+                Ach <hi rend="latintype">Gerning</hi>!! mein traum in <persName key="person6">Wielands</persName><lb/>
+                <name type="work" key="werk14"><hi rend="latintype">Mercur</hi></name>! bald möchte darüber prophetzeyhn<lb/>
+                aber – es redt mir niemand aufrichtig<lb/>
+                von <placeName key="ort8">Weimar</placeName> – da habe auch nicht nöthig<lb/>
+                mein Hertz, von dem zu öfnen was ich<lb/>
+                weiß – und denke –<lb/>
+                glük wünsche ich Ihnen zu ankunft Ihres<lb/>
+                Freunds <persName key="person33">Göthe</persName> – da<lb/>
+                </div>
+                <div>
+                [2]
+                ist aber mein Neffe mit Hertz<lb/>
+                und Kopf zwischen Freund u Freundin<lb/>
+                gebe der Himmel nur immer ruhige<lb/>
+                augenblike, wenn Sie <persName key="person87">Sophie</persName> u <persName key="person33">Göthe</persName><lb/>
+                bemerken können – mich dünkt, es<lb/>
+                könten schöne und <hi rend="underline" n="1">wichtige</hi> <hi rend="latintype">momente</hi><lb/>
+                werden – ich bleibe indessen in<lb/>
+                dem schatten einer alten bemooßten<lb/>
+                Eiche sitzen wo ich hingehöre – doch bekenne<lb/>
+                das wohl wünschte von meiner lieben<lb/>
+                <persName key="person34">bethmann</persName> zu tisch gebetten zu werden<lb/>
+                Wenn <persName key="person35">Mutter</persName> und <persName key="person33">Sohn <hi rend="underline" n="1">Göthe</hi></persName> bey ihr speißen<lb/>
+                nicht um zu <hi rend="underline" n="1">reden</hi>, sondern <hi rend="underline" n="1">sehen</hi><lb/>
+                und <hi rend="underline" n="1">hören</hi> –<lb/>
+                von <persName key="person36">Klinglins</persName> <hi rend="latintype">Credit</hi> über Kayser u Kayserin<lb/>
+                kann nur überhaupt sagen, das man sehr<lb/>
+                darüber spricht, als Politik- <hi rend="underline" n="1">u</hi> Sitten verderblich –<lb/>
+                die geschichte von <persName key="person37">obrist <hi rend="latintype">Polier</hi></persName> will aufsetzen<lb/>
+                und nun theurer Gerning Schwelgen Sie<lb/>
+                mit Ihrem Großen Freund – bey einem<lb/>
+                <name type="work" key="werk15">Platos gastmal</name> ähnlichen Schmauße an der<lb/>
+                Seite einer Diotima, <hi rend="underline" n="1">u</hi><lb/>
+                </div>
+                <div>
+                [3]
+                erzälen mir einst, von der wirkung<lb/>
+                welche Ihr Geist – und glük davon<lb/>
+                getragen – ich wünsche Herzlich das So :<lb/>
+                ein Meister Stük versuche – und das<lb/>
+                Mein <hi rend="underline" n="1">theurer</hi> Edler wahrer Neffe<lb/>
+                Honig ziehe – licht genieße, aber seine<lb/>
+                fittige frey behalte – aber aber –<lb/>
+                <hi rend="latintype">Ave Sophia</hi> – <hi rend="latintype">Philosophia</hi> – und die<lb/>
+                gespräche bey der <name type="work" key="werk16">Odyssee</name> ––––<lb/>
+                adieu ich bete für Sie – und wünsche<lb/>
+                bald in die Stadt gerufen zu werden<lb/>
+                gute rechtschafne <persName key="person8">Mutter</persName> umarme<lb/>
+                Herzlich – Mutter betet auch für mich=<lb/>
+                was Sie von einem vielleicht Ihnen<lb/>
+                verlohren gegangnen <hi rend="latintype">Manuscript</hi> sagen<lb/>
+                verstehe nicht –<lb/>
+                hier <persName key="person38">fichte</persName> – den ich wie Sie denken<lb/>
+                nur sehr flüchtig durchlaufen konte, und<lb/>
+                also einmal wieder hoffe –<lb/>
+                grüßen Sie guten, Schätzbaren <persName key="person13">Schwarzkopf</persName><lb/>
+                von alter laRoche<lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

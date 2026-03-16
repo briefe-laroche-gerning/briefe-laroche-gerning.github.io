@@ -1,0 +1,58 @@
+{
+  "title": "Sophie von La Roche an Johann Isaak von Gerning",
+  "date": "11.01.1797",
+  "sender": {
+    "name": "Sophie von La Roche",
+    "gnd": "http://d-nb.info/gnd/118569767",
+    "place": "[Offenbach]",
+    "placeGnd": "http://d-nb.info/gnd/4043359-6"
+  },
+  "recipient": {
+    "name": "Johann Isaak von Gerning",
+    "gnd": "http://d-nb.info/gnd/100143695",
+    "place": "",
+    "placeGnd": ""
+  },
+  "identifier": {
+    "institution": "Freies Deutsches Hochstift Frankfurt",
+    "signature": "Hs-4732"
+  },
+  "object": {
+    "type": "Manuskript",
+    "subtype": "Original",
+    "note": "Absendeort erschlossen"
+  },
+  "keywords": [
+    {
+      "label": "Warensendung"
+    },
+    {
+      "label": "Freundschaft"
+    },
+    {
+      "label": "Johann Isaak von Gernings Dichtung"
+    },
+    {
+      "label": "Bekanntschaften"
+    },
+    {
+      "label": "Schriftsteller-/Dichterkreis"
+    }
+  ],
+  "nr": 9,
+  "register_entities": {
+    "persons": [
+      "person1",
+      "person13",
+      "person19",
+      "person24",
+      "person25",
+      "person26",
+      "person86",
+      "person87",
+      "person9"
+    ],
+    "places": [],
+    "works": []
+  }
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4740</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1798-09-10">10.09.1798</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1798-09-10">10.09.1798</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Warensendung Literatur</term>
+                    <term>Sendung Brief</term>
+                    <term>Rezeption anderer Werke</term>
+                    <term>Biographisches Werk</term>
+                    <term>Kunst</term>
+                    <term>Philosophischer Text</term>
+                    <term>Politik</term>
+                    <term>Frankreich (Politik)</term>
+                    <term>Zitat philosophischer Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                den 10 7br 1798<lb/>
+                <lb/>
+                hier theurer Neffe! den <persName key="person52"><hi rend="latintype">abbè Suger</hi></persName><lb/>
+                welcher als <hi rend="latintype">Pieçe historique interessant</hi> ist<lb/>
+                und vergleichs punkte – für frankreichs<lb/>
+                letztern Minister und zeiten giebt –<lb/>
+                <hi rend="underline" n="1">Ihnen</hi> bester! aber auch nur <hi rend="underline" n="1">Ihnen allein</hi><lb/>
+                theile <persName key="person6">Wielands</persName> brief mit von welchem sprach<lb/>
+                Sie werden einen noch viel <hi rend="latintype">interessanteren</hi><lb/>
+                Mann darinn sehen als in seinen büchern<lb/>
+                selbst – ich lege einen brief von meiner<lb/>
+                <persName key="person53"><hi rend="latintype">Julie</hi></persName> bey – welchen zärtlich zu behandlen<lb/>
+                bitte damit seine zergänglichkeit nicht<lb/>
+                beschleunigt werde –<lb/>
+                ach warum haben Sie einige tage hier<lb/>
+                gelebt – und briefe von <persName key="person6">Wieland</persName> u <persName key="person6">Julie</persName> geleßen<lb/>
+                wie viel <hi rend="underline" n="1">schönes</hi> vergnügen hätten Sie dabey genos-<lb/>
+                =sen – wie viel <hi rend="underline" n="1">Edles</hi> ich! <hi rend="latintype">O Gerning</hi> – ich habe<lb/>
+                ein servietten muster aus meinen augen verbant<lb/>
+                welches der gebrochne staab heißt – weil es so<lb/>
+                sehr mich an die<lb/>
+                </div>
+                <div>
+                [2]
+                die abgebrochne unteredungen erin-<lb/>
+                =nert – <hi rend="latintype">adieu</hi> und dank für nachricht<lb/>
+                und Gruß von dem Edlen <persName key="person26">Münchhaußen</persName><lb/>
+                theurer <hi rend="latintype">Gerning</hi>! lassen Sie alte tante<lb/>
+                die sicherheit geniessen daß Sie bey <hi rend="underline" n="1">Ihnen</hi><lb/>
+                Laut denken – an <hi rend="underline" n="1">Sie</hi> traulich schreiben<lb/>
+                kann – und schenken Sie mir noch eine<lb/>
+                Stunde eh Sie in Ihr Paradieß gehen<lb/>
+                adieu von Herzen – von alt <hi rend="latintype">La Roche</hi><lb/>
+                <lb/>
+                / Sie die so viel Kupferstiche kennen –<lb/>
+                haben Sie daß <hi rend="latintype">alte La Roche</hi> sein Werk<lb/>
+                <hi rend="underline" n="1">u</hi> das bild der <hi rend="latintype">Venus Andyomene</hi> gesehen<lb/>
+                worauf sich beyliegender Brief bezieht –<lb/>
+                / haben Sie <name type="work" key="werk26"><hi rend="latintype">Fontenells maximes et ideès</hi></name> geleßen<lb/>
+                <hi rend="underline" n="1">u</hi> ist folgende erklärung der natur<lb/>
+                des <hi rend="latintype">Enthousiasmus</hi> richtig –<lb/>
+                </div>
+                <div>
+                [3]
+                / das eigene deß <hi rend="latintype">Enthousiasmus</hi><lb/>
+                ist nicht, die Einbildungs kraft<lb/>
+                über die gränzen der vernunft – sondern<lb/>
+                über die gränzen der Kunst zu führen /<lb/>
+                schreiben Sie mir – warum ich Ihnen<lb/>
+                die alte abschrift dießes gedichts zu leßen<lb/>
+                schike, und die entstehung der vielgötterey<lb/>
+                beylege – <hi rend="underline" n="1">u</hi> warum ich alle dießes<lb/>
+                mit der <hi rend="latintype">Copie</hi> über <persName key="person54"><hi rend="latintype">Fontenelle</hi></persName> <hi rend="underline" n="1">u</hi> dem<lb/>
+                wunsch endige – daß es Ihr looß seyn<lb/>
+                möge –<lb/>
+                </div>
+                <div>
+                [4]
+                <note type="annotation" resp="recipient"><placeName key="ort1">Offenbach</placeName> 10<hi rend="sup">ter</hi><lb/>
+                7ber 1798.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E d. gl.<lb/>
+                b <unclear>x</unclear> 12ten</hi></note><lb/>
+                </div>
+                <div>
+                [5]
+                <hi rend="latintype"><persName key="person54">Fontenelle</persName> – indiferent aux eloges – et aux Epigrames<lb/>
+                La delicatesse, et la moderation quil portait dans L'amour<lb/>
+                la Chaleur quil ne mettait que dans l'amitiè – Les graces qui L accompag-<lb/>
+                =naient dans la Soccietè, et le monde apres L'avoir inspirè dans son<lb/>
+                Cabinet – sa bienfaisance fruit de son raisonement plus que de la sensibi<lb/>
+                =litè – et ce bonheur inalterable que sa philosophie lui procurait<lb/>
+                pres d'un Siecle –</hi><lb/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

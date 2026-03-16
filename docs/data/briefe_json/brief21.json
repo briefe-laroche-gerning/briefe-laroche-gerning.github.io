@@ -1,0 +1,75 @@
+{
+  "title": "Sophie von La Roche an Johann Isaak von Gerning",
+  "date": "29.08.1799",
+  "sender": {
+    "name": "Sophie von La Roche",
+    "gnd": "http://d-nb.info/gnd/118569767",
+    "place": "Schönebeck",
+    "placeGnd": "http://d-nb.info/gnd/4043359-6"
+  },
+  "recipient": {
+    "name": "Johann Isaak von Gerning",
+    "gnd": "http://d-nb.info/gnd/100143695",
+    "place": "Weimar",
+    "placeGnd": "http://d-nb.info/gnd/4065105-8"
+  },
+  "identifier": {
+    "institution": "Freies Deutsches Hochstift Frankfurt",
+    "signature": "Hs-4742"
+  },
+  "object": {
+    "type": "Manuskript",
+    "subtype": "Original",
+    "note": ""
+  },
+  "keywords": [
+    {
+      "label": "Bitte um Weitersendung von Briefen"
+    },
+    {
+      "label": "Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)"
+    },
+    {
+      "label": "Reisen"
+    },
+    {
+      "label": "Deutschland (Reisen)"
+    },
+    {
+      "label": "Freundschaft mit Wieland"
+    },
+    {
+      "label": "Bekanntschaften"
+    },
+    {
+      "label": "Sophie von La Roches Kinder"
+    }
+  ],
+  "nr": 21,
+  "register_entities": {
+    "persons": [
+      "person33",
+      "person49",
+      "person5",
+      "person55",
+      "person56",
+      "person57",
+      "person6",
+      "person78",
+      "person91"
+    ],
+    "places": [
+      "ort1",
+      "ort14",
+      "ort15",
+      "ort16",
+      "ort17",
+      "ort2",
+      "ort8",
+      "person16",
+      "person23",
+      "person8"
+    ],
+    "works": []
+  }
+}

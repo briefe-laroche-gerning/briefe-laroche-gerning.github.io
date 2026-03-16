@@ -1,0 +1,52 @@
+{
+  "title": "Sophie von La Roche an Johann Isaak von Gerning",
+  "date": "15.08.1796",
+  "sender": {
+    "name": "Sophie von La Roche",
+    "gnd": "http://d-nb.info/gnd/118569767",
+    "place": "Offenbach",
+    "placeGnd": "http://d-nb.info/gnd/4043359-6"
+  },
+  "recipient": {
+    "name": "Johann Isaak von Gerning",
+    "gnd": "http://d-nb.info/gnd/100143695",
+    "place": "Frankfurt",
+    "placeGnd": "http://d-nb.info/gnd/4018118-2"
+  },
+  "identifier": {
+    "institution": "Freies Deutsches Hochstift Frankfurt",
+    "signature": "Hs-213"
+  },
+  "object": {
+    "type": "Manuskript",
+    "subtype": "Original",
+    "note": ""
+  },
+  "keywords": [
+    {
+      "label": "Johann Isaak von Gernings Mutter"
+    },
+    {
+      "label": "Trauer"
+    },
+    {
+      "label": "Freundschaft"
+    },
+    {
+      "label": "Kondolenz"
+    }
+  ],
+  "nr": 7,
+  "register_entities": {
+    "persons": [
+      "person17",
+      "person8"
+    ],
+    "places": [
+      "ort1",
+      "ort2",
+      "ort23"
+    ],
+    "works": []
+  }
+}

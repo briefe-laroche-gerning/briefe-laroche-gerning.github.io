@@ -1,0 +1,76 @@
+{
+  "title": "Sophie von La Roche an Johann Isaak von Gerning",
+  "date": "19.03.1799",
+  "sender": {
+    "name": "Sophie von La Roche",
+    "gnd": "http://d-nb.info/gnd/118569767",
+    "place": "[Offenbach]",
+    "placeGnd": "http://d-nb.info/gnd/4043359-6"
+  },
+  "recipient": {
+    "name": "Johann Isaak von Gerning",
+    "gnd": "http://d-nb.info/gnd/100143695",
+    "place": "[Weimar]",
+    "placeGnd": "http://d-nb.info/gnd/4065105-8"
+  },
+  "identifier": {
+    "institution": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek",
+    "signature": "Mscr.Dresd.h.37,Verm.4°,IX,Nr.254"
+  },
+  "object": {
+    "type": "Manuskript",
+    "subtype": "Abschrift",
+    "note": "Absendeort sowie Empfangsort erschlossen"
+  },
+  "keywords": [
+    {
+      "label": "Freude"
+    },
+    {
+      "label": "Freundschaft"
+    },
+    {
+      "label": "Weimarer Viergestirn (Goethe, Schiller, Herder, Wieland)"
+    },
+    {
+      "label": "Freundschaft mit Wieland"
+    },
+    {
+      "label": "Reisen"
+    },
+    {
+      "label": "Deutschland (Reisen)"
+    },
+    {
+      "label": "Alter"
+    },
+    {
+      "label": "Politik"
+    },
+    {
+      "label": "Deutschland - Frankreich"
+    },
+    {
+      "label": "Koalitionskriege"
+    },
+    {
+      "label": "Sophie von La Roches Enkel*innen"
+    }
+  ],
+  "nr": 20,
+  "register_entities": {
+    "persons": [
+      "person1",
+      "person20",
+      "person5",
+      "person6",
+      "person83"
+    ],
+    "places": [
+      "ort13",
+      "ort2",
+      "ort8"
+    ],
+    "works": []
+  }
+}

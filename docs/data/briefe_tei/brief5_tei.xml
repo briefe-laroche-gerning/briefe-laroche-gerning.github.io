@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Sophie von La Roche an Johann Isaak von Gerning
+                </title>
+                <editor>Rachel Aimee Georg</editor>
+            </titleStmt>
+            <editionStmt>
+                Digitale Edition, entstanden im Rahmen der Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795 -1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift Frankfurt</institution>
+                        <idno type="signatur">Hs-4729</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <ab type ="type">Manuskript</ab>
+                            <ab type ="subtype">Original</ab>
+                        </objectDesc >
+                    </physDesc >
+                </msDesc>
+            </sourceDesc >
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118569767">Sophie von La Roche</persName>
+                    <placeName ref="http://d-nb.info/gnd/4043359-6">Offenbach</placeName>
+                    <date when="1796-05-12">12.05.1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/100143695">Johann Isaak von Gerning</persName>
+                    <date when="1796-05-12">12.05.1796</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Bekanntschaften</term>
+                    <term>Bitte um Besorgung von Büchern</term>
+                    <term>Politik</term>
+                    <term>Koalitionskriege</term>
+                    <term>Dank</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader >
+    <facsimile>
+        <graphic url=""/>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <div>
+                [1]
+                d 12 may 1796<lb/>
+                dank Lieber Theurer! für Ihren lieben brief<lb/>
+                und Seegen auf reiße – Seegen denen die<lb/>
+                Meinen Neffen lieben –––<lb/>
+                leßen Sie dieße blätter u sagen ob es<lb/>
+                möglich ist die <name type="work" key="werk8"><hi rend="underline" n="1">Germania</hi></name> zu kaufen oder<lb/>
+                zu leßen zu bekommen<lb/>
+                <persName key="person14">H. Pfeffel</persName> dankte mir sehr für Ihre bekantschaft<lb/>
+                wegen viel Ihrer Kentnisse – und edlen grundsätzen von<lb/>
+                was sprachen Sie dann auf dem Weeg – ich <hi rend="underline" n="1">Sie</hi> im reden<lb/>
+                verathen <hi rend="underline" n="2">Sie</hi> eher andre 10mal daß doch garstig wäre = mir gefällt das Wort <hi rend="underline" n="1">friedlen</hi> – denn war<lb/>
+                </div>
+                <div>
+                [2]
+                -lich es ist vom P. an – nicht des großen edlen Worts<lb/>
+                <hi rend="underline" n="1">Friede</hi> werth – adieu Theurer Schätzbarer<lb/>
+                und den Seegen von Mutter la Roche<lb/>
+                <lb/>
+                Sie denken wohl das <persName key="person13"><hi rend="latintype">Testanera</hi></persName> die Briefe<lb/>
+                nicht lesen darf/<lb/>
+                <lb/>
+                Nb möchten Sie nicht ein<lb/>
+                urtheil über Epilogue lesen?<lb/>
+                <lb/>
+                <note type="annotation" resp="recipient"><placeName key="ort1">offenb.</placeName> 12<hi rend="sup">ter</hi><lb/>
+                May 96.<lb/>
+                Laroche.<lb/>
+                <hi rend="underline" n="1">E gl.<lb/>
+                b gl</hi><lb/></note>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

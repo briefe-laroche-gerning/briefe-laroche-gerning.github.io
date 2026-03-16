@@ -1,0 +1,77 @@
+{
+  "title": "Sophie von La Roche an Johann Isaak von Gerning",
+  "date": "27.08.1796",
+  "sender": {
+    "name": "Sophie von La Roche",
+    "gnd": "http://d-nb.info/gnd/118569767",
+    "place": "[Offenbach]",
+    "placeGnd": "http://d-nb.info/gnd/4043359-6"
+  },
+  "recipient": {
+    "name": "Johann Isaak von Gerning",
+    "gnd": "http://d-nb.info/gnd/100143695",
+    "place": "",
+    "placeGnd": ""
+  },
+  "identifier": {
+    "institution": "Freies Deutsches Hochstift Frankfurt",
+    "signature": "Hs-4731"
+  },
+  "object": {
+    "type": "Manuskript",
+    "subtype": "Original",
+    "note": "Absendeort erschlossen"
+  },
+  "keywords": [
+    {
+      "label": "Rezeption anderer Werke"
+    },
+    {
+      "label": "Kulturgeschichtliches Buch"
+    },
+    {
+      "label": "Biographisches Werk"
+    },
+    {
+      "label": "Philosophischer Text"
+    },
+    {
+      "label": "Brief"
+    },
+    {
+      "label": "Freude"
+    },
+    {
+      "label": "Freundschaft"
+    },
+    {
+      "label": "Ratschlag"
+    },
+    {
+      "label": "Bekanntschaften"
+    }
+  ],
+  "nr": 8,
+  "register_entities": {
+    "persons": [
+      "person18",
+      "person19",
+      "person20",
+      "person21",
+      "person22",
+      "person23",
+      "person3",
+      "person5",
+      "person92"
+    ],
+    "places": [
+      "ort7"
+    ],
+    "works": [
+      "werk10",
+      "werk11",
+      "werk2",
+      "werk9"
+    ]
+  }
+}

@@ -1,11 +1,14 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Transformation der TEI-Dateien mit XSLT zu HTML- und JSON-Dateien #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 from lxml import etree
 import json
 
+
 letters = []
 
-# -------------------------
 # HTML-Transformation
-# -------------------------
 for i in range(1, 26):
     xml = etree.parse(f"brief{i}_tei.xml")
     xsl = etree.parse("transform_text.xsl")
@@ -16,10 +19,7 @@ for i in range(1, 26):
     with open(f"../briefe_html/brief{i}.html", "w", encoding="utf-8") as f:
         f.write(str(html))
 
-
-# -------------------------
-# JSON-Transformation + Fusion
-# -------------------------
+# JSON-Transformation
 for i in range(1, 26):
     xml = etree.parse(f"brief{i}_tei.xml")
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}

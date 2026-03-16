@@ -48,6 +48,11 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
+  path: '/transkriptionsrichtlinien',
+  name: 'transkriptionsrichtlinien',
+  component: () => import('../views/TranskriptionsrichtlinienView.vue')
+  },
+  {
     path: '/impressum',
     name: 'impressum',
     component: () => import('../views/ImpressumView.vue')

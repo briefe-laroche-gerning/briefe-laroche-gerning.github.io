@@ -1,6 +1,6 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# Automatische Verschlagwortung / Schlagwortextraktion mit YAKE und KeyBERT #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # #
+# Topicmodeling mit BERTopic  #
+# # # # # # # # # # # # # # # #
 
 from os.path import join, dirname, abspath
 

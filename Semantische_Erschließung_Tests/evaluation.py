@@ -1,3 +1,7 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Funktionen zur Visualisierung der Ergebnisse der Schlagwort-Annotation mit LLMs (Percision, Recall, F1) #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -7,7 +11,7 @@ letter_numbers = list(range(1, 26))
 
 # True Positives: Relevante, vom Modell annotierte Schlagworte:
 tp = [0, 2, 4, 4, 2, 1, 3, 5, 2, 1, 2, 2, 1, 3, 4, 5, 3, 2, 3, 5, 1, 2, 1, 2, 1]
-# True Positives, mit entspannteren Regeln 
+# True Positives, aber es zählen auch Oberbegriffe und leichte Abwandlungen der Begriffe als korrekt
 tp_relaxed = [1, 2, 4, 4, 3, 3, 4, 5, 3, 2, 2, 2, 1, 5, 4, 5, 4, 2, 3, 6, 1, 2, 2, 5, 3]
 
 # Vom Modell annotierte Schlagworte:
@@ -18,6 +22,12 @@ relevant = [4, 9, 7, 6, 5, 7, 4, 9, 4, 4, 6, 3, 6, 7, 8, 15, 9, 6, 7, 11, 7, 8, 
 
 
 def list_division(numerator: List[float], denominator: List[float]):
+    """
+    Führt Division zweier Listen durch, wobei jeweils die Zahl an Stelle i der ersten Liste
+    durch die Zahl an Stelle i der zweiten Liste dividiert wird.
+    Returns: List[float]
+    """
+
     result = []
 
     for i, (num, den) in enumerate(zip(numerator, denominator)):
@@ -27,7 +37,11 @@ def list_division(numerator: List[float], denominator: List[float]):
 
     return result
 
+
 def f1_score(precision: List[float], recall: List[float]) -> List[float]:
+    """
+    Berechnet das F1-Maß zweier Listen.
+    """
     result = []
 
     for i, (prec, rec) in enumerate(zip(precision, recall)):
@@ -39,7 +53,11 @@ def f1_score(precision: List[float], recall: List[float]) -> List[float]:
 
     return result
 
+
 def visualize(precision_list, precision_relaxed_list, recall_list, recall_relaxed_list, f1_list, f1_relaxed_list):
+    """
+    Visualisiert die Precision, Recall und F1-Werte mithilfe von Seaborn.
+    """
 
     df_precision = pd.DataFrame({
     "Briefnummer": letter_numbers * 2,
@@ -103,7 +121,6 @@ def visualize(precision_list, precision_relaxed_list, recall_list, recall_relaxe
     bbox_inches="tight",
     transparent=False)
     plt.close()
-
 
 
 def main():

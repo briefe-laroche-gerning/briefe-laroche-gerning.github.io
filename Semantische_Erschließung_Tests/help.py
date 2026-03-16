@@ -6,6 +6,7 @@ from os.path import basename
 import re
 from operator import itemgetter
 
+
 def fix_hyphenation(text):
     """
     Führt Silbentrennungen am Ende einer Zeile zusammen, wenn das Wort durch - oder = verbunden ist.

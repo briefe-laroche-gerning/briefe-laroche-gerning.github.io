@@ -51,7 +51,7 @@ Das hier ist die Schlagwort-Hierarchie als JSON:
         "Revolution": [],
         "Frankreich": [],
         "Italien": [],
-        "Deutschland - Frankreich": [
+        "Deutschland – Frankreich": [
             "Koalitionskriege"
         ]
     },

@@ -494,6 +494,7 @@
         "person23",
         "person3",
         "person5",
+        "person81",
         "person92"
       ],
       "places": [
@@ -669,6 +670,7 @@
     "nr": 11,
     "register_entities": {
       "persons": [
+        "person29",
         "person30",
         "person31",
         "person32",
@@ -919,7 +921,8 @@
         "person42",
         "person43",
         "person44",
-        "person45"
+        "person45",
+        "person46"
       ],
       "places": [
         "ort1"

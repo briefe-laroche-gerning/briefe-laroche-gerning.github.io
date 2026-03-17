@@ -49,7 +49,7 @@ export const KEYWORD_CATEGORIES = {
     "Revolution": "politik_2",
     "Frankreich (Politik)": "politik_2",
     "Italien (Politik)": "politik_2",
-    "Deutschland - Frankreich": "politik_2",
+    "Deutschland – Frankreich": "politik_2",
     "Koalitionskriege": "politik_3",
 
     "Sprechakt": "sprechakt_1",
@@ -191,7 +191,7 @@ export const KEYWORD_TREE = {
       frankreich: { label: "Frankreich (Politik)" },
       italien: { label: "Italien (Politik)" },
       df: {
-        label: "Deutschland - Frankreich",
+        label: "Deutschland – Frankreich",
         children: {
           kriege: { label: "Koalitionskriege" }
         }

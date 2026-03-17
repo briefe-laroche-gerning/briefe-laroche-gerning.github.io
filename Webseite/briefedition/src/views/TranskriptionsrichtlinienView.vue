@@ -13,31 +13,30 @@
     <h3>Transkriptionsrichtlinien</h3>
     <p>
       Die Wiedergabe der Briefe in der Edition erfolgt in einer diplomatischen Transkription,
-      es werden also alle individuellen bzw. historischen
-      Schreibweisen originalgetreu wiedergegeben. Orthographie und Zeichensetzung werden
-      nicht normiert, Schreibfehler nicht verbessert.<br>
-      Der Zeilenfall wird wie im originalen Brief wiedergegeben. Dies erleichtert zum einen den Vergleich mit dem Digitalisat und trägt
-      zum anderen zur Leserlichkeit bei, da Sophie von La Roche Sätze oft am Zeilenende ohne
-      das Hinzufügen eines Satzzeichens oder durch die Verwendung eines Gedankenstriches
-      beendet. Auf die Abbildung von Einrückungen oder die exakte Positionierung einzelner
-      Zeilen wird allerdings verzichtet, da diese im Digitalisat einsehbar sind. Lediglich klar getrennte
-      Absätze werden auch in der Transkription durch Leerzeilen getrennt.<br>
-      Die Seiten der Handschrift werden nummeriert und in eckigen Klammern in den Text eingefügt.
-      Geminationsstriche auf dem Buchstaben „m“ („m&#x0305;“) und Verdopplungsstriche auf „n“
-      („n&#x0305;“) werden zu „mm“ bzw. „nn“ aufgelöst. Abkürzungen mit Punkt oder Doppelpunkt
-      werden als solche wiedergegeben. Endverschleifungen werden aufgelöst. Einfache und
-      doppelte Unterstreichungen und hochgestellter Text wird genau so wiedergegeben. Gedankenstriche
-      werden, unabhängig von ihrer Länge oder Form, als solche wiedergegeben.
-      Streichungen Sophie von La Roches werden in geschweiften Klammern („{“, „}“) angegeben,
-      Hinzufügungen, die über, unter oder neben der Zeile stehen in spitzen Klammern
-      („<“, „>“).<br>
-      Nicht lesbare Textstellen werden mit einem roten „x“ pro Buchstabe dargestellt. Ist
-      die Anzahl der Buchstaben nicht zu erkennen, wird „xxx“ verwendet. Zusätzlich wird
-      im Mouseover „Nicht entziffert“ angegeben. Notizen Johann Isaak von Gernings auf den
-      Briefen werden durch das Mouseover „Notiz des Empfängers“ und eine graue Färbung
-      gekennzeichnet. Einzelne Wörter oder Textabschnitte in lateinischer Schrift unterscheiden
-      sich in der Darstellung von Text in der Kurrentschrift. Die Kurrentschrift wird mit der
-      Schriftart „Garamond“ dargestellt, lateinische Schrift in „Open Sans“.
+      es werden also alle individuellen bzw. historischen Schreibweisen
+      originalgetreu wiedergegeben. Orthographie und Zeichensetzung werden nicht normiert,
+      Schreibfehler nicht verbessert. Der Zeilenfall wird wie im originalen Brief wiedergegeben.
+      Dies erleichtert zum einen den Vergleich mit dem Digitalisat und trägt zum anderen zur Leserlichkeit
+      bei, da Sophie von La Roche Sätze oft am Zeilenende ohne das Hinzufügen eines
+      Satzzeichens oder durch die Verwendung eines Gedankenstriches beendet. Auf die Abbildung
+      von Einrückungen oder die exakte Positionierung einzelner Zeilen wird allerdings verzichtet,
+      da diese im Digitalisat einsehbar sind. Lediglich klar getrennte Absätze werden auch
+      in der Transkription durch Leerzeilen getrennt
+      Die Nummerierung der Seiten der Handschrift ist in eckigen Klammern im Text eingefügt.
+      Geminationsstriche auf den Buchstaben „m“ („m&#x0305;“) und „n“ („n&#x0305;“) werden zu „mm“ bzw.
+      „nn“ aufgelöst. Abkürzungen mit Punkt oder Doppelpunkt werden als solche wiedergegeben.
+      Endverschleifungen werden aufgelöst. Einfache und doppelte Unterstreichungen und hochgestellter
+      Text wird genau so wiedergegeben. Gedankenstriche werden, unabhängig von ihrer
+      Länge oder Form, als solche wiedergegeben. Streichungen Sophie von La Roches werden in
+      geschweiften Klammern („{“, „}“) angegeben, Hinzufügungen, die über, unter oder neben
+      der Zeile stehen, in spitzen Klammern („<“, „>“).
+      Nicht lesbare Textstellen werden mit einem roten „x“ pro Buchstabe dargestellt. Ist die
+      Anzahl der Buchstaben nicht zu erkennen, wird „xxx“ verwendet. Zusätzlich wird im Mouseover
+      „Nicht entziffert“ angegeben. Notizen Johann Isaak von Gernings auf den Briefen
+      werden durch das Mouseover „Notiz des Empfängers“ und eine graue Färbung gekennzeichnet.
+      Einzelne Wörter oder Textabschnitte in lateinischer Schrift unterscheiden sich in der
+      Darstellung von Text in der Kurrentschrift. Die Kurrentschrift wird in der Schriftart „Garamond“
+      dargestellt, lateinische Schrift in „Open Sans“.
     </p>
     <h3>Verwendete Quellen</h3>
     <p>

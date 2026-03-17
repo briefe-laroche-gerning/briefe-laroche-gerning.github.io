@@ -4,7 +4,7 @@
 <template>
   <div class="facsimile-viewer">
 
-    <!-- Carousel -->
+    <!-- Carousel-Element -->
     <div class="carousel-container position-relative">
       <div class="carousel-inner">
         <div v-for="(img, idx) in images" :key="idx" class="carousel-item" :class="{ active: idx === currentImageIndex }">

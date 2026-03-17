@@ -9,7 +9,7 @@
     und gilt als erste Schriftstellerin Deutschlands, die Geld mit dem Schreiben verdiente.
     Ihr 1771 veröffentlichter Roman „Die Geschichte des Fräuleins von Sternheim“ machte sie zur wohl bekanntesten
     Schriftstellerin Deutschlands in der zweiten Hälfte des 18. Jahrhunderts. Mit ihren Romanen sowie ihrer Monatszeitschrift
-    "Pomona" widmete sie sich vor allem der Bildung und Erziehung von Frauen und Mädchen, wobei der Brief eine wichtige Bedutung
+    "Pomona" widmete sie sich vor allem der Bildung und Erziehung von Frauen und Mädchen, wobei der Brief eine wichtige Bedeutung
     in ihren Texten hat.
     Außerdem verfügte sie über ein ausgeprägtes Briefnetzwerk. In ihren Briefen verknüpft Sophie von La Roche rapide 
     unterschiedlichste Themen in einer sprunghafte Gedankenführung. 
@@ -42,8 +42,8 @@
     der Briefe. Daneben werden Grüße an Freunde und Bekannte ausgesprochen oder Geschehnisse
     von Besuchen anderer Personen wiedergegeben. So geht es z.B. immer wieder um Johann Wolfgang
     von Goethe, Christoph Martin Wieland und Johann Gottfried Herder,
-    zu denen Johann Isaak von Gerning in Weimar Kontakt hat.
-    Auch Sophie von La Roches Enkelinnen, vor allem Sophie Brentano, erscheinen in den Briefen.
+    zu denen Johann Isaak von Gerning in Weimar Kontakt hatte.
+    Auch Sophie von La Roches Enkel, vor allem Sophie Brentano, erscheinen in den Briefen.
     Sophie von La Roche spricht den 37 Jahre jüngeren Johann Isaak von Gerning Meist in ihren Briefen
     meist mit „theurer Neffe“ an und bezeichnte sich selbst als „alte Tante“ oder „Tante La Roche“.
     In ihren Briefen gibt sie Gerning immer wieder Ratschläge zu verschiedenen Themen.

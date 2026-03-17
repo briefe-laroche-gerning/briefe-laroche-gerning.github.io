@@ -9,7 +9,7 @@
         Startseite
       </router-link>
 
-      <!-- Hamburger für mobile Ansicht -->
+      <!-- Hamburger-Menü für mobile Ansicht -->
       <button class="navbar-toggler" type="button" @click="menuOpen = !menuOpen">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,11 +20,7 @@
 
           <!-- Einfache Links -->
           <li class="nav-item">
-            <router-link 
-              to="/briefe" 
-              class="nav-link" 
-              :class="{ active: $route.path === '/briefe' }"
-            >
+            <router-link to="/briefe" class="nav-link" :class="{ active: $route.path === '/briefe' }">
               Briefe
             </router-link>
           </li>

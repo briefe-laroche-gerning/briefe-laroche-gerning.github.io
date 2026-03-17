@@ -29,6 +29,7 @@
 </template>
 
 <style>
+
 /* Abstand der Seite zu Rand oben und unten */
 .row {
   margin-top: 20px;

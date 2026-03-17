@@ -115,8 +115,6 @@
   </div>
 </template>
 
-
-
 <script>
 import { KEYWORD_CATEGORIES, ALL_KEYWORDS, KEYWORD_TREE } from "./keyword_categories.js";
 

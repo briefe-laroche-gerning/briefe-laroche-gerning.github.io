@@ -1,8 +1,9 @@
 <template>
-<!-- HINWEIS: Der Inhalt der JS-Methoden dieser Datei wurde Schritt für Schritt mithilfe von GPT-5 generiert und anschließend überarbeitet und kommentiert. -->
+<!-- HINWEIS: Der Inhalt des <script>-Blocks dieser Datei wurde Schritt für Schritt mithilfe von GPT-5 generiert und anschließend überarbeitet und kommentiert. -->
 
   <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
   <div class="single-letter-page">
+
   <!-- Anzeige Metadaten der Briefe -->
   <div class="row justify-content-center">
     <div class="col-sm-10">
@@ -26,6 +27,7 @@
       </p>
       <br>
       </div>
+
       <!-- Keywords -->
       <div class="col-md-5">
         <div class="keywords"> <!-- Klasse für wird dynamisch erstellt (Schlagworthierarchie gibt Tiefe des Farbtons an) -->
@@ -36,6 +38,7 @@
       </div>
     </div>
   </div>
+
   <div class="row justify-content-center">
     <!-- Faksimile (Carousel: Bilder können durchgeblättert werden)-->
     <div class="col-sm-4">
@@ -168,34 +171,34 @@ export default {
   // Berechnete Werte: Die Registerobjekte der im Brief vorkommenden Entitäten
   // Nur die Entitäten, die aktuell erwähnt werden, werden aus den Register-JSONs herausgefiltert
   computed: {
-  persons() {
-    return [...this.mentionedEntities.person]
-      .map(id => {
-        const obj = this.personenRegister[id];
-        if (!obj) return null;        
-        return { ...obj, id };          // ID aus dem Set übernehmen
-      })
-      .filter(Boolean);
+    persons() {
+      return [...this.mentionedEntities.person]
+        .map(id => {
+          const obj = this.personenRegister[id];
+          if (!obj) return null;        
+          return { ...obj, id };          // ID aus dem Set übernehmen
+        })
+        .filter(Boolean);
+    },
+    places() {
+      return [...this.mentionedEntities.place]
+        .map(id => {
+          const obj = this.ortsRegister[id];
+          if (!obj) return null;
+          return { ...obj, id };
+        })
+        .filter(Boolean);
+    },
+    works() {
+      return [...this.mentionedEntities.work]
+        .map(id => {
+          const obj = this.werkRegister[id];
+          if (!obj) return null;
+          return { ...obj, id };
+        })
+        .filter(Boolean);
+    }
   },
-  places() {
-    return [...this.mentionedEntities.place]
-      .map(id => {
-        const obj = this.ortsRegister[id];
-        if (!obj) return null;
-        return { ...obj, id };
-      })
-      .filter(Boolean);
-  },
-  works() {
-    return [...this.mentionedEntities.work]
-      .map(id => {
-        const obj = this.werkRegister[id];
-        if (!obj) return null;
-        return { ...obj, id };
-      })
-      .filter(Boolean);
-  }
-},
 
   methods: {
     // Lade alle zum aktuellen Brief zugehörigen Dateien
@@ -300,7 +303,6 @@ export default {
     a.classList.add("entity-link", type);
     a.style.cursor = "pointer";
   
-
     // Tooltip-Inhalt zusammenbauen
     let tooltipLines = [];
     keys.forEach(id => {
@@ -438,7 +440,7 @@ async initTooltips() {
   margin-top: 1rem;
 }
 
-/* Keywords (eingefärbte Badges) */
+/* Styles für die Keywords (eingefärbte Badges) */
 
 .keywords {
   margin-left: auto;
@@ -569,7 +571,8 @@ async initTooltips() {
   color: #ffffff;
 }
 
-/* Links zum Register */
+/* Styles für die Links zum Register */
+
 .col-sm-3 ul li a {
   text-decoration: none;
 }

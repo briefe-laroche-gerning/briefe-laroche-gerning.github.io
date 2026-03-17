@@ -13,34 +13,34 @@ const routes = [
     component: () => import('../views/LettersView.vue')
   },
   {
-  path: '/personenregister',
-  name: 'personenregister',
-  component: () => import('../components/Register.vue'),
-  props: {
-    url: '/data/register/personenregister.json',
-    title: 'Personenregister',
-    type: 'person'
-  }
-},
-{
-  path: '/ortsregister',
-  name: 'ortsregister',
-  component: () => import('../views/OrtsregisterView.vue'),
-  props: {
-    url: '/data/register/ortsregister.json',
-    title: 'Ortsregister',
-    type: 'place'
-  }
-},
-{
-  path: '/werkregister',
-  name: 'werkregister',
-  component: () => import('../views/WerkregisterView.vue'),
-  props: {
-    url: '/data/register/werkregister.json',
-    title: 'Werkregister',
-    type: 'work'
-  }
+    path: '/personenregister',
+    name: 'personenregister',
+    component: () => import('../components/Register.vue'),
+    props: {
+      url: '/data/register/personenregister.json',
+      title: 'Personenregister',
+      type: 'person'
+    }
+  },
+  {
+    path: '/ortsregister',
+    name: 'ortsregister',
+    component: () => import('../views/OrtsregisterView.vue'),
+    props: {
+      url: '/data/register/ortsregister.json',
+      title: 'Ortsregister',
+      type: 'place'
+    }
+  },
+  {
+    path: '/werkregister',
+    name: 'werkregister',
+    component: () => import('../views/WerkregisterView.vue'),
+    props: {
+      url: '/data/register/werkregister.json',
+      title: 'Werkregister',
+      type: 'work'
+    }
   },
   {
     path: '/about',
@@ -48,9 +48,9 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
-  path: '/transkriptionsrichtlinien',
-  name: 'transkriptionsrichtlinien',
-  component: () => import('../views/TranskriptionsrichtlinienView.vue')
+    path: '/transkriptionsrichtlinien',
+    name: 'transkriptionsrichtlinien',
+    component: () => import('../views/TranskriptionsrichtlinienView.vue')
   },
   {
     path: '/impressum',
@@ -63,7 +63,6 @@ const routes = [
     component: () => import('@/views/SingleLetterView.vue'),
     props: true
   }
-
 ]
 
 const router = createRouter({
@@ -76,6 +75,5 @@ const router = createRouter({
     return { top: 0 };
   }
 });
-
 
 export default router

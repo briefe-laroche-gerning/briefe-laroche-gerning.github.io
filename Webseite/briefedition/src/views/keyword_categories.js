@@ -91,9 +91,7 @@ export const KEYWORD_CATEGORIES = {
 
 };
 
-
 export const ALL_KEYWORDS = Object.keys(KEYWORD_CATEGORIES);
-
 
 export const KEYWORD_TREE = {
   literatur: {
@@ -294,6 +292,5 @@ export const KEYWORD_TREE = {
     religion: {
         label: "Religion"
     }
-
 };
 

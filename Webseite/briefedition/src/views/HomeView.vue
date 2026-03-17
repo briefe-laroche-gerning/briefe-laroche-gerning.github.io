@@ -18,7 +18,6 @@
       <!-- Zitate-Carousel -->
       <div class="col-sm-4 text-center">
 
-
         <div id="carouselText" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
           <!-- Indicators -->
           <div class="carousel-indicators">
@@ -56,9 +55,10 @@
                 </div>
               </div>
             </div>
-
           </div> <!-- Carousel schließen -->
+
         </div>
+
         <!-- Button zu den Briefen-->
         <router-link class="btn btn-dark btn-lg button" :to="{name: 'briefe'}" role="button">
           Zu den Briefen
@@ -88,7 +88,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
-
 
 .carousel-inner p {
   font-size: 20px;

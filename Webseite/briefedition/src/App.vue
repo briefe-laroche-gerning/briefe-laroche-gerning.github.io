@@ -13,6 +13,7 @@ import Header from '@/components/Header.vue'
 </script>
 
 <style>
+
 /* Import der Main-Style-Datei (für Farben etc.) */
 @import './assets/css/main.css';
 

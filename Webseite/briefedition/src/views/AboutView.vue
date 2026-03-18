@@ -5,20 +5,20 @@
     <h1>Über diese Edition</h1>
     <h3>Sophie von La Roche</h3>
     <p>
-    Sophie von La Roche (1730-1807) zählt zu den bedeutendsten deutschsprachigen Autorinnen der Empfindsamkeit
+    Sophie von La Roche (1730–1807) zählt zu den bedeutendsten deutschsprachigen Autorinnen der Empfindsamkeit
     und gilt als erste Schriftstellerin Deutschlands, die Geld mit dem Schreiben verdiente.
     Ihr 1771 veröffentlichter Roman „Die Geschichte des Fräuleins von Sternheim“ machte sie zur wohl bekanntesten
     Schriftstellerin Deutschlands in der zweiten Hälfte des 18. Jahrhunderts. Mit ihren Briefromanen sowie ihrer Monatszeitschrift
     "Pomona" widmete sie sich vor allem der Bildung und Erziehung von Frauen und Mädchen.
     Außerdem führte sie jahrelang einen literarischen Salon in Koblenz-Ehrenbreitstein und verfügte über ein ausgeprägtes Briefnetzwerk.
-    In ihren Briefen verknüpft Sophie von La Roche rapide unterschiedlichste Themen in einer sprunghafte Gedankenführung. 
-    Zur Zeit der Briefe an Johann Isaak von Gerning lebte Sophie von La Roche in der Domstraße Offenbach. Zu ihren
+    In ihren Briefen verknüpft Sophie von La Roche rapide unterschiedlichste Themen in einer sprunghaften Gedankenführung. 
+    Zur Zeit der Briefe an Johann Isaak von Gerning lebte Sophie von La Roche in der Domstraße in Offenbach. Zu ihren
     späten Werken aus dieser Zeit zählen die zeitgeschichtlichen Romane „Schönes Bild der Resignation“,
     „Erscheinungen am See Oneida“, „Mein Schreibetisch“ und „Reise von Offenbach nach Weimar und Schönebeck im Jahr 1799“.
     </p>
     <h3>Johann Isaak von Gerning</h3>
     <p>
-    Johann Isaak von Gerning (1767-1837) war Dichter und naturwissenschaftlich sowie künstlerisch interessierter Sammler.
+    Johann Isaak von Gerning (1767–1837) war Dichter und naturwissenschaftlich sowie künstlerisch interessierter Sammler.
     Die von seinem Vater Johann Christian Gerning begonnene und von ihm weitergeführte Sammlung bildet heute die Grundlage
     einiger Ausstellungen des Museums Wiesbaden.
     Johann Isaak von Gerning schrieb eigene Lyrik, übersetzte aber auch Gedichte des von ihm bewunderten römischen Dichters Ovid ins Deutsche.
@@ -47,7 +47,7 @@
     Sophie von La Roche spricht den 37 Jahre jüngeren Johann Isaak von Gerning in ihren Briefen
     meist mit „theurer Neffe“ an und bezeichnte sich selbst als „alte Tante“ oder „Tante La Roche“.
     In ihren Briefen gibt sie Gerning immer wieder Ratschläge zu verschiedenen Themen.
-    Dabei handelt es vor allem um private Angelegenheiten, wie z.B. Gernings Gefühle gegenüber einer Frau
+    Dabei handelt es sich vor allem um private Angelegenheiten, wie z.B. Gernings Gefühle gegenüber einer Frau
     oder seine Finanzen.
     </p>
 

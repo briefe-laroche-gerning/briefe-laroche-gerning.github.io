@@ -62,7 +62,7 @@
     <div class="d-flex align-items-baseline gap-2 mb-2">
       <h5 class="mb-0">Schlagworte</h5>
       <span class="text-muted">
-        Schlagwort auswählen, um nach ihnen zu Filtern. Erneut anklicken, um den Filter zu entfernen.
+        Schlagworte auswählen, um nach ihnen zu Filtern. Erneut anklicken, um den Filter zu entfernen.
       </span>
     </div>
     <div class="keyword-filter">

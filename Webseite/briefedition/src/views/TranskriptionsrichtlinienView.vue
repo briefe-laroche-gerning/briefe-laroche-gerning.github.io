@@ -21,12 +21,12 @@
       Satzzeichens oder durch die Verwendung eines Gedankenstriches beendet. Auf die Abbildung
       von Einrückungen oder die exakte Positionierung einzelner Zeilen wird allerdings verzichtet,
       da diese im Digitalisat einsehbar sind. Lediglich klar getrennte Absätze werden auch
-      in der Transkription durch Leerzeilen getrennt
+      in der Transkription durch Leerzeilen getrennt.
       Die Nummerierung der Seiten der Handschrift ist in eckigen Klammern im Text eingefügt.
       Geminationsstriche auf den Buchstaben „m“ („m&#x0305;“) und „n“ („n&#x0305;“) werden zu „mm“ bzw.
       „nn“ aufgelöst. Abkürzungen mit Punkt oder Doppelpunkt werden als solche wiedergegeben.
       Endverschleifungen werden aufgelöst. Einfache und doppelte Unterstreichungen und hochgestellter
-      Text wird genau so wiedergegeben. Gedankenstriche werden, unabhängig von ihrer
+      Text werden genau so wiedergegeben. Gedankenstriche werden, unabhängig von ihrer
       Länge oder Form, als solche wiedergegeben. Streichungen Sophie von La Roches werden in
       geschweiften Klammern („{“, „}“) angegeben, Hinzufügungen, die über, unter oder neben
       der Zeile stehen, in spitzen Klammern („<“, „>“).

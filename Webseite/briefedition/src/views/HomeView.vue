@@ -3,7 +3,7 @@
 
     <div class="row justify-content-center align-items-center">
       <div class="col-9 text-center">
-        <h1>Die Briefe Sophie von La Roches an Johann Isaak von Gerning (1795-1800)</h1>
+        <h1>Die Briefe Sophie von La Roches an Johann Isaak von Gerning (1795–1800)</h1>
       </div>
     </div>
 

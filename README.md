@@ -1,6 +1,6 @@
 ﻿# briefe-laroche-gerning.github.io
 
-Dieses Repository gehört zur Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795–1800): Möglichkeiten der semantischen Erschließung". an der Universität Trier.<br>
+Dieses Repository gehört zur Masterarbeit "Digitale Edition der Briefe Sophie von La Roches an Johann Isaak von Gerning (1795–1800): Möglichkeiten der semantischen Erschließung" an der Universität Trier.<br>
 März 2026, Rachel Georg, Betreuung: Dr. Claudia Bamberg und Prof. Dr. Christof Schöch
 
 ## Projektstruktur

@@ -5,7 +5,7 @@ März 2026, Rachel Georg, Betreuung: Dr. Claudia Bamberg und Prof. Dr. Christof 
 
 ## Projektstruktur
 
-Der Ordner **docs** enthält den Webseiten-Build für Github-Pages, erreichbar unter https://briefe-laroche-gerning.github.io/
+Der Ordner **docs** enthält den Webseiten-Build für Github-Pages, erreichbar unter https://briefe-laroche-gerning.github.io/.
 
 Der Ordner **Webseite** enthält alle Dateien der Webseite der digitalen Edition.
 Um die Webseite lokal zu bauen, kann im Ordner **Webseite\briefedition** der Befehl "npm run serve" verwendet werden (siehe dazu auch die README-Datei in diesem Ordner). Die TEI-Dateien der Briefe, sowie die Register-Dateien liegen in **Webseite\briefedition\public\data**. Hier finden sich auch die XSLT-Dateien, um die TEI-Dateien in HTML- bzw. JSON-Dateien umzuwandeln.
